@@ -201,7 +201,7 @@ async function main() {
       if (cached && cached.server_version && cached.server_version !== 'N/A' && cached.server_version !== 'Error') {
         finalVersions.push(cached);
       } else {
-        if (scrapeCount < 15) {
+        if (scrapeCount < 500) {
           await delay(800);
           const details = await scrapeVersionDetails(v.version_number, v.title);
           db.versions[v.version_number] = details;
