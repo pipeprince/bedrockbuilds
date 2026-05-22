@@ -1,10 +1,10 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T08:00:58.822Z",
+  "last_updated": "2026-05-22T11:46:35.719Z",
   "data": {
     "version_number": "1.1.7",
     "update_title": "Standard Release",
-    "description": "Minecraft Bedrock Edition version 1.1.7.",
+    "description": "Failed to load details for version 1.1.7.",
     "server_version": "N/A",
     "download_urls": {
       "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.1.7.zip",

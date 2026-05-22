@@ -1,6 +1,6 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T08:00:58.806Z",
+  "last_updated": "2026-05-22T11:46:35.700Z",
   "data": {
     "version_number": "1.21.111",
     "update_title": "The Copper Age",
@@ -9,6 +9,12 @@
     "download_urls": {
       "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.111.1.zip",
       "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.111.1.zip"
+    },
+    "scraped_preview": true,
+    "preview_server_version": "1.21.110.26",
+    "preview_download_urls": {
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.110.26.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.110.26.zip"
     }
   }
 }

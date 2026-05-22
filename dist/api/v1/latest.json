@@ -1,6 +1,6 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T08:00:58.802Z",
+  "last_updated": "2026-05-22T11:46:35.694Z",
   "data": {
     "version_number": "26.23",
     "update_title": "Standard Release",
@@ -9,6 +9,7 @@
     "download_urls": {
       "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.23.1.zip",
       "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.23.1.zip"
-    }
+    },
+    "scraped_preview": true
   }
 }

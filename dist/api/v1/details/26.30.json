@@ -1,6 +1,6 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T08:00:58.803Z",
+  "last_updated": "2026-05-22T11:46:35.694Z",
   "data": {
     "version_number": "26.30",
     "update_title": "Chaos Cubed",
@@ -9,6 +9,12 @@
     "download_urls": {
       "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-26.30.zip",
       "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-26.30.zip"
+    },
+    "scraped_preview": true,
+    "preview_server_version": "1.26.30.31",
+    "preview_download_urls": {
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.26.30.31.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.26.30.31.zip"
     }
   }
 }

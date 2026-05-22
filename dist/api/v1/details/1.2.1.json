@@ -1,14 +1,15 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T08:00:58.822Z",
+  "last_updated": "2026-05-22T11:46:35.719Z",
   "data": {
     "version_number": "1.2.1",
     "update_title": "Standard Release",
-    "description": "Minecraft Bedrock Edition version 1.2.1.",
+    "description": "1.2.1 is a minor update to Bedrock Edition released on September 26, 2017, which fixed several bugs and crashes.",
     "server_version": "N/A",
     "download_urls": {
       "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.2.1.zip",
       "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.2.1.zip"
-    }
+    },
+    "scraped_preview": true
   }
 }

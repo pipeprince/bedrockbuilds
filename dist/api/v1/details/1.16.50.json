@@ -1,14 +1,15 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T08:00:58.816Z",
+  "last_updated": "2026-05-22T11:46:35.712Z",
   "data": {
     "version_number": "1.16.50",
     "update_title": "Standard Release",
-    "description": "Minecraft Bedrock Edition version 1.16.50.",
+    "description": "1.16.50 is a minor update to Bedrock Edition released only for iOS and iPadOS on September 22, 2020, which fixes bugs. This version is still compatible with all Bedrock platforms running on 1.16.20 or higher. It is the last update to run on iOS 9 and 32-bit iOS 10.",
     "server_version": "N/A",
     "download_urls": {
       "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.50.zip",
       "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.50.zip"
-    }
+    },
+    "scraped_preview": true
   }
 }

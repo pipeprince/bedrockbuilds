@@ -1,14 +1,15 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T08:00:58.817Z",
+  "last_updated": "2026-05-22T11:46:35.713Z",
   "data": {
     "version_number": "1.16.1.04",
     "update_title": "Standard Release",
-    "description": "Minecraft Bedrock Edition version 1.16.1.04.",
+    "description": "1.16.1.04 is a hotfix to Bedrock Edition released only for PlayStation 4 on July 16, 2020 to improve stability in the game.",
     "server_version": "N/A",
     "download_urls": {
       "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.1.04.zip",
       "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.1.04.zip"
-    }
+    },
+    "scraped_preview": true
   }
 }

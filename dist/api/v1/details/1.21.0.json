@@ -1,14 +1,20 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T08:00:58.809Z",
+  "last_updated": "2026-05-22T11:46:35.704Z",
   "data": {
     "version_number": "1.21.0",
     "update_title": "Tricky Trials",
-    "description": "Minecraft Bedrock Edition version 1.21.0.",
-    "server_version": "N/A",
+    "description": "1.21.0, the first release of Tricky Trials, is a major update to Bedrock Edition released on June 13, 2024. Originally announced at Minecraft Live 2023 on October 15, 2023, the update focuses on \"combat adventures and tinkering\". It introduces trial chambers, several copper and tuff variants, the crafter, 20 new paintings, and 3 new music discs.",
+    "server_version": "1.21.0.03",
     "download_urls": {
-      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.0.zip",
-      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.0.zip"
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.0.03.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.0.03.zip"
+    },
+    "scraped_preview": true,
+    "preview_server_version": "1.21.0.26",
+    "preview_download_urls": {
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.0.26.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.0.26.zip"
     }
   }
 }

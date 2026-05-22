@@ -1,14 +1,15 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T08:00:58.818Z",
+  "last_updated": "2026-05-22T11:46:35.714Z",
   "data": {
     "version_number": "1.12.0",
     "update_title": "Standard Release",
-    "description": "Minecraft Bedrock Edition version 1.12.0.",
-    "server_version": "N/A",
+    "description": "1.12.0 is a major update to Bedrock Edition released on July 9–10, 2019. This update mostly focuses on map-making features by re-adding the camera, adding new game rules and command-related features, and expanding add-on mechanics.",
+    "server_version": "1.12.0.28",
     "download_urls": {
-      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.12.0.zip",
-      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.12.0.zip"
-    }
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.12.0.28.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.12.0.28.zip"
+    },
+    "scraped_preview": true
   }
 }

@@ -1,14 +1,20 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T08:00:58.812Z",
+  "last_updated": "2026-05-22T11:46:35.707Z",
   "data": {
     "version_number": "1.19.70",
     "update_title": "Standard Release",
-    "description": "Minecraft Bedrock Edition version 1.19.70.",
-    "server_version": "N/A",
+    "description": "1.19.70 is an minor update to Bedrock Edition which released on March 14–15, 2023. It added more experimental feature toggles, increased parity with Java Edition, and fixed bugs. It's also the first version to have ChromeOS support, described as \"early access\".",
+    "server_version": "1.19.70.02",
     "download_urls": {
-      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.70.zip",
-      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.70.zip"
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.70.02.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.70.02.zip"
+    },
+    "scraped_preview": true,
+    "preview_server_version": "1.19.70.26",
+    "preview_download_urls": {
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.70.26.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.70.26.zip"
     }
   }
 }

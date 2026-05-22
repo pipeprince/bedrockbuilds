@@ -1,6 +1,6 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T08:00:58.808Z",
+  "last_updated": "2026-05-22T11:46:35.703Z",
   "data": {
     "version_number": "1.21.30",
     "update_title": "Standard Release",
@@ -9,6 +9,12 @@
     "download_urls": {
       "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.30.03.zip",
       "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.30.03.zip"
+    },
+    "scraped_preview": true,
+    "preview_server_version": "1.21.30.25",
+    "preview_download_urls": {
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.30.25.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.30.25.zip"
     }
   }
 }

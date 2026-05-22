@@ -1,14 +1,15 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T08:00:58.820Z",
+  "last_updated": "2026-05-22T11:46:35.716Z",
   "data": {
     "version_number": "1.5.1",
     "update_title": "Standard Release",
-    "description": "Minecraft Bedrock Edition version 1.5.1.",
+    "description": "1.5.1 is a hotfix to Bedrock Edition released on July 19-20, 2018, which fixes bugs.",
     "server_version": "N/A",
     "download_urls": {
       "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.5.1.zip",
       "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.5.1.zip"
-    }
+    },
+    "scraped_preview": true
   }
 }

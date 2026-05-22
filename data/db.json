@@ -1,15 +1,5 @@
 {
   "versions": {
-    "26.30": {
-      "version_number": "26.30",
-      "update_title": "Chaos Cubed",
-      "description": "26.30, the release of Chaos Cubed, is an upcoming game drop for Bedrock Edition set to release in the second quarter of 2026. It focuses on the sulfur caves, a cave biome that is home to sulfur cubes, as well as the new sulfur and cinnabar blocks and their respective variants.",
-      "server_version": "N/A",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-26.30.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-26.30.zip"
-      }
-    },
     "26.23": {
       "version_number": "26.23",
       "update_title": "Standard Release",
@@ -18,17 +8,8 @@
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.23.1.zip",
         "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.23.1.zip"
-      }
-    },
-    "26.22": {
-      "version_number": "26.22",
-      "update_title": "Standard Release",
-      "description": "26.22 is a hotfix to Bedrock Edition released on May 21, 2026, for Android only, which fixes bugs.",
-      "server_version": "1.26.22.1",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.22.1.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.22.1.zip"
-      }
+      },
+      "scraped_preview": true
     },
     "26.21": {
       "version_number": "26.21",
@@ -38,37 +19,8 @@
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.21.1.zip",
         "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.21.1.zip"
-      }
-    },
-    "26.20": {
-      "version_number": "26.20",
-      "update_title": "Standard Release",
-      "description": "26.20, also known as 1.26.20, is a minor update for Bedrock Edition released on May 5, 2026, which adds closed captions, parties, the Realms Hub, experimental features for Chaos Cubed, and fixes bugs.",
-      "server_version": "1.26.20.5",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.20.5.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.20.5.zip"
-      }
-    },
-    "26.13": {
-      "version_number": "26.13",
-      "update_title": "Standard Release",
-      "description": "26.13 is a hotfix to Bedrock Edition released on April 6, 2026 for Windows, Xbox, PlayStation, and iOS, on April 7, 2026 for Android, ChromeOS, and Nintendo Switch, and on April 9, 2026 for Fire, which fixes bugs.",
-      "server_version": "1.26.14.1",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.14.1.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.14.1.zip"
-      }
-    },
-    "26.12": {
-      "version_number": "26.12",
-      "update_title": "Standard Release",
-      "description": "26.12 is a hotfix to Bedrock Edition released on March 31, 2026 for all platforms except Windows and April 1, 2026 for Windows only, which fixes bugs.",
-      "server_version": "1.26.12.2",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.12.2.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.12.2.zip"
-      }
+      },
+      "scraped_preview": true
     },
     "26.11": {
       "version_number": "26.11",
@@ -78,107 +30,19 @@
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.11.1.zip",
         "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.11.1.zip"
-      }
+      },
+      "scraped_preview": true
     },
-    "26.10": {
-      "version_number": "26.10",
-      "update_title": "Tiny Takeover",
-      "description": "26.10, also known as 1.26.10, the release of Tiny Takeover, is a game drop for Bedrock Edition released on March 24, 2026, which adds new textures and models for baby animals, adds the golden dandelion, makes name tags craftable, and fixes some bugs.",
-      "server_version": "1.26.10.4",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.10.4.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.10.4.zip"
-      }
-    },
-    "26.3": {
-      "version_number": "26.3",
+    "26.22": {
+      "version_number": "26.22",
       "update_title": "Standard Release",
-      "description": "26.3 is a hotfix to Bedrock Edition released on March 2, 2026, which fixes some bugs.",
-      "server_version": "1.26.3.1",
+      "description": "26.22 is a hotfix to Bedrock Edition released on May 21, 2026, for Android only, which fixes bugs.",
+      "server_version": "1.26.22.1",
       "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.3.1.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.3.1.zip"
-      }
-    },
-    "26.2": {
-      "version_number": "26.2",
-      "update_title": "Standard Release",
-      "description": "26.2 is a hotfix to Bedrock Edition released on February 25, 2026, which fixes a bug.",
-      "server_version": "1.26.2.1",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.2.1.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.2.1.zip"
-      }
-    },
-    "26.1": {
-      "version_number": "26.1",
-      "update_title": "Standard Release",
-      "description": "26.1 is a hotfix to Bedrock Edition released on February 19, 2026 on most devices and on February 23, 2026 on iOS and iPadOS, which fixes two bugs.",
-      "server_version": "1.26.1.1",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.1.1.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.1.1.zip"
-      }
-    },
-    "26.0": {
-      "version_number": "26.0",
-      "update_title": "Standard Release",
-      "description": "26.0, also known as 1.26.0, is a minor update for Bedrock Edition released on February 10, 2026, which adds command macros, experimental features for Tiny Takeover, and fixes bugs.",
-      "server_version": "1.26.0.2",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.0.2.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.0.2.zip"
-      }
-    },
-    "1.21.132": {
-      "version_number": "1.21.132",
-      "update_title": "Standard Release",
-      "description": "1.21.132 is a hotfix to Bedrock Edition released for most devices on January 8, 2026, and for PlayStation 5 on January 9, 2026, which addresses issues discovered in the latest update. This is the first version released in 2026. This is also the final version to use the old version formatting.",
-      "server_version": "1.21.132.3",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.132.3.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.132.3.zip"
-      }
-    },
-    "1.21.131": {
-      "version_number": "1.21.131",
-      "update_title": "Standard Release",
-      "description": "1.21.131 is a hotfix to Bedrock Edition released on December 16, 2025, which fixes some bugs. This is the final version released in 2025.",
-      "server_version": "1.21.131.1",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.131.1.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.131.1.zip"
-      }
-    },
-    "1.21.130": {
-      "version_number": "1.21.130",
-      "update_title": "Mounts of Mayhem",
-      "description": "1.21.130, the release of Mounts of Mayhem, is a game drop for Bedrock Edition released on December 9, 2025, which adds the nautilus, nautilus armor, zombie nautilus, spears, zombie horsemen, camel husks, and parched.",
-      "server_version": "1.21.130.4",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.130.4.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.130.4.zip"
-      }
-    },
-    "1.21.124": {
-      "version_number": "1.21.124",
-      "update_title": "Standard Release",
-      "description": "1.21.124 is a hotfix to Bedrock Edition released on November 21, 2025, which fixes some bugs reported in previous releases.",
-      "server_version": "1.21.124.2",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.124.2.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.124.2.zip"
-      }
-    },
-    "1.21.123": {
-      "version_number": "1.21.123",
-      "update_title": "Standard Release",
-      "description": "1.21.123 is a hotfix to Bedrock Edition released on November 13, 2025, which fixes some bugs.",
-      "server_version": "1.21.123.2",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.123.2.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.123.2.zip"
-      }
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.22.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.22.1.zip"
+      },
+      "scraped_preview": true
     },
     "1.21.122": {
       "version_number": "1.21.122",
@@ -188,7 +52,129 @@
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.122.2.zip",
         "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.122.2.zip"
-      }
+      },
+      "scraped_preview": true
+    },
+    "1.21.123": {
+      "version_number": "1.21.123",
+      "update_title": "Standard Release",
+      "description": "1.21.123 is a hotfix to Bedrock Edition released on November 13, 2025, which fixes some bugs.",
+      "server_version": "1.21.123.2",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.123.2.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.123.2.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.21.124": {
+      "version_number": "1.21.124",
+      "update_title": "Standard Release",
+      "description": "1.21.124 is a hotfix to Bedrock Edition released on November 21, 2025, which fixes some bugs reported in previous releases.",
+      "server_version": "1.21.124.2",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.124.2.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.124.2.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.21.131": {
+      "version_number": "1.21.131",
+      "update_title": "Standard Release",
+      "description": "1.21.131 is a hotfix to Bedrock Edition released on December 16, 2025, which fixes some bugs. This is the final version released in 2025.",
+      "server_version": "1.21.131.1",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.131.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.131.1.zip"
+      },
+      "scraped_preview": true
+    },
+    "26.1": {
+      "version_number": "26.1",
+      "update_title": "Standard Release",
+      "description": "26.1 is a hotfix to Bedrock Edition released on February 19, 2026 on most devices and on February 23, 2026 on iOS and iPadOS, which fixes two bugs.",
+      "server_version": "1.26.1.1",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.1.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.1.1.zip"
+      },
+      "scraped_preview": true
+    },
+    "26.3": {
+      "version_number": "26.3",
+      "update_title": "Standard Release",
+      "description": "26.3 is a hotfix to Bedrock Edition released on March 2, 2026, which fixes some bugs.",
+      "server_version": "1.26.3.1",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.3.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.3.1.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.21.132": {
+      "version_number": "1.21.132",
+      "update_title": "Standard Release",
+      "description": "1.21.132 is a hotfix to Bedrock Edition released for most devices on January 8, 2026, and for PlayStation 5 on January 9, 2026, which addresses issues discovered in the latest update. This is the first version released in 2026. This is also the final version to use the old version formatting.",
+      "server_version": "1.21.132.3",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.132.3.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.132.3.zip"
+      },
+      "scraped_preview": true
+    },
+    "26.13": {
+      "version_number": "26.13",
+      "update_title": "Standard Release",
+      "description": "26.13 is a hotfix to Bedrock Edition released on April 6, 2026 for Windows, Xbox, PlayStation, and iOS, on April 7, 2026 for Android, ChromeOS, and Nintendo Switch, and on April 9, 2026 for Fire, which fixes bugs.",
+      "server_version": "1.26.14.1",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.14.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.14.1.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.21.94": {
+      "version_number": "1.21.94",
+      "update_title": "Standard Release",
+      "description": "1.21.94 is a hotfix for Bedrock Edition released on July 14, 2025, which fixes a bug.",
+      "server_version": "1.21.95.1",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.95.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.95.1.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.21.112": {
+      "version_number": "1.21.112",
+      "update_title": "Standard Release",
+      "description": "1.21.112 is a hotfix to Bedrock Edition released only for PlayStation 5 on October 3, 2025, which fixes a critical bug.",
+      "server_version": "1.21.112.1",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.112.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.112.1.zip"
+      },
+      "scraped_preview": true
+    },
+    "26.12": {
+      "version_number": "26.12",
+      "update_title": "Standard Release",
+      "description": "26.12 is a hotfix to Bedrock Edition released on March 31, 2026 for all platforms except Windows and April 1, 2026 for Windows only, which fixes bugs.",
+      "server_version": "1.26.12.2",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.12.2.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.12.2.zip"
+      },
+      "scraped_preview": true
+    },
+    "26.2": {
+      "version_number": "26.2",
+      "update_title": "Standard Release",
+      "description": "26.2 is a hotfix to Bedrock Edition released on February 25, 2026, which fixes a bug.",
+      "server_version": "1.26.2.1",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.2.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.2.1.zip"
+      },
+      "scraped_preview": true
     },
     "1.21.121": {
       "version_number": "1.21.121",
@@ -198,6 +184,78 @@
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.121.1.zip",
         "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.121.1.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.21.113": {
+      "version_number": "1.21.113",
+      "update_title": "Standard Release",
+      "description": "1.21.113 is a hotfix to Bedrock Edition released on October 9, 2025, which fixes some bugs.",
+      "server_version": "1.21.113.1",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.113.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.113.1.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.21.101": {
+      "version_number": "1.21.101",
+      "update_title": "Standard Release",
+      "description": "1.21.101 is a hotfix for Bedrock Edition released on August 13, 2025 on most devices and on August 15, 2025 on Xbox, which fixes some bugs.",
+      "server_version": "1.21.102.1",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.102.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.102.1.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.21.114": {
+      "version_number": "1.21.114",
+      "update_title": "Standard Release",
+      "description": "1.21.114 is a hotfix to Bedrock Edition released on October 16, 2025, which fixes some bugs.",
+      "server_version": "1.21.114.1",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.114.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.114.1.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.21.92": {
+      "version_number": "1.21.92",
+      "update_title": "Standard Release",
+      "description": "1.21.92 is a hotfix to Bedrock Edition released on June 19, 2025 on most platforms, June 20, 2025 on Xbox and Fire OS and June 24, 2025 for Nintendo Switch. This version fixes some bugs.",
+      "server_version": "1.21.92.1",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.92.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.92.1.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.21.93": {
+      "version_number": "1.21.93",
+      "update_title": "Standard Release",
+      "description": "1.21.93 is a hotfix for Bedrock Edition released on July 3, 2025, which fixes some bugs, and adds the \"Lava Chicken\" music disc.",
+      "server_version": "1.21.93.1",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.93.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.93.1.zip"
+      },
+      "scraped_preview": true
+    },
+    "26.30": {
+      "version_number": "26.30",
+      "update_title": "Chaos Cubed",
+      "description": "26.30, the release of Chaos Cubed, is an upcoming game drop for Bedrock Edition set to release in the second quarter of 2026. It focuses on the sulfur caves, a cave biome that is home to sulfur cubes, as well as the new sulfur and cinnabar blocks and their respective variants.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-26.30.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-26.30.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.26.30.31",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.26.30.31.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.26.30.31.zip"
       }
     },
     "1.21.120": {
@@ -208,56 +266,28 @@
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.120.4.zip",
         "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.120.4.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.21.120.25",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.120.25.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.120.25.zip"
       }
     },
-    "1.21.114": {
-      "version_number": "1.21.114",
-      "update_title": "Standard Release",
-      "description": "1.21.114 is a hotfix to Bedrock Edition released on October 16, 2025, which fixes some bugs.",
-      "server_version": "1.21.114.1",
+    "1.21.130": {
+      "version_number": "1.21.130",
+      "update_title": "Mounts of Mayhem",
+      "description": "1.21.130, the release of Mounts of Mayhem, is a game drop for Bedrock Edition released on December 9, 2025, which adds the nautilus, nautilus armor, zombie nautilus, spears, zombie horsemen, camel husks, and parched.",
+      "server_version": "1.21.130.4",
       "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.114.1.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.114.1.zip"
-      }
-    },
-    "1.21.113": {
-      "version_number": "1.21.113",
-      "update_title": "Standard Release",
-      "description": "1.21.113 is a hotfix to Bedrock Edition released on October 9, 2025, which fixes some bugs.",
-      "server_version": "1.21.113.1",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.113.1.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.113.1.zip"
-      }
-    },
-    "1.21.112": {
-      "version_number": "1.21.112",
-      "update_title": "Standard Release",
-      "description": "1.21.112 is a hotfix to Bedrock Edition released only for PlayStation 5 on October 3, 2025, which fixes a critical bug.",
-      "server_version": "1.21.112.1",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.112.1.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.112.1.zip"
-      }
-    },
-    "1.21.111": {
-      "version_number": "1.21.111",
-      "update_title": "The Copper Age",
-      "description": "1.21.111, the release of The Copper Age, is a game drop for Bedrock Edition released on September 30, 2025. It adds copper armor and tools, copper nuggets, various copper decorations, copper golems, and shelves.",
-      "server_version": "1.21.111.1",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.111.1.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.111.1.zip"
-      }
-    },
-    "1.21.101": {
-      "version_number": "1.21.101",
-      "update_title": "Standard Release",
-      "description": "1.21.101 is a hotfix for Bedrock Edition released on August 13, 2025 on most devices and on August 15, 2025 on Xbox, which fixes some bugs.",
-      "server_version": "1.21.102.1",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.102.1.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.102.1.zip"
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.130.4.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.130.4.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.21.130.28",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.130.28.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.130.28.zip"
       }
     },
     "1.21.100": {
@@ -268,36 +298,76 @@
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.100.7.zip",
         "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.100.7.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.21.100.24",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.100.24.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.100.24.zip"
       }
     },
-    "1.21.94": {
-      "version_number": "1.21.94",
-      "update_title": "Standard Release",
-      "description": "1.21.94 is a hotfix for Bedrock Edition released on July 14, 2025, which fixes a bug.",
-      "server_version": "1.21.95.1",
+    "1.21.111": {
+      "version_number": "1.21.111",
+      "update_title": "The Copper Age",
+      "description": "1.21.111, the release of The Copper Age, is a game drop for Bedrock Edition released on September 30, 2025. It adds copper armor and tools, copper nuggets, various copper decorations, copper golems, and shelves.",
+      "server_version": "1.21.111.1",
       "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.95.1.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.95.1.zip"
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.111.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.111.1.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.21.110.26",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.110.26.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.110.26.zip"
       }
     },
-    "1.21.93": {
-      "version_number": "1.21.93",
-      "update_title": "Standard Release",
-      "description": "1.21.93 is a hotfix for Bedrock Edition released on July 3, 2025, which fixes some bugs, and adds the \"Lava Chicken\" music disc.",
-      "server_version": "1.21.93.1",
+    "26.10": {
+      "version_number": "26.10",
+      "update_title": "Tiny Takeover",
+      "description": "26.10, also known as 1.26.10, the release of Tiny Takeover, is a game drop for Bedrock Edition released on March 24, 2026, which adds new textures and models for baby animals, adds the golden dandelion, makes name tags craftable, and fixes some bugs.",
+      "server_version": "1.26.10.4",
       "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.93.1.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.93.1.zip"
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.10.4.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.10.4.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.26.10.26",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.26.10.26.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.26.10.26.zip"
       }
     },
-    "1.21.92": {
-      "version_number": "1.21.92",
+    "26.20": {
+      "version_number": "26.20",
       "update_title": "Standard Release",
-      "description": "1.21.92 is a hotfix to Bedrock Edition released on June 19, 2025 on most platforms, June 20, 2025 on Xbox and Fire OS and June 24, 2025 for Nintendo Switch. This version fixes some bugs.",
-      "server_version": "1.21.92.1",
+      "description": "26.20, also known as 1.26.20, is a minor update for Bedrock Edition released on May 5, 2026, which adds closed captions, parties, the Realms Hub, experimental features for Chaos Cubed, and fixes bugs.",
+      "server_version": "1.26.20.5",
       "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.92.1.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.92.1.zip"
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.20.5.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.20.5.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.26.20.28",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.26.20.28.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.26.20.28.zip"
+      }
+    },
+    "26.0": {
+      "version_number": "26.0",
+      "update_title": "Standard Release",
+      "description": "26.0, also known as 1.26.0, is a minor update for Bedrock Edition released on February 10, 2026, which adds command macros, experimental features for Tiny Takeover, and fixes bugs.",
+      "server_version": "1.26.0.2",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.0.2.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.0.2.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.26.0.29",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.26.0.29.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.26.0.29.zip"
       }
     },
     "1.21.91": {
@@ -308,37 +378,8 @@
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.91.1.zip",
         "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.91.1.zip"
-      }
-    },
-    "1.21.90": {
-      "version_number": "1.21.90",
-      "update_title": "Chase the Skies",
-      "description": "1.21.90, the release of Chase the Skies, is a game drop for Bedrock Edition that was released on June 17, 2025, which adds happy ghasts, Vibrant Visuals, improves lead mechanics, and fixes bugs.",
-      "server_version": "1.21.90.4",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.90.4.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.90.4.zip"
-      }
-    },
-    "1.21.84": {
-      "version_number": "1.21.84",
-      "update_title": "Standard Release",
-      "description": "1.21.84 is a hotfix for Bedrock Edition released on June 5, 2025 for Xbox and servers only. It fixes a critical bug where exiting a world on Xbox can cause it to disappear from the world list.",
-      "server_version": "1.21.84.1",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.84.1.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.84.1.zip"
-      }
-    },
-    "1.21.82": {
-      "version_number": "1.21.82",
-      "update_title": "Standard Release",
-      "description": "1.21.82 is a hotfix for Bedrock Edition released on May 19, 2025 for Windows and servers, which fixes a bug.",
-      "server_version": "1.21.83.1",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.83.1.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.83.1.zip"
-      }
+      },
+      "scraped_preview": true
     },
     "1.21.81": {
       "version_number": "1.21.81",
@@ -348,6 +389,232 @@
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.81.2.zip",
         "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.81.2.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.21.73": {
+      "version_number": "1.21.73",
+      "update_title": "Standard Release",
+      "description": "1.21.73 is a hotfix for Bedrock Edition released on April 11, 2025 for Windows and servers, which fixes a bug.",
+      "server_version": "1.21.73.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.73.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.73.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.21.71": {
+      "version_number": "1.21.71",
+      "update_title": "Standard Release",
+      "description": "1.21.71 is a hotfix for Bedrock Edition released on March 28, 2025 on most platforms and March 31, 2025 for Fire tablets and Nintendo Switch, which fixes some bugs.",
+      "server_version": "1.21.71.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.71.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.71.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.21.82": {
+      "version_number": "1.21.82",
+      "update_title": "Standard Release",
+      "description": "1.21.82 is a hotfix for Bedrock Edition released on May 19, 2025 for Windows and servers, which fixes a bug.",
+      "server_version": "1.21.83.1",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.83.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.83.1.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.21.62": {
+      "version_number": "1.21.62",
+      "update_title": "Standard Release",
+      "description": "1.21.62 is a hotfix for Bedrock Edition released on February 25, 2025 on most platforms and February 26, 2025 for Nintendo Switch, which fixes some bugs. It is also the last version to support Android 8.x Oreo and iOS/iPadOS 13.",
+      "server_version": "1.21.62.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.62.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.62.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.21.44": {
+      "version_number": "1.21.44",
+      "update_title": "Standard Release",
+      "description": "1.21.44 is a hotfix to Bedrock Edition released on October 31, 2024 on most platforms and on November 5, 2024 on Nintendo Switch, which fixes some bugs.",
+      "server_version": "1.21.44.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.44.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.44.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.21.84": {
+      "version_number": "1.21.84",
+      "update_title": "Standard Release",
+      "description": "1.21.84 is a hotfix for Bedrock Edition released on June 5, 2025 for Xbox and servers only. It fixes a critical bug where exiting a world on Xbox can cause it to disappear from the world list.",
+      "server_version": "1.21.84.1",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.84.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.84.1.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.21.21": {
+      "version_number": "1.21.21",
+      "update_title": "Standard Release",
+      "description": "1.21.21 is a hotfix to Bedrock Edition released on August 14, 2024 for all platforms except Windows and Nintendo Switch, August 15, 2024 for Windows, and August 20, 2024 for Nintendo Switch which fixes bugs and improves reliability of connecting to Realms.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.21.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.21.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.21.61": {
+      "version_number": "1.21.61",
+      "update_title": "Standard Release",
+      "description": "1.21.61 is a hotfix for Bedrock Edition released on February 19, 2025 on most platforms and February 20 for Nintendo Switch, which fixes some bugs.",
+      "server_version": "1.21.61.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.61.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.61.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.21.72": {
+      "version_number": "1.21.72",
+      "update_title": "Standard Release",
+      "description": "1.21.72 is a hotfix for Bedrock Edition released on April 8, 2025, which fixes some bugs.",
+      "server_version": "1.21.72.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.72.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.72.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.21.3": {
+      "version_number": "1.21.3",
+      "update_title": "Standard Release",
+      "description": "1.21.3 is a hotfix to Bedrock Edition released only for PlayStation 4 on July 15, 2024, which fixes a bug.",
+      "server_version": "1.21.3.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.3.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.3.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.21.31": {
+      "version_number": "1.21.31",
+      "update_title": "Standard Release",
+      "description": "1.21.31 is a hotfix to Bedrock Edition released on September 30, 2024, which fixes some bugs.",
+      "server_version": "1.21.31.04",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.31.04.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.31.04.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.21.51": {
+      "version_number": "1.21.51",
+      "update_title": "Standard Release",
+      "description": "1.21.51 is a hotfix to Bedrock Edition released on December 9, 2024 for ChromeOS and Android, December 10 for iOS, iPadOS, and Fire, December 11 for all other platforms, and December 16 for Nintendo Switch. It fixes bugs and introduces a new Play screen. It is compatible with 1.21.50 servers. This is the final version released in 2024.",
+      "server_version": "1.21.51.02",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.51.02.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.51.02.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.21.42": {
+      "version_number": "1.21.42",
+      "update_title": "Standard Release",
+      "description": "1.21.42 is a hotfix to Bedrock Edition released only for PlayStation 5 on October 23, 2024.​",
+      "server_version": "1.21.42.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.42.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.42.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.21.1": {
+      "version_number": "1.21.1",
+      "update_title": "Standard Release",
+      "description": "1.21.1 is a hotfix to Bedrock Edition released on June 20, 2024, which fixes two bugs.",
+      "server_version": "1.21.1.03",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.1.03.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.1.03.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.21.23": {
+      "version_number": "1.21.23",
+      "update_title": "Standard Release",
+      "description": "1.21.23 is a hotfix to Bedrock Edition released on September 3, 2024, which fixes a bug.",
+      "server_version": "1.21.23.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.23.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.23.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.21.43": {
+      "version_number": "1.21.43",
+      "update_title": "Standard Release",
+      "description": "1.21.43 is a hotfix to Bedrock Edition released on October 25-30, 2024, which fixes some bugs.",
+      "server_version": "1.21.43.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.43.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.43.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.21.2": {
+      "version_number": "1.21.2",
+      "update_title": "Standard Release",
+      "description": "1.21.2 is a hotfix to Bedrock Edition released on July 9, 2024, which fixes bugs.",
+      "server_version": "1.21.2.02",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.2.02.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.2.02.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.21.41": {
+      "version_number": "1.21.41",
+      "update_title": "Standard Release",
+      "description": "1.21.41 is a hotfix to Bedrock Edition released on October 22, 2024, on the same day as Bedrock Edition 1.21.40, which fixes some bugs.",
+      "server_version": "1.21.41.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.41.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.41.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.21.22": {
+      "version_number": "1.21.22",
+      "update_title": "Standard Release",
+      "description": "1.21.22 is a hotfix to Bedrock Edition released on August 26, 2024 for all platforms except iOS, iPadOS, and Fire, August 27 for iOS, iPadOS, and Fire, which fixes bugs.",
+      "server_version": "1.21.22.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.22.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.22.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.21.60": {
+      "version_number": "1.21.60",
+      "update_title": "Standard Release",
+      "description": "1.21.60 is a minor update for Bedrock Edition released on February 11, 2025, which adds some experimental features for Spring to Life and fixes bugs. This is the first version released in 2025.",
+      "server_version": "1.21.60.10",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.60.10.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.60.10.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.21.60.28",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.60.28.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.60.28.zip"
       }
     },
     "1.21.80": {
@@ -358,156 +625,28 @@
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.80.3.zip",
         "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.80.3.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.21.80.28",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.80.28.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.80.28.zip"
       }
     },
-    "1.21.73": {
-      "version_number": "1.21.73",
-      "update_title": "Standard Release",
-      "description": "1.21.73 is a hotfix for Bedrock Edition released on April 11, 2025 for Windows and servers, which fixes a bug.",
-      "server_version": "1.21.73.01",
+    "1.21.90": {
+      "version_number": "1.21.90",
+      "update_title": "Chase the Skies",
+      "description": "1.21.90, the release of Chase the Skies, is a game drop for Bedrock Edition that was released on June 17, 2025, which adds happy ghasts, Vibrant Visuals, improves lead mechanics, and fixes bugs.",
+      "server_version": "1.21.90.4",
       "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.73.01.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.73.01.zip"
-      }
-    },
-    "1.21.72": {
-      "version_number": "1.21.72",
-      "update_title": "Standard Release",
-      "description": "1.21.72 is a hotfix for Bedrock Edition released on April 8, 2025, which fixes some bugs.",
-      "server_version": "1.21.72.01",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.72.01.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.72.01.zip"
-      }
-    },
-    "1.21.71": {
-      "version_number": "1.21.71",
-      "update_title": "Standard Release",
-      "description": "1.21.71 is a hotfix for Bedrock Edition released on March 28, 2025 on most platforms and March 31, 2025 for Fire tablets and Nintendo Switch, which fixes some bugs.",
-      "server_version": "1.21.71.01",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.71.01.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.71.01.zip"
-      }
-    },
-    "1.21.70": {
-      "version_number": "1.21.70",
-      "update_title": "Spring to Life",
-      "description": "1.21.70, the release of Spring to Life, is a game drop for Bedrock Edition, released on March 25, 2025, which adds chicken, cow, and pig variants, adds several new plants, changes all spawn egg textures to be easier to tell apart, and fixes bugs.",
-      "server_version": "1.21.70.04",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.70.04.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.70.04.zip"
-      }
-    },
-    "1.21.62": {
-      "version_number": "1.21.62",
-      "update_title": "Standard Release",
-      "description": "1.21.62 is a hotfix for Bedrock Edition released on February 25, 2025 on most platforms and February 26, 2025 for Nintendo Switch, which fixes some bugs. It is also the last version to support Android 8.x Oreo and iOS/iPadOS 13.",
-      "server_version": "1.21.62.01",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.62.01.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.62.01.zip"
-      }
-    },
-    "1.21.61": {
-      "version_number": "1.21.61",
-      "update_title": "Standard Release",
-      "description": "1.21.61 is a hotfix for Bedrock Edition released on February 19, 2025 on most platforms and February 20 for Nintendo Switch, which fixes some bugs.",
-      "server_version": "1.21.61.01",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.61.01.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.61.01.zip"
-      }
-    },
-    "1.21.60": {
-      "version_number": "1.21.60",
-      "update_title": "Standard Release",
-      "description": "1.21.60 is a minor update for Bedrock Edition released on February 11, 2025, which adds some experimental features for Spring to Life and fixes bugs. This is the first version released in 2025.",
-      "server_version": "1.21.60.10",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.60.10.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.60.10.zip"
-      }
-    },
-    "1.21.51": {
-      "version_number": "1.21.51",
-      "update_title": "Standard Release",
-      "description": "1.21.51 is a hotfix to Bedrock Edition released on December 9, 2024 for ChromeOS and Android, December 10 for iOS, iPadOS, and Fire, December 11 for all other platforms, and December 16 for Nintendo Switch. It fixes bugs and introduces a new Play screen. It is compatible with 1.21.50 servers. This is the final version released in 2024.",
-      "server_version": "1.21.51.02",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.51.02.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.51.02.zip"
-      }
-    },
-    "1.21.50": {
-      "version_number": "1.21.50",
-      "update_title": "The Garden Awakens",
-      "description": "1.21.50, the release of The Garden Awakens, is a game drop for Bedrock Edition, released on December 3, 2024.\nIt marks the first release of the Bedrock Editor in a retail version.",
-      "server_version": "1.21.50.10",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.50.10.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.50.10.zip"
-      }
-    },
-    "1.21.44": {
-      "version_number": "1.21.44",
-      "update_title": "Standard Release",
-      "description": "1.21.44 is a hotfix to Bedrock Edition released on October 31, 2024 on most platforms and on November 5, 2024 on Nintendo Switch, which fixes some bugs.",
-      "server_version": "1.21.44.01",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.44.01.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.44.01.zip"
-      }
-    },
-    "1.21.43": {
-      "version_number": "1.21.43",
-      "update_title": "Standard Release",
-      "description": "1.21.43 is a hotfix to Bedrock Edition released on October 25-30, 2024, which fixes some bugs.",
-      "server_version": "1.21.43.01",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.43.01.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.43.01.zip"
-      }
-    },
-    "1.21.42": {
-      "version_number": "1.21.42",
-      "update_title": "Standard Release",
-      "description": "1.21.42 is a hotfix to Bedrock Edition released only for PlayStation 5 on October 23, 2024.​",
-      "server_version": "1.21.42.01",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.42.01.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.42.01.zip"
-      }
-    },
-    "1.21.41": {
-      "version_number": "1.21.41",
-      "update_title": "Standard Release",
-      "description": "1.21.41 is a hotfix to Bedrock Edition released on October 22, 2024, on the same day as Bedrock Edition 1.21.40, which fixes some bugs.",
-      "server_version": "1.21.41.01",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.41.01.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.41.01.zip"
-      }
-    },
-    "1.21.40": {
-      "version_number": "1.21.40",
-      "update_title": "Bundles of Bravery",
-      "description": "1.21.40, the release of Bundles of Bravery, is a game drop for Bedrock Edition released on October 22, 2024, which adds bundles and Hardcore mode.",
-      "server_version": "1.21.40.03",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.40.03.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.40.03.zip"
-      }
-    },
-    "1.21.31": {
-      "version_number": "1.21.31",
-      "update_title": "Standard Release",
-      "description": "1.21.31 is a hotfix to Bedrock Edition released on September 30, 2024, which fixes some bugs.",
-      "server_version": "1.21.31.04",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.31.04.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.31.04.zip"
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.90.4.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.90.4.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.21.90.28",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.90.28.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.90.28.zip"
       }
     },
     "1.21.30": {
@@ -518,36 +657,44 @@
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.30.03.zip",
         "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.30.03.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.21.30.25",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.30.25.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.30.25.zip"
       }
     },
-    "1.21.23": {
-      "version_number": "1.21.23",
-      "update_title": "Standard Release",
-      "description": "1.21.23 is a hotfix to Bedrock Edition released on September 3, 2024, which fixes a bug.",
-      "server_version": "1.21.23.01",
+    "1.21.40": {
+      "version_number": "1.21.40",
+      "update_title": "Bundles of Bravery",
+      "description": "1.21.40, the release of Bundles of Bravery, is a game drop for Bedrock Edition released on October 22, 2024, which adds bundles and Hardcore mode.",
+      "server_version": "1.21.40.03",
       "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.23.01.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.23.01.zip"
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.40.03.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.40.03.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.21.40.25",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.40.25.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.40.25.zip"
       }
     },
-    "1.21.22": {
-      "version_number": "1.21.22",
-      "update_title": "Standard Release",
-      "description": "1.21.22 is a hotfix to Bedrock Edition released on August 26, 2024 for all platforms except iOS, iPadOS, and Fire, August 27 for iOS, iPadOS, and Fire, which fixes bugs.",
-      "server_version": "1.21.22.01",
+    "1.21.70": {
+      "version_number": "1.21.70",
+      "update_title": "Spring to Life",
+      "description": "1.21.70, the release of Spring to Life, is a game drop for Bedrock Edition, released on March 25, 2025, which adds chicken, cow, and pig variants, adds several new plants, changes all spawn egg textures to be easier to tell apart, and fixes bugs.",
+      "server_version": "1.21.70.04",
       "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.22.01.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.22.01.zip"
-      }
-    },
-    "1.21.21": {
-      "version_number": "1.21.21",
-      "update_title": "Standard Release",
-      "description": "1.21.21 is a hotfix to Bedrock Edition released on August 14, 2024 for all platforms except Windows and Nintendo Switch, August 15, 2024 for Windows, and August 20, 2024 for Nintendo Switch which fixes bugs and improves reliability of connecting to Realms.",
-      "server_version": "N/A",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.21.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.21.zip"
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.70.04.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.70.04.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.21.70.26",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.70.26.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.70.26.zip"
       }
     },
     "1.21.20": {
@@ -558,36 +705,28 @@
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.20.03.zip",
         "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.20.03.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.21.20.24",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.20.24.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.20.24.zip"
       }
     },
-    "1.21.3": {
-      "version_number": "1.21.3",
-      "update_title": "Standard Release",
-      "description": "1.21.3 is a hotfix to Bedrock Edition released only for PlayStation 4 on July 15, 2024, which fixes a bug.",
-      "server_version": "1.21.3.01",
+    "1.21.50": {
+      "version_number": "1.21.50",
+      "update_title": "The Garden Awakens",
+      "description": "1.21.50, the release of The Garden Awakens, is a game drop for Bedrock Edition, released on December 3, 2024.\nIt marks the first release of the Bedrock Editor in a retail version.",
+      "server_version": "1.21.50.10",
       "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.3.01.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.3.01.zip"
-      }
-    },
-    "1.21.2": {
-      "version_number": "1.21.2",
-      "update_title": "Standard Release",
-      "description": "1.21.2 is a hotfix to Bedrock Edition released on July 9, 2024, which fixes bugs.",
-      "server_version": "1.21.2.02",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.2.02.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.2.02.zip"
-      }
-    },
-    "1.21.1": {
-      "version_number": "1.21.1",
-      "update_title": "Standard Release",
-      "description": "1.21.1 is a hotfix to Bedrock Edition released on June 20, 2024, which fixes two bugs.",
-      "server_version": "1.21.1.03",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.1.03.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.1.03.zip"
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.50.10.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.50.10.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.21.50.30",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.50.30.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.50.30.zip"
       }
     },
     "1.21.0": {
@@ -598,66 +737,12 @@
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.0.03.zip",
         "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.0.03.zip"
-      }
-    },
-    "1.20.81": {
-      "version_number": "1.20.81",
-      "update_title": "Standard Release",
-      "description": "1.20.81 is a hotfix to Bedrock Edition released on April 29–May 2, 2024, which fixes two bugs.",
-      "server_version": "1.20.81.01",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.81.01.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.81.01.zip"
-      }
-    },
-    "1.20.80": {
-      "version_number": "1.20.80",
-      "update_title": "Armored Paws",
-      "description": "1.20.80, the release of Armored Paws, is a drop for Bedrock Edition, released on April 23, 2024. It fixes bugs and makes armadillos and wolf armor available in normal gameplay, removing their experimental toggle. It also adds more features under the Update 1.21 experiment, with the mace, heavy core and breeze rod.",
-      "server_version": "1.20.80.05",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.80.05.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.80.05.zip"
-      }
-    },
-    "1.20.73": {
-      "version_number": "1.20.73",
-      "update_title": "Standard Release",
-      "description": "1.20.73 is a hotfix to Bedrock Edition released on all platforms except Xbox and Nintendo Switch on April 1, 2024, which fixes a gameplay crash.",
-      "server_version": "1.20.73.01",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.73.01.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.73.01.zip"
-      }
-    },
-    "1.20.72": {
-      "version_number": "1.20.72",
-      "update_title": "Standard Release",
-      "description": "1.20.72 is a hotfix to Bedrock Edition released on March 19–22, 2024, which fixes some gameplay crashes.",
-      "server_version": "1.20.72.01",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.72.01.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.72.01.zip"
-      }
-    },
-    "1.20.71": {
-      "version_number": "1.20.71",
-      "update_title": "Standard Release",
-      "description": "1.20.71 is a hotfix to Bedrock Edition released on March 12, 2024, on the same day as Bedrock Edition 1.20.70, for unknown reasons.",
-      "server_version": "1.20.71.01",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.71.01.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.71.01.zip"
-      }
-    },
-    "1.20.70": {
-      "version_number": "1.20.70",
-      "update_title": "Standard Release",
-      "description": "1.20.70 is a minor update to Bedrock Edition released on March 12, 2024, which fixes bugs, brings more parity with Java Edition, and adds more experimental features for 1.21.0 such as the vault, the wind charge item, and the bogged. 1.20.70 also improves the armadillo and wolf armor experimental features.",
-      "server_version": "1.20.70.05",
-      "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.70.05.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.70.05.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.21.0.26",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.21.0.26.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.21.0.26.zip"
       }
     },
     "1.20.62": {
@@ -668,6 +753,232 @@
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.62.03.zip",
         "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.62.03.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.20.72": {
+      "version_number": "1.20.72",
+      "update_title": "Standard Release",
+      "description": "1.20.72 is a hotfix to Bedrock Edition released on March 19–22, 2024, which fixes some gameplay crashes.",
+      "server_version": "1.20.72.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.72.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.72.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.20.71": {
+      "version_number": "1.20.71",
+      "update_title": "Standard Release",
+      "description": "1.20.71 is a hotfix to Bedrock Edition released on March 12, 2024, on the same day as Bedrock Edition 1.20.70, for unknown reasons.",
+      "server_version": "1.20.71.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.71.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.71.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.20.73": {
+      "version_number": "1.20.73",
+      "update_title": "Standard Release",
+      "description": "1.20.73 is a hotfix to Bedrock Edition released on all platforms except Xbox and Nintendo Switch on April 1, 2024, which fixes a gameplay crash.",
+      "server_version": "1.20.73.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.73.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.73.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.20.51": {
+      "version_number": "1.20.51",
+      "update_title": "Standard Release",
+      "description": "1.20.51 is a hotfix to Bedrock Edition released on December 14, 2023, which resolves some issues introduced with the latest update. This is the final version released in 2023.",
+      "server_version": "1.20.51.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.51.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.51.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.20.81": {
+      "version_number": "1.20.81",
+      "update_title": "Standard Release",
+      "description": "1.20.81 is a hotfix to Bedrock Edition released on April 29–May 2, 2024, which fixes two bugs.",
+      "server_version": "1.20.81.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.81.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.81.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.20.41": {
+      "version_number": "1.20.41",
+      "update_title": "Standard Release",
+      "description": "1.20.41 is a hotfix to Bedrock Edition released on November 2, 2023, which fixes bugs.",
+      "server_version": "1.20.41.02",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.41.02.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.41.02.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.20.31": {
+      "version_number": "1.20.31",
+      "update_title": "Standard Release",
+      "description": "1.20.31 is a hotfix to Bedrock Edition released on September 26, 2023, which fixes bugs.",
+      "server_version": "1.20.31.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.31.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.31.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.20.32": {
+      "version_number": "1.20.32",
+      "update_title": "Standard Release",
+      "description": "1.20.32 is a hotfix to Bedrock Edition released on October 5, 2023, which fixes bugs.",
+      "server_version": "1.20.32.03",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.32.03.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.32.03.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.20.15": {
+      "version_number": "1.20.15",
+      "update_title": "Standard Release",
+      "description": "1.20.15 is a hotfix to Bedrock Edition released on August 16-18, 2023, which improves the game's stability.",
+      "server_version": "1.20.15.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.15.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.15.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.20.12": {
+      "version_number": "1.20.12",
+      "update_title": "Standard Release",
+      "description": "1.20.12 is a hotfix to Bedrock Edition released on July 18, 2023, which fixes bugs.",
+      "server_version": "1.20.12.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.12.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.12.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.20.13": {
+      "version_number": "1.20.13",
+      "update_title": "Standard Release",
+      "description": "1.20.13 is a hotfix to Bedrock Edition released on July 24, 2023, which fixes a crash that occurs in iOS and iPadOS.",
+      "server_version": "1.20.13.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.13.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.13.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.19.71": {
+      "version_number": "1.19.71",
+      "update_title": "Standard Release",
+      "description": "1.19.71 is a hotfix to Bedrock Edition released on March 17–20, 2023, which fixes bugs.",
+      "server_version": "1.19.71.02",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.71.02.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.71.02.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.19.72": {
+      "version_number": "1.19.72",
+      "update_title": "Standard Release",
+      "description": "1.19.72 is a hotfix to Bedrock Edition released only for PlayStation on March 20, 2023, which fixes a bug.",
+      "server_version": "1.19.72.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.72.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.72.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.20.1": {
+      "version_number": "1.20.1",
+      "update_title": "Standard Release",
+      "description": "1.20.1 is a hotfix to Bedrock Edition released on June 21, 2023, which fixes bugs.",
+      "server_version": "1.20.1.02",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.1.02.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.1.02.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.20.14": {
+      "version_number": "1.20.14",
+      "update_title": "Standard Release",
+      "description": "1.20.14 is a hotfix to Bedrock Edition released on August 8, 2023, which fixes a crash that occurs in PlayStation.",
+      "server_version": "1.20.14.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.14.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.14.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.19.83": {
+      "version_number": "1.19.83",
+      "update_title": "Standard Release",
+      "description": "1.19.83 is a hotfix to Bedrock Edition released on May 17, 2023, which fixes bugs.",
+      "server_version": "1.19.83.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.83.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.83.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.19.63": {
+      "version_number": "1.19.63",
+      "update_title": "Standard Release",
+      "description": "1.19.63 is a hotfix to Bedrock Edition released on February 24, 2023, which fixes bugs. This is the last version supported on 64-bit iOS 10 devices.",
+      "server_version": "1.19.63.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.63.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.63.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.19.73": {
+      "version_number": "1.19.73",
+      "update_title": "Standard Release",
+      "description": "1.19.73 is a hotfix to Bedrock Edition released on March 29, 2023, which fixes bugs.",
+      "server_version": "1.19.73.02",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.73.02.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.73.02.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.19.81": {
+      "version_number": "1.19.81",
+      "update_title": "Standard Release",
+      "description": "1.19.81 is a hotfix to Bedrock Edition released on April 27, 2023, which fixes bugs.",
+      "server_version": "1.19.81.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.81.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.81.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.20.80": {
+      "version_number": "1.20.80",
+      "update_title": "Armored Paws",
+      "description": "1.20.80, the release of Armored Paws, is a drop for Bedrock Edition, released on April 23, 2024. It fixes bugs and makes armadillos and wolf armor available in normal gameplay, removing their experimental toggle. It also adds more features under the Update 1.21 experiment, with the mace, heavy core and breeze rod.",
+      "server_version": "1.20.80.05",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.80.05.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.80.05.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.20.80.24",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.80.24.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.80.24.zip"
       }
     },
     "1.20.60": {
@@ -678,16 +989,44 @@
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.61.01.zip",
         "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.61.01.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.20.60.26",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.60.26.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.60.26.zip"
       }
     },
-    "1.20.51": {
-      "version_number": "1.20.51",
+    "1.19.70": {
+      "version_number": "1.19.70",
       "update_title": "Standard Release",
-      "description": "1.20.51 is a hotfix to Bedrock Edition released on December 14, 2023, which resolves some issues introduced with the latest update. This is the final version released in 2023.",
-      "server_version": "1.20.51.01",
+      "description": "1.19.70 is an minor update to Bedrock Edition which released on March 14–15, 2023. It added more experimental feature toggles, increased parity with Java Edition, and fixed bugs. It's also the first version to have ChromeOS support, described as \"early access\".",
+      "server_version": "1.19.70.02",
       "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.51.01.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.51.01.zip"
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.70.02.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.70.02.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.19.70.26",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.70.26.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.70.26.zip"
+      }
+    },
+    "1.20.70": {
+      "version_number": "1.20.70",
+      "update_title": "Standard Release",
+      "description": "1.20.70 is a minor update to Bedrock Edition released on March 12, 2024, which fixes bugs, brings more parity with Java Edition, and adds more experimental features for 1.21.0 such as the vault, the wind charge item, and the bogged. 1.20.70 also improves the armadillo and wolf armor experimental features.",
+      "server_version": "1.20.70.05",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.70.05.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.70.05.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.20.70.25",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.70.25.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.70.25.zip"
       }
     },
     "1.20.50": {
@@ -698,7 +1037,1394 @@
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.50.03.zip",
         "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.50.03.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.20.50.24",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.50.24.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.50.24.zip"
       }
+    },
+    "1.20.40": {
+      "version_number": "1.20.40",
+      "update_title": "Standard Release",
+      "description": "1.20.40 is a minor update to Bedrock Edition released on October 24, 2023, which brings more parity with Java Edition, and fixes bugs.",
+      "server_version": "1.20.40.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.40.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.40.01.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.20.40.24",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.40.24.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.40.24.zip"
+      }
+    },
+    "1.20.0": {
+      "version_number": "1.20.0",
+      "update_title": "Trails & Tales",
+      "description": "1.20.0, the first release of Trails & Tales, is a major update to Bedrock Edition released on June 7, 2023. The update was announced at Minecraft Live 2022 on October 15, 2022, and its name was revealed at Minecraft Monthly on March 2, 2023. Trails & Tales focuses on letting the players express themselves through new building blocks and storytelling. It introduces trail ruins, the camel and sniffer mobs, the archaeology system, the cherry grove biome, and other features. This is also the first full release of the game on ChromeOS, following the \"early access\" phase.",
+      "server_version": "1.20.0.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.0.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.0.01.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.20.0.25",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.0.25.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.0.25.zip"
+      }
+    },
+    "1.20.30": {
+      "version_number": "1.20.30",
+      "update_title": "Standard Release",
+      "description": "1.20.30 is a minor update to Bedrock Edition released on September 19, 2023, which makes experimental changes to the villager and wandering trader trades, brings more parity with Java Edition, and fixes bugs. What was going to be 1.20.20 was merged into this version during development.",
+      "server_version": "1.20.30.02",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.30.02.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.30.02.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.20.30.25",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.30.25.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.30.25.zip"
+      }
+    },
+    "1.20.10": {
+      "version_number": "1.20.10",
+      "update_title": "Standard Release",
+      "description": "1.20.10 (1.20.11 on Xbox) is a minor update to Bedrock Edition released on July 11, 2023, which brings more parity from Java Edition and fixes bugs.",
+      "server_version": "1.20.11.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.11.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.11.01.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.20.10.24",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.10.24.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.10.24.zip"
+      }
+    },
+    "1.19.80": {
+      "version_number": "1.19.80",
+      "update_title": "Standard Release",
+      "description": "1.19.80 is a minor update to Bedrock Edition released on April 26, 2023. It added more features to the Trails & Tales experimental toggle, adding the Short Sneaking toggle, brought more parity with Java Edition, and fixes bugs.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.80.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.80.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.19.80.24",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.80.24.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.80.24.zip"
+      }
+    },
+    "1.19.51": {
+      "version_number": "1.19.51",
+      "update_title": "Standard Release",
+      "description": "1.19.51 is a hotfix to Bedrock Edition released on December 13-15, 2022, which fixes bugs.",
+      "server_version": "1.19.52.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.52.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.52.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.19.62": {
+      "version_number": "1.19.62",
+      "update_title": "Standard Release",
+      "description": "1.19.62 is a hotfix to Bedrock Edition released on February 16-18, 2023, which fixes bugs.",
+      "server_version": "1.19.62.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.62.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.62.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.19.41": {
+      "version_number": "1.19.41",
+      "update_title": "Standard Release",
+      "description": "1.19.41 is a hotfix to Bedrock Edition released on most platforms on November 3, 2022, except Fire and Nintendo Switch, which were released on November 4th and 7th, 2022, respectively, which fixes bugs.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.41.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.41.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.19.31": {
+      "version_number": "1.19.31",
+      "update_title": "Standard Release",
+      "description": "1.19.31 is a hotfix to Bedrock Edition released on October 4, 2022, which fixes bugs.",
+      "server_version": "1.19.31.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.31.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.31.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.19.11": {
+      "version_number": "1.19.11",
+      "update_title": "Standard Release",
+      "description": "1.19.11 is a hotfix to Bedrock Edition released on July 26, 2022, which fixes bugs.",
+      "server_version": "1.19.11.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.11.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.11.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.18.11": {
+      "version_number": "1.18.11",
+      "update_title": "Standard Release",
+      "description": "1.18.11 is a hotfix to Bedrock Edition released only for the Nintendo Switch on February 11, 2022, which fixes bugs. This version is still compatible with all Bedrock platforms running on 1.18.10.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.18.11.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.18.11.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.19.22": {
+      "version_number": "1.19.22",
+      "update_title": "Standard Release",
+      "description": "1.19.22 is a hotfix to Bedrock Edition released on September 1, 2022, which fixes bugs.",
+      "server_version": "1.19.22.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.22.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.22.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.18.32": {
+      "version_number": "1.18.32",
+      "update_title": "Standard Release",
+      "description": "1.18.32 is a hotfix to Bedrock Edition released only for Android, Fire, and Nintendo Switch on May 5-6, 2022, which fixes two performance issues. This version is compatible with all Bedrock platforms running on 1.18.30 and 1.18.31.",
+      "server_version": "1.18.32.02",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.18.32.02.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.18.32.02.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.18.31": {
+      "version_number": "1.18.31",
+      "update_title": "Standard Release",
+      "description": "1.18.31 is a hotfix to Bedrock Edition released on April 27, 2022, which moves spectator mode behind experimental toggle, and fixes bugs.",
+      "server_version": "1.18.31.04",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.18.31.04.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.18.31.04.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.18.1": {
+      "version_number": "1.18.1",
+      "update_title": "Standard Release",
+      "description": "1.18.1 is a hotfix to Bedrock Edition released for PlayStation consoles on December 2, 2021, and for most other platforms except the Nintendo Switch on December 6, 2021, which fixes bugs. This version is compatible with all Bedrock platforms running on 1.18.0.",
+      "server_version": "1.18.1.02",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.18.1.02.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.18.1.02.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.18.12": {
+      "version_number": "1.18.12",
+      "update_title": "Standard Release",
+      "description": "1.18.12 is a hotfix to Bedrock Edition released on February 16-21, 2022, which fixes bugs.",
+      "server_version": "1.18.12.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.18.12.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.18.12.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.17.34": {
+      "version_number": "1.17.34",
+      "update_title": "Standard Release",
+      "description": "1.17.34 is a hotfix to Bedrock Edition released on October 5–7, 2021, which fixes a bug with redeeming codes. This version is still compatible with all Bedrock platforms running on 1.17.30 until 1.17.33.",
+      "server_version": "1.17.34.02",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.17.34.02.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.17.34.02.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.17.33": {
+      "version_number": "1.17.33",
+      "update_title": "Standard Release",
+      "description": "1.17.33 is a hotfix to Bedrock Edition released only for Fire tablets on October 4, 2021, which fixes bugs.",
+      "server_version": "1.17.33.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.17.33.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.17.33.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.17.32": {
+      "version_number": "1.17.32",
+      "update_title": "Standard Release",
+      "description": "1.17.32 is a hotfix to Bedrock Edition released on September 30, 2021, which fixes some critical bugs.",
+      "server_version": "1.17.32.02",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.17.32.02.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.17.32.02.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.18.2": {
+      "version_number": "1.18.2",
+      "update_title": "Standard Release",
+      "description": "1.18.2 is a hotfix to Bedrock Edition released on December 9, 2021, which fixes bugs. This version is compatible with all Bedrock platforms running on 1.18.0 and 1.18.1. This is the final version released in 2021.",
+      "server_version": "1.18.2.03",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.18.2.03.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.18.2.03.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.17.41": {
+      "version_number": "1.17.41",
+      "update_title": "Standard Release",
+      "description": "1.17.41 is a hotfix to Bedrock Edition released for most platforms on October 27, 2021, and released for Fire tablets on October 29, 2021, which fixes bugs. This version is still compatible with all Bedrock platforms running on 1.17.40.",
+      "server_version": "1.17.41.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.17.41.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.17.41.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.18.33": {
+      "version_number": "1.18.33",
+      "update_title": "Standard Release",
+      "description": "1.18.33 is a hotfix to Bedrock Edition released only for the Nintendo Switch on May 13, 2022, which fixes bugs. This version is compatible with all Bedrock platforms running on 1.18.30 until 1.18.32.",
+      "server_version": "1.18.33.02",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.18.33.02.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.18.33.02.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.19.2": {
+      "version_number": "1.19.2",
+      "update_title": "Standard Release",
+      "description": "1.19.2 is a hotfix to Bedrock Edition, released on June 22, 2022, which fixed some bugs.",
+      "server_version": "1.19.2.02",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.2.02.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.2.02.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.19.21": {
+      "version_number": "1.19.21",
+      "update_title": "Standard Release",
+      "description": "1.19.21 is a hotfix to Bedrock Edition released on August 23, 2022 on most platforms, and August 25, 2022 for Nintendo Switch, which fixes bugs.",
+      "server_version": "1.19.21.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.21.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.21.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.17.40": {
+      "version_number": "1.17.40",
+      "update_title": "Standard Release",
+      "description": "1.17.40 is a minor update to Bedrock Edition released on October 19, 2021, which brought new features behind the experimental toggle and fixed bugs.",
+      "server_version": "1.17.40.06",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.17.40.06.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.17.40.06.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.18.0": {
+      "version_number": "1.18.0",
+      "update_title": "Caves & Cliffs: Part II",
+      "description": "1.18.0, the first release of Caves & Cliffs: Part II, is a major update to Bedrock Edition released on November 30, 2021. It was first announced alongside the release of the Java Edition 1.17 snapshot 21w15a when Mojang Studios stated the Caves & Cliffs update would be split in two. Features from 1.18.0 were being developed alongside 1.17.0 through Experimental Gameplay. This is the third major update for Bedrock Edition that is split into several updates since Village & Pillage in 2019.",
+      "server_version": "1.18.0.02",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.18.0.02.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.18.0.02.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.18.10": {
+      "version_number": "1.18.10",
+      "update_title": "Standard Release",
+      "description": "1.18.10 is a minor update to Bedrock Edition released on February 8, 2022, which brought more parity with Java Edition and fixes bugs. This is the first version released in 2022.",
+      "server_version": "1.18.11.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.18.11.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.18.11.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.19.50": {
+      "version_number": "1.19.50",
+      "update_title": "Standard Release",
+      "description": "1.19.50 is a minor update to Bedrock Edition released on November 29, 2022, which brought more parity with Java Edition, and fixed bugs.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.50.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.50.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.19.50.25",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.50.25.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.50.25.zip"
+      }
+    },
+    "1.19.40": {
+      "version_number": "1.19.40",
+      "update_title": "Standard Release",
+      "description": "1.19.40 is a minor update to Bedrock Edition released on October 25, 2022, which brought more parity with Java Edition, and fixes bugs.",
+      "server_version": "1.19.40.02",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.40.02.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.40.02.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.19.40.24",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.40.24.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.40.24.zip"
+      }
+    },
+    "1.19.20": {
+      "version_number": "1.19.20",
+      "update_title": "Standard Release",
+      "description": "1.19.20 is a minor update to Bedrock Edition released on August 9, 2022, which brought more parity with Java Edition, and fixes bugs.",
+      "server_version": "1.19.20.02",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.20.02.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.20.02.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.19.20.24",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.20.24.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.20.24.zip"
+      }
+    },
+    "1.19.60": {
+      "version_number": "1.19.60",
+      "update_title": "Standard Release",
+      "description": "1.19.60 is a minor update to Bedrock Edition released on February 7, 2023, which brought more parity with Java Edition, adds new spawn eggs, and fixes bugs. This is the first version released in 2023.",
+      "server_version": "1.19.61.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.61.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.61.01.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.19.60.27",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.60.27.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.60.27.zip"
+      }
+    },
+    "1.19.30": {
+      "version_number": "1.19.30",
+      "update_title": "Standard Release",
+      "description": "1.19.30 is a  minor update to Bedrock Edition released on September 20, 2022, which brought more parity with Java Edition, and fixes bugs.",
+      "server_version": "1.19.30.04",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.30.04.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.30.04.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.19.30.25",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.30.25.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.30.25.zip"
+      }
+    },
+    "1.19.10": {
+      "version_number": "1.19.10",
+      "update_title": "Standard Release",
+      "description": "1.19.10 is a minor update to Bedrock Edition released on July 12, 2022, which brought more parity with Java Edition and fixes bugs.",
+      "server_version": "1.19.10.03",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.10.03.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.10.03.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.19.10.24",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.10.24.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.10.24.zip"
+      }
+    },
+    "1.19.0": {
+      "version_number": "1.19.0",
+      "update_title": "The Wild Update",
+      "description": "1.19.0 (Android, iOS, iPadOS, Fire, Windows, Xbox, PlayStation) or 1.19.1 (Nintendo Switch), the first release of The Wild Update, is a major update to Bedrock Edition released on June 7, 2022. The update was first announced on October 16, 2021 during Minecraft Live 2021.  It introduces the deep dark biome, the mangrove swamp biome, mobs like the allay, the frog, the tadpole, the warden, and some new items included like sculk blocks and other items that are useful and for decorations.",
+      "server_version": "1.19.1.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.1.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.1.01.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.19.0.68",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.0.68.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.0.68.zip"
+      }
+    },
+    "1.18.30": {
+      "version_number": "1.18.30",
+      "update_title": "Standard Release",
+      "description": "1.18.30 is a minor update to Bedrock Edition released on April 19, 2022, which added support for 64-bit world seeds, a new UI, Spectator mode, balanced the hunger system, fixed damage, armor, and protection calculations, and fixed bugs.",
+      "server_version": "1.18.30.04",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.18.30.04.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.18.30.04.zip"
+      },
+      "scraped_preview": true,
+      "preview_server_version": "1.18.30.33",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.18.30.33.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.18.30.33.zip"
+      }
+    },
+    "1.17.1": {
+      "version_number": "1.17.1",
+      "update_title": "Standard Release",
+      "description": "1.17.1 is a hotfix to Bedrock Edition released only for Nintendo Switch on June 14, 2021. This version is still compatible with all Bedrock platforms running on 1.17.0.",
+      "server_version": "1.17.1.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.17.1.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.17.1.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.17.11": {
+      "version_number": "1.17.11",
+      "update_title": "Standard Release",
+      "description": "1.17.11 is a hotfix to Bedrock Edition released on August 9, 2021, which fixes some critical bugs. This version is still compatible with all Bedrock platforms running on 1.17.10.",
+      "server_version": "1.17.11.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.17.11.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.17.11.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.16.221": {
+      "version_number": "1.16.221",
+      "update_title": "Standard Release",
+      "description": "1.16.221 is a hotfix to Bedrock Edition released on April 22, 2021, which fixes bugs.",
+      "server_version": "1.16.221.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.221.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.221.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.16.201": {
+      "version_number": "1.16.201",
+      "update_title": "Standard Release",
+      "description": "1.16.201 is a hotfix to Bedrock Edition, released on December 15, 2020, which fixes bugs. This is the final version released in 2020.",
+      "server_version": "1.16.201.03",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.201.03.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.201.03.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.17.2": {
+      "version_number": "1.17.2",
+      "update_title": "Standard Release",
+      "description": "1.17.2 is a hotfix to Bedrock Edition released on June 22, 2021, which fixes bugs related to world generation.",
+      "server_version": "1.17.2.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.17.2.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.17.2.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.16.1.04": {
+      "version_number": "1.16.1.04",
+      "update_title": "Standard Release",
+      "description": "1.16.1.04 is a hotfix to Bedrock Edition released only for PlayStation 4 on July 16, 2020 to improve stability in the game.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.1.04.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.1.04.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.16.101": {
+      "version_number": "1.16.101",
+      "update_title": "Standard Release",
+      "description": "1.16.101 is a hotfix to Bedrock Edition, released for Android, iOS, iPadOS, Fire OS on November 23, 2020, and Nintendo Switch on November 24, 2020, which fixes bugs. This version is still compatible with all Bedrock platforms running on 1.16.100.",
+      "server_version": "1.16.101.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.101.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.101.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.16.60": {
+      "version_number": "1.16.60",
+      "update_title": "Standard Release",
+      "description": "1.16.60 is a minor update to Bedrock Edition released only for PlayStation 4 on September 23, 2020, which improves stability and reduces crashes.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.60.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.60.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.14.60": {
+      "version_number": "1.14.60",
+      "update_title": "Standard Release",
+      "description": "1.14.60 is a hotfix to Bedrock Edition released on April 15, 2020, which fixes bugs. It is the last version of Minecraft to support iOS 8.",
+      "server_version": "1.14.60.5",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.14.60.5.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.14.60.5.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.16.40": {
+      "version_number": "1.16.40",
+      "update_title": "Standard Release",
+      "description": "1.16.40 is a minor update to Bedrock Edition which fixes bugs. 1.16.40 was released for the PlayStation 4 on August 26, 2020, all other platforms except iOS, iPadOS, Nintendo Switch and Fire TV on September 3, 2020, iOS, iPadOS, and Fire TV on September 4, 2020, and finally Nintendo Switch on September 11, 2020. This version is still compatible with all Bedrock platforms running on 1.16.20 and 1.16.21.",
+      "server_version": "1.16.40.02",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.40.02.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.40.02.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.16.42": {
+      "version_number": "1.16.42",
+      "update_title": "Standard Release",
+      "description": "1.16.42 is a hotfix to Bedrock Edition released only for the PlayStation 4 on September 22, 2020, which added support for the PlayStation VR. This version was re-released immediately after to fix further bugs.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.42.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.42.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.16.1.03": {
+      "version_number": "1.16.1.03",
+      "update_title": "Standard Release",
+      "description": "1.16.1.03 is a hotfix to Bedrock Edition released only for PlayStation 4 on July 8, 2020, to try to fix an issue where the game would get stuck on the loading screen and potentially crash.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.1.03.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.1.03.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.16.21": {
+      "version_number": "1.16.21",
+      "update_title": "Standard Release",
+      "description": "1.16.21 is a hotfix to Bedrock Edition released only for the Nintendo Switch on August 20, 2020, which fixed a stability issue relating to the home screen while signed in.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.21.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.21.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.16.50": {
+      "version_number": "1.16.50",
+      "update_title": "Standard Release",
+      "description": "1.16.50 is a minor update to Bedrock Edition released only for iOS and iPadOS on September 22, 2020, which fixes bugs. This version is still compatible with all Bedrock platforms running on 1.16.20 or higher. It is the last update to run on iOS 9 and 32-bit iOS 10.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.50.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.50.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.16.1": {
+      "version_number": "1.16.1",
+      "update_title": "Standard Release",
+      "description": "1.16.1 is a hotfix to Bedrock Edition released on June 29, 2020 for Android, Gear VR, Windows 10 and Windows 10 Mobile, June 30, 2020 for Fire OS, Xbox One, and PS4, July 1, 2020 for Fire TV, July 3, 2020 for Nintendo Switch, and July 6, 2020 for iOS and iPadOS, which fixes bugs.",
+      "server_version": "1.16.1.02",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.1.02.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.1.02.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.14.21": {
+      "version_number": "1.14.21",
+      "update_title": "Standard Release",
+      "description": "1.14.21 is a hotfix to Bedrock Edition released only for Fire tablets on January 31, 2020, which fixes two Realms bugs.",
+      "server_version": "1.14.21.0",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.14.21.0.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.14.21.0.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.16.10": {
+      "version_number": "1.16.10",
+      "update_title": "Standard Release",
+      "description": "1.16.10 is a minor update to Bedrock Edition released on July 21, 2020, which adds a warning on deprecated devices (mainly for Gear VR and Windows 10 Mobile) and fixes a bug for mobile devices. This update was not released for consoles.",
+      "server_version": "1.16.10.02",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.10.02.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.10.02.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.14.41": {
+      "version_number": "1.14.41",
+      "update_title": "Standard Release",
+      "description": "1.14.41 is a hotfix to Bedrock Edition released only for PlayStation 4 on March 3, 2020.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.14.41.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.14.41.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.16.61": {
+      "version_number": "1.16.61",
+      "update_title": "Standard Release",
+      "description": "1.16.61 is a hotfix to Bedrock Edition released only for PlayStation 4 on September 25, 2020, which fixes bugs and crashes.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.61.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.61.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.16.220": {
+      "version_number": "1.16.220",
+      "update_title": "Standard Release",
+      "description": "1.16.220 is a minor update to Bedrock Edition released on April 6, 2021, which fixes bugs.",
+      "server_version": "1.16.220.02",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.220.02.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.220.02.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.14.30": {
+      "version_number": "1.14.30",
+      "update_title": "Standard Release",
+      "description": "1.14.30 is a minor update to Bedrock Edition released on February 11, 2020 for most platforms and February 18, 2020 for Nintendo Switch, which fixes bugs.",
+      "server_version": "1.14.32.1",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.14.32.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.14.32.1.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.17.10": {
+      "version_number": "1.17.10",
+      "update_title": "Standard Release",
+      "description": "1.17.10 is a minor update to Bedrock Edition released on July 13, 2021, which added candles, brought additional parity with Java Edition, experimental features for 1.18.0 and fixed bugs.",
+      "server_version": "1.17.10.04",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.17.10.04.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.17.10.04.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.14.20": {
+      "version_number": "1.14.20",
+      "update_title": "Standard Release",
+      "description": "1.14.20 is a minor update to Bedrock Edition released on January 28, 2020 for most platforms and February 4, 2020 for Nintendo Switch, which fixes bugs.This is the first version released in 2020.",
+      "server_version": "1.14.20.1",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.14.20.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.14.20.1.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.16.210": {
+      "version_number": "1.16.210",
+      "update_title": "Standard Release",
+      "description": "1.16.210 is a minor update to Bedrock Edition released on March 9, 2021, which adds new ambient sounds to the Nether, and fixes bugs. This is the first version released in 2021.",
+      "server_version": "1.16.210.06",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.210.06.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.210.06.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.17.30": {
+      "version_number": "1.17.30",
+      "update_title": "Standard Release",
+      "description": "1.17.30 is a minor update to Bedrock Edition released on September 21, 2021, which brought additional parity with Java Edition, new features behind the experimental toggle, fixed bugs, and an updated logo on the menu screen. It also effectively removed the Far Lands from Bedrock Edition.",
+      "server_version": "1.17.31.01",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.17.31.01.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.17.31.01.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.16.20": {
+      "version_number": "1.16.20",
+      "update_title": "Standard Release",
+      "description": "1.16.20 is a minor update to Bedrock Edition released on August 11, 2020, which adds piglin brutes, as well as changes to sounds, block behaviors, technical changes, and fixes bugs.",
+      "server_version": "1.16.20.03",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.20.03.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.20.03.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.16.200": {
+      "version_number": "1.16.200",
+      "update_title": "Standard Release",
+      "description": "1.16.200 is a minor update to Bedrock Edition, released on December 8, 2020, which implements RenderDragon to Windows 10 and adds new audio settings, ray tracing features, changes to death messages and fixes bugs. This version also drops support for third party shader resource packs for Windows 10 or console versions.",
+      "server_version": "1.16.200.02",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.200.02.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.200.02.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.17.0": {
+      "version_number": "1.17.0",
+      "update_title": "Caves & Cliffs: Part I",
+      "description": "1.17.0, the first release of Caves & Cliffs: Part I, is a major update to Bedrock Edition released on June 8, 2021. It was first announced during Minecraft Live 2020 on October 3, 2020. This update added amethyst geodes along with amethyst blocks and items, copper ore and its derived forms, deepslate and its variants, and the goat, glow squid and axolotl mobs. The development versions of 1.16.200, 1.16.210, and 1.16.220 contain some of the Caves & Cliffs features through Experimental Gameplay; however, they are not included in the full release of those versions.",
+      "server_version": "1.17.0.03",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.17.0.03.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.17.0.03.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.16.100": {
+      "version_number": "1.16.100",
+      "update_title": "Standard Release",
+      "description": "1.16.100 is a minor update to Bedrock Edition released for Nintendo Switch on November 16, 2020, and released for other platforms on November 17, 2020, which adds new commands, expanding and improving the add-on and script engine mechanics, changes to certain block mechanics/gameplay, more parity from Java Edition, realms and featured server support for PlayStation 4 and 5, revamps the achievement/trophy UI, and fixes bugs.",
+      "server_version": "1.16.100.04",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.100.04.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.100.04.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.16.0": {
+      "version_number": "1.16.0",
+      "update_title": "Nether Update",
+      "description": "1.16.0, the first release of the Nether Update, is a major update to Bedrock Edition released on June 23, 2020. This update overhauled the Nether, adding new biomes, blocks, and mobs to it, as well as adding several features that were formerly Java Edition exclusives.\nVersion 1.15.0 was skipped.",
+      "server_version": "1.16.0.2",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.0.2.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.0.2.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.11.4": {
+      "version_number": "1.11.4",
+      "update_title": "Standard Release",
+      "description": "1.11.4 is a hotfix to Bedrock Edition released on May 23, 2019, which fixes bugs.",
+      "server_version": "1.11.4.2",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.11.4.2.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.11.4.2.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.13.3": {
+      "version_number": "1.13.3",
+      "update_title": "Standard Release",
+      "description": "1.13.3 is a hotfix to Bedrock Edition released only for iOS and iPadOS on November 20, 2019, which fixes several crashes.",
+      "server_version": "1.13.3.0",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.13.3.0.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.13.3.0.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.13.2": {
+      "version_number": "1.13.2",
+      "update_title": "Standard Release",
+      "description": "1.13.2 is a hotfix to Bedrock Edition released only for iOS and iPadOS on November 14, 2019, which fixed a crash.",
+      "server_version": "1.13.2.0",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.13.2.0.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.13.2.0.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.14.0.12": {
+      "version_number": "1.14.0.12",
+      "update_title": "Standard Release",
+      "description": "1.14.0.12 is a hotfix to Bedrock Edition released only for PlayStation 4 on December 13, 2019.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.14.0.12.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.14.0.12.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.11.2": {
+      "version_number": "1.11.2",
+      "update_title": "Standard Release",
+      "description": "1.11.2 is a hotfix to Bedrock Edition released only for Xbox One on May 2, 2019. It is compatible with 1.11.0 and 1.11.1 servers.",
+      "server_version": "1.11.2.1",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.11.2.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.11.2.1.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.12.1": {
+      "version_number": "1.12.1",
+      "update_title": "Standard Release",
+      "description": "1.12.1 is a hotfix to Bedrock Edition released on September 2–3, 2019, which fixes bugs.",
+      "server_version": "1.12.1.1",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.12.1.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.12.1.1.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.8.1": {
+      "version_number": "1.8.1",
+      "update_title": "Standard Release",
+      "description": "1.8.1 is a hotfix to Bedrock Edition released for Nintendo Switch on December 17, 2018, and for the other platforms on January 8, 2019, which fixes two bugs. This is the final version released in 2018 for the Nintendo Switch, and the first version released in 2019 for all other platforms.",
+      "server_version": "1.8.1.2",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.8.1.2.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.8.1.2.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.7.1": {
+      "version_number": "1.7.1",
+      "update_title": "Standard Release",
+      "description": "1.7.1 is a hotfix to Bedrock Edition released exclusively for Windows 10 and Xbox One on November 7, 2018, which fixes bugs that occurred on those platforms. This version is compatible with 1.7.0 servers.",
+      "server_version": "1.7.0.13",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.7.0.13.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.7.0.13.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.13.0": {
+      "version_number": "1.13.0",
+      "update_title": "Standard Release",
+      "description": "1.13.0 is a major update for Bedrock Edition released on October 29, 2019. It focuses on adding the final remaining features from Village & Pillage that were not included in previous updates, along with some other features, including a character creator, and makes even more improvements to map-making and commands.",
+      "server_version": "1.13.0.34",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.13.0.34.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.13.0.34.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.10.1": {
+      "version_number": "1.10.1",
+      "update_title": "Standard Release",
+      "description": "1.10.1 is a hotfix to Bedrock Edition released only for Windows 10 on March 27, 2019, which fixes a trial purchasing issue.",
+      "server_version": "1.10.0.7",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.10.0.7.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.10.0.7.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.13.1": {
+      "version_number": "1.13.1",
+      "update_title": "Standard Release",
+      "description": "1.13.1 is a hotfix to Bedrock Edition released on November 12, 2019, which fixes bugs.",
+      "server_version": "1.13.1.5",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.13.1.5.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.13.1.5.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.11.1": {
+      "version_number": "1.11.1",
+      "update_title": "Standard Release",
+      "description": "1.11.1 is a hotfix to Bedrock Edition released on April 26, 2019, which added an achievement, and fixes bugs from 1.11.0. It is compatible with 1.11.0 servers.",
+      "server_version": "1.11.1.2",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.11.1.2.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.11.1.2.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.6.2": {
+      "version_number": "1.6.2",
+      "update_title": "Standard Release",
+      "description": "1.6.2 is a hotfix to Bedrock Edition released exclusively for iOS on October 1, 2018, which fixes bugs.",
+      "server_version": "1.6.1.0",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.6.1.0.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.6.1.0.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.5.3": {
+      "version_number": "1.5.3",
+      "update_title": "Standard Release",
+      "description": "1.5.3 is a hotfix to Bedrock Edition released on August 7, 2018, which fixes bugs.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.5.3.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.5.3.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.4.3": {
+      "version_number": "1.4.3",
+      "update_title": "Standard Release",
+      "description": "1.4.3 is a hotfix to Bedrock Edition released only for iOS on June 5, 2018, which fixes an account issue. It is compatible with 1.4.2 servers and did not include any code changes.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.4.3.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.4.3.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.11.3": {
+      "version_number": "1.11.3",
+      "update_title": "Standard Release",
+      "description": "1.11.3 is a hotfix for Bedrock Edition released on May 17, 2019, for all Bedrock devices except Nintendo Switch, which fixed some bugs. It is not compatible with 1.11.0 through 1.11.2 servers.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.11.3.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.11.3.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.5.1": {
+      "version_number": "1.5.1",
+      "update_title": "Standard Release",
+      "description": "1.5.1 is a hotfix to Bedrock Edition released on July 19-20, 2018, which fixes bugs.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.5.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.5.1.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.5.2": {
+      "version_number": "1.5.2",
+      "update_title": "Standard Release",
+      "description": "1.5.2 is a hotfix to Bedrock Edition released on July 24-25, 2018, which fixes bugs.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.5.2.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.5.2.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.6.1": {
+      "version_number": "1.6.1",
+      "update_title": "Standard Release",
+      "description": "1.6.1 is a hotfix to Bedrock Edition released on September 17, 2018, which fixes bugs.",
+      "server_version": "1.6.1.0",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.6.1.0.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.6.1.0.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.4.4": {
+      "version_number": "1.4.4",
+      "update_title": "Standard Release",
+      "description": "1.4.4 is a hotfix to Bedrock Edition released exclusively for Android and Fire OS on June 7, 2018, which fixes one bug. It is compatible with 1.4.2 and 1.4.3 servers.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.4.4.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.4.4.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.12.0": {
+      "version_number": "1.12.0",
+      "update_title": "Standard Release",
+      "description": "1.12.0 is a major update to Bedrock Edition released on July 9–10, 2019. This update mostly focuses on map-making features by re-adding the camera, adding new game rules and command-related features, and expanding add-on mechanics.",
+      "server_version": "1.12.0.28",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.12.0.28.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.12.0.28.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.14.1": {
+      "version_number": "1.14.1",
+      "update_title": "Standard Release",
+      "description": "1.14.1 is a hotfix to Bedrock Edition released on December 18, 2019 for most platforms and December 19, 2019 for PlayStaton 4 and Nintendo Switch, which fixes bugs. This is the final version released in 2019.",
+      "server_version": "1.14.1.4",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.14.1.4.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.14.1.4.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.14.0": {
+      "version_number": "1.14.0",
+      "update_title": "Buzzy Bees",
+      "description": "1.14.0, the first release of Buzzy Bees, is a major update to Bedrock Edition released on December 10–11, 2019, alongside Java Edition 1.15. It adds bees and bee-related items, such as honey blocks and beehives. It also marks the arrival of Bedrock Edition on PlayStation 4, discontinuing the PlayStation 4 Edition and hence Legacy Console Edition as a whole.",
+      "server_version": "1.14.0.9",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.14.0.9.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.14.0.9.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.11.0": {
+      "version_number": "1.11.0",
+      "update_title": "Village & Pillage",
+      "description": "1.11.0, the first full release of Village & Pillage, is a major update to Bedrock Edition that was released on April 23, 2019. It adds many of the features of Village & Pillage that were not previously added in the past three versions.",
+      "server_version": "1.11.0.23",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.11.0.23.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.11.0.23.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.9.0": {
+      "version_number": "1.9.0",
+      "update_title": "Standard Release",
+      "description": "1.9.0, the second experimental release for Village & Pillage, is a major update to Bedrock Edition released on February 5, 2019. It adds more features from the Village & Pillage update that weren't added in 1.8.0, such as new flowers, pillagers, new types of stairs and slabs, different wood types for signs, and new blocks. This is the first version released in 2019 for the Nintendo Switch.",
+      "server_version": "1.9.0.15",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.9.0.15.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.9.0.15.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.8.0": {
+      "version_number": "1.8.0",
+      "update_title": "Standard Release",
+      "description": "1.8.0, the first release of the Holiday Update, is a major update to Bedrock Edition and the first experimental release for Village & Pillage, released on December 11, 2018. It adds Village & Pillage features including pandas, bamboo, scaffolding, crossbows, and cats as a separate mob from ocelots, and more. This is the final version released in 2018, except for the Nintendo Switch.",
+      "server_version": "1.8.0.24",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.8.0.24.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.8.0.24.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.7.0": {
+      "version_number": "1.7.0",
+      "update_title": "Standard Release",
+      "description": "1.7.0 is a major update to Bedrock Edition released on October 15–16, 2018. It adds the /scoreboard command, the ability to eat food in Creative, The Hive multiplayer server, and highlights for player names in the chat, and also fixes bugs. This was the last version to support Android 4.0 (Ice Cream Sandwich) and Android 4.1 (Jelly Bean).",
+      "server_version": "1.7.0.13",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.7.0.13.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.7.0.13.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.6.0": {
+      "version_number": "1.6.0",
+      "update_title": "Standard Release",
+      "description": "1.6.0 is a major update to Bedrock Edition released on August 28, 2018. It adds many of the Update Aquatic features that were not yet added within the first two phases such as phantoms and the Slow Falling status effect, as well as many changes and bug fixes.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.6.0.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.6.0.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.5.0": {
+      "version_number": "1.5.0",
+      "update_title": "Update Aquatic",
+      "description": "1.5.0, also known as Phase Two of the Update Aquatic, is a major update to Bedrock Edition released on July 10, 2018. It adds many of the Update Aquatic features not included within 1.4.0, such as turtles, conduits, bubble columns, and more along with numerous changes and fixes.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.5.0.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.5.0.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.10.0": {
+      "version_number": "1.10.0",
+      "update_title": "Texture Update",
+      "description": "1.10.0, the release of the Texture Update and the third experimental release for Village & Pillage, is a major update to Bedrock Edition released on March 19, 2019. It adds some more features of Village & Pillage that were not added in either 1.8.0 or 1.9.0, such as shields, pillager outposts, new types of villagers, new textures and more.",
+      "server_version": "1.10.0.7",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.10.0.7.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.10.0.7.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.2.14": {
+      "version_number": "1.2.14",
+      "update_title": "Standard Release",
+      "description": "Failed to load details for version 1.2.14.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.2.14.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.2.14.zip"
+      }
+    },
+    "1.2.5": {
+      "version_number": "1.2.5",
+      "update_title": "Standard Release",
+      "description": "Failed to load details for version 1.2.5.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.2.5.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.2.5.zip"
+      }
+    },
+    "1.2.3": {
+      "version_number": "1.2.3",
+      "update_title": "Standard Release",
+      "description": "Failed to load details for version 1.2.3.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.2.3.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.2.3.zip"
+      }
+    },
+    "1.2.7": {
+      "version_number": "1.2.7",
+      "update_title": "Standard Release",
+      "description": "Failed to load details for version 1.2.7.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.2.7.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.2.7.zip"
+      }
+    },
+    "1.2.2": {
+      "version_number": "1.2.2",
+      "update_title": "Standard Release",
+      "description": "Failed to load details for version 1.2.2.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.2.2.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.2.2.zip"
+      }
+    },
+    "1.2.6": {
+      "version_number": "1.2.6",
+      "update_title": "Standard Release",
+      "description": "Failed to load details for version 1.2.6.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.2.6.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.2.6.zip"
+      }
+    },
+    "1.1.3": {
+      "version_number": "1.1.3",
+      "update_title": "Standard Release",
+      "description": "Failed to load details for version 1.1.3.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.1.3.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.1.3.zip"
+      }
+    },
+    "1.4.1": {
+      "version_number": "1.4.1",
+      "update_title": "Standard Release",
+      "description": "Failed to load details for version 1.4.1.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.4.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.4.1.zip"
+      }
+    },
+    "1.1.0": {
+      "version_number": "1.1.0",
+      "update_title": "Discovery Update",
+      "description": "Failed to load details for version 1.1.0.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.1.0.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.1.0.zip"
+      }
+    },
+    "1.2.9": {
+      "version_number": "1.2.9",
+      "update_title": "Standard Release",
+      "description": "Failed to load details for version 1.2.9.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.2.9.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.2.9.zip"
+      }
+    },
+    "1.1.1": {
+      "version_number": "1.1.1",
+      "update_title": "Standard Release",
+      "description": "Failed to load details for version 1.1.1.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.1.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.1.1.zip"
+      }
+    },
+    "1.1.4": {
+      "version_number": "1.1.4",
+      "update_title": "Standard Release",
+      "description": "Failed to load details for version 1.1.4.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.1.4.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.1.4.zip"
+      }
+    },
+    "1.1.2": {
+      "version_number": "1.1.2",
+      "update_title": "Standard Release",
+      "description": "Failed to load details for version 1.1.2.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.1.2.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.1.2.zip"
+      }
+    },
+    "1.2.13": {
+      "version_number": "1.2.13",
+      "update_title": "Standard Release",
+      "description": "Failed to load details for version 1.2.13.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.2.13.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.2.13.zip"
+      }
+    },
+    "1.1.7": {
+      "version_number": "1.1.7",
+      "update_title": "Standard Release",
+      "description": "Failed to load details for version 1.1.7.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.1.7.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.1.7.zip"
+      }
+    },
+    "1.2.15": {
+      "version_number": "1.2.15",
+      "update_title": "Standard Release",
+      "description": "1.2.15 is a hotfix to Bedrock Edition released only for iOS on April 12, 2018. It is compatible with 1.2.13 servers.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.2.15.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.2.15.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.2.11": {
+      "version_number": "1.2.11",
+      "update_title": "Standard Release",
+      "description": "1.2.11 is a hotfix to Bedrock Edition released on March 8, 2018 for most platforms, and March 9, 2018 for Android and iOS, which fixes bugs. While it wasn't the last update to 1.2.0, it was the last one before the beta builds of 1.4.0 started.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.2.11.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.2.11.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.2.8": {
+      "version_number": "1.2.8",
+      "update_title": "Standard Release",
+      "description": "1.2.8 is a hotfix to Bedrock Edition released for Android, iOS, and Gear VR on December 18, 2017 and all other platforms on December 19, 2017. This is the final version released in 2017.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.2.8.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.2.8.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.2.6.1": {
+      "version_number": "1.2.6.1",
+      "update_title": "Standard Release",
+      "description": "1.2.6.1 is a hotfix to Bedrock Edition released only for Android on December 7, 2017.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.2.6.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.2.6.1.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.2.13.60": {
+      "version_number": "1.2.13.60",
+      "update_title": "1.2.16",
+      "description": "1.2.13.60 (1.2.16 on iOS) is a hotfix to Bedrock Edition released on April 20, 2018. It is compatible with 1.2.13 servers.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.2.13.60.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.2.13.60.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.2.1": {
+      "version_number": "1.2.1",
+      "update_title": "Standard Release",
+      "description": "1.2.1 is a minor update to Bedrock Edition released on September 26, 2017, which fixed several bugs and crashes.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.2.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.2.1.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.4.2": {
+      "version_number": "1.4.2",
+      "update_title": "Standard Release",
+      "description": "1.4.2 is a hotfix to Bedrock Edition released on May 23, 2018, which fixes bugs.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.4.2.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.4.2.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.1.5": {
+      "version_number": "1.1.5",
+      "update_title": "Standard Release",
+      "description": "1.1.5 was an update for Pocket Edition and its derived editions that added new and updated existing Marketplace content as well as fixing several bugs. This update is the last version for Pocket Edition (except for iOS, its last version would be 1.1.7) and all editions derived from it, which, aside from Apple TV Edition, would all eventually be merged into Bedrock Edition. It made it possible for additional content to be added to the Marketplace without the need for a full update.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.1.5.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.1.5.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.2.10": {
+      "version_number": "1.2.10",
+      "update_title": "Standard Release",
+      "description": "1.2.10 is a minor update to Bedrock Edition released on February 7, 2018. Due to stability issues, this version did not include all of the fixes from the 1.2.10 beta.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.2.10.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.2.10.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.4.0": {
+      "version_number": "1.4.0",
+      "update_title": "Update Aquatic",
+      "description": "1.4.0, also known as Phase One of the Update Aquatic, is a major update to Bedrock Edition released on May 16, 2018. It adds many new features focused primarily around ocean-related content, such as dolphins, shipwrecks, fish, tridents, buried treasure, and many other changes and fixes. Improvements to the technical aspect of the game were also added in this update, as well as an option to toggle various features from Education Edition into worlds.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.4.0.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.4.0.zip"
+      },
+      "scraped_preview": true
+    },
+    "1.2.0": {
+      "version_number": "1.2.0",
+      "update_title": "Better Together Update",
+      "description": "1.2.0, the first release of the Better Together Update, is a first release of Bedrock Edition or simply Minecraft. Bedrock Edition is a continuation of Pocket Edition and its derived editions. It added support for the Xbox One, introduced cross-platform gameplay, and brought the vanilla game much closer to feature parity with Legacy Console Edition by adding features such as new world options, armor stands, banners, jukeboxes, book and quills, fireworks, and parrots. It was released on September 20, 2017, although the full rollout took a few days due to a large number of distribution channels and target devices involved. It should also be noted that there is no changelog documenting differences between this update and the last version of Xbox One Edition.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.2.0.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.2.0.zip"
+      },
+      "scraped_preview": true
     }
   }
 }

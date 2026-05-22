@@ -1,14 +1,15 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T08:00:58.819Z",
+  "last_updated": "2026-05-22T11:46:35.716Z",
   "data": {
     "version_number": "1.7.0",
     "update_title": "Standard Release",
-    "description": "Minecraft Bedrock Edition version 1.7.0.",
-    "server_version": "N/A",
+    "description": "1.7.0 is a major update to Bedrock Edition released on October 15–16, 2018. It adds the /scoreboard command, the ability to eat food in Creative, The Hive multiplayer server, and highlights for player names in the chat, and also fixes bugs. This was the last version to support Android 4.0 (Ice Cream Sandwich) and Android 4.1 (Jelly Bean).",
+    "server_version": "1.7.0.13",
     "download_urls": {
-      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.7.0.zip",
-      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.7.0.zip"
-    }
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.7.0.13.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.7.0.13.zip"
+    },
+    "scraped_preview": true
   }
 }

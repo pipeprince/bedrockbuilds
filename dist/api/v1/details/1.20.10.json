@@ -1,14 +1,20 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T08:00:58.811Z",
+  "last_updated": "2026-05-22T11:46:35.706Z",
   "data": {
     "version_number": "1.20.10",
     "update_title": "Standard Release",
-    "description": "Minecraft Bedrock Edition version 1.20.10.",
-    "server_version": "N/A",
+    "description": "1.20.10 (1.20.11 on Xbox) is a minor update to Bedrock Edition released on July 11, 2023, which brings more parity from Java Edition and fixes bugs.",
+    "server_version": "1.20.11.01",
     "download_urls": {
-      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.10.zip",
-      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.10.zip"
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.11.01.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.11.01.zip"
+    },
+    "scraped_preview": true,
+    "preview_server_version": "1.20.10.24",
+    "preview_download_urls": {
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.10.24.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.10.24.zip"
     }
   }
 }

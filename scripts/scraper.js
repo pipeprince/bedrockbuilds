@@ -56,7 +56,7 @@ async function scrapeVersionDetails(version, updateTitle) {
   try {
     const res = await fetch(url, {
       headers: {
-        'User-Agent': 'MinecraftVersionBot/1.0 (pterodactyl-panel) PHP/Laravel'
+        'User-Agent': 'MinecraftVersionBot/1.0 PHP/Laravel'
       }
     });
     if (!res.ok) {
@@ -117,13 +117,74 @@ async function scrapeVersionDetails(version, updateTitle) {
       linux: `https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-${versionToUse}.zip`,
       windows: `https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-${versionToUse}.zip`
     };
-    return {
+
+    let previewServerVersion = null;
+    let previewDownloadUrls = null;
+    try {
+      const devUrl = `https://minecraft.wiki/w/Bedrock_Edition_${version}/Development_versions`;
+      const devRes = await fetch(devUrl, {
+        headers: { 'User-Agent': 'MinecraftVersionBot/1.0 PHP/Laravel' }
+      });
+      if (devRes.ok) {
+        const devHtml = await devRes.text();
+        const $dev = cheerio.load(devHtml);
+        const devToc = $dev('#toc');
+        if (devToc.length > 0) {
+          const previewMatches = [];
+          $dev('#toc .toctext').each((_, el) => {
+            const text = $dev(el).text().trim();
+            if (text.startsWith('Preview ') || text.startsWith('Beta ')) {
+              const match = text.match(/(?:Preview|Beta)\s+(\d+\.\d+\.\d+(?:\.\d+)?)/);
+              if (match) previewMatches.push(match[1]);
+            }
+          });
+          if (previewMatches.length > 0) {
+            previewServerVersion = previewMatches[previewMatches.length - 1];
+          }
+        }
+      }
+    } catch (e) {
+      console.error(`[Scraper] Failed to fetch preview details for ${version}`);
+    }
+
+    if (previewServerVersion) {
+      let linuxPreviewUrl = `https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-${previewServerVersion}.zip`;
+      try {
+        const checkRes = await fetch(linuxPreviewUrl, { method: 'HEAD' });
+        if (!checkRes.ok && !previewServerVersion.startsWith('1.')) {
+          const altVersion = '1.' + previewServerVersion;
+          const altLinuxUrl = `https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-${altVersion}.zip`;
+          const altRes = await fetch(altLinuxUrl, { method: 'HEAD' });
+          if (altRes.ok) {
+            previewServerVersion = altVersion;
+            linuxPreviewUrl = altLinuxUrl;
+          }
+        }
+      } catch (e) {
+        // ignore
+      }
+
+      previewDownloadUrls = {
+        linux: linuxPreviewUrl,
+        windows: `https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-${previewServerVersion}.zip`
+      };
+    }
+
+    const result = {
       version_number: version,
       update_title: updateTitle || 'Standard Update',
       description,
       server_version: serverVersion,
-      download_urls: downloadUrls
+      download_urls: downloadUrls,
+      scraped_preview: true
     };
+
+    if (previewServerVersion) {
+      result.preview_server_version = previewServerVersion;
+      result.preview_download_urls = previewDownloadUrls;
+    }
+
+    return result;
   } catch (e) {
     console.error(`[Scraper] Failed to scrape details for ${version}:`, e.message);
     return {
@@ -145,7 +206,7 @@ async function main() {
   try {
     const response = await fetch(apiUrl, {
       headers: {
-        'User-Agent': 'MinecraftVersionBot/1.0 (pterodactyl-panel) PHP/Laravel'
+        'User-Agent': 'MinecraftVersionBot/1.0 PHP/Laravel'
       }
     });
     if (!response.ok) {
@@ -196,31 +257,20 @@ async function main() {
     console.log(`[Scraper] Found ${uniqueVersions.length} versions. Syncing details...`);
     const finalVersions = [];
     let scrapeCount = 0;
-    for (const v of uniqueVersions) {
-      const cached = db.versions[v.version_number];
-      if (cached && cached.server_version && cached.server_version !== 'N/A' && cached.server_version !== 'Error') {
-        finalVersions.push(cached);
-      } else {
-        if (scrapeCount < 500) {
-          await delay(800);
+    for (let i = 0; i < uniqueVersions.length; i += 30) {
+      const chunk = uniqueVersions.slice(i, i + 30);
+      const promises = chunk.map(async (v) => {
+        const cached = db.versions[v.version_number];
+        if (cached && cached.server_version && cached.server_version !== 'N/A' && cached.server_version !== 'Error' && cached.scraped_preview) {
+          return cached;
+        } else {
           const details = await scrapeVersionDetails(v.version_number, v.title);
           db.versions[v.version_number] = details;
-          finalVersions.push(details);
-          scrapeCount++;
-        } else {
-          const fallback = cached || {
-            version_number: v.version_number,
-            update_title: v.title,
-            description: `Minecraft Bedrock Edition version ${v.version_number}.`,
-            server_version: 'N/A',
-            download_urls: {
-              linux: `https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-${v.version_number}.zip`,
-              windows: `https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-${v.version_number}.zip`
-            }
-          };
-          finalVersions.push(fallback);
+          return details;
         }
-      }
+      });
+      const results = await Promise.all(promises);
+      finalVersions.push(...results);
     }
     fs.writeFileSync(DB_PATH, JSON.stringify(db, null, 2), 'utf-8');
     console.log('[Scraper] DB Cache saved.');

@@ -1,6 +1,6 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T08:00:58.804Z",
+  "last_updated": "2026-05-22T11:46:35.698Z",
   "data": {
     "version_number": "26.10",
     "update_title": "Tiny Takeover",
@@ -9,6 +9,12 @@
     "download_urls": {
       "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.10.4.zip",
       "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.10.4.zip"
+    },
+    "scraped_preview": true,
+    "preview_server_version": "1.26.10.26",
+    "preview_download_urls": {
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.26.10.26.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.26.10.26.zip"
     }
   }
 }

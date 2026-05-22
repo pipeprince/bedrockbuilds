@@ -1,14 +1,20 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T08:00:58.812Z",
+  "last_updated": "2026-05-22T11:46:35.707Z",
   "data": {
     "version_number": "1.19.60",
     "update_title": "Standard Release",
-    "description": "Minecraft Bedrock Edition version 1.19.60.",
-    "server_version": "N/A",
+    "description": "1.19.60 is a minor update to Bedrock Edition released on February 7, 2023, which brought more parity with Java Edition, adds new spawn eggs, and fixes bugs. This is the first version released in 2023.",
+    "server_version": "1.19.61.01",
     "download_urls": {
-      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.60.zip",
-      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.60.zip"
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.61.01.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.61.01.zip"
+    },
+    "scraped_preview": true,
+    "preview_server_version": "1.19.60.27",
+    "preview_download_urls": {
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.19.60.27.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.19.60.27.zip"
     }
   }
 }

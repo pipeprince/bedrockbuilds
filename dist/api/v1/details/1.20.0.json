@@ -1,14 +1,20 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T08:00:58.811Z",
+  "last_updated": "2026-05-22T11:46:35.706Z",
   "data": {
     "version_number": "1.20.0",
     "update_title": "Trails & Tales",
-    "description": "Minecraft Bedrock Edition version 1.20.0.",
-    "server_version": "N/A",
+    "description": "1.20.0, the first release of Trails & Tales, is a major update to Bedrock Edition released on June 7, 2023. The update was announced at Minecraft Live 2022 on October 15, 2022, and its name was revealed at Minecraft Monthly on March 2, 2023. Trails & Tales focuses on letting the players express themselves through new building blocks and storytelling. It introduces trail ruins, the camel and sniffer mobs, the archaeology system, the cherry grove biome, and other features. This is also the first full release of the game on ChromeOS, following the \"early access\" phase.",
+    "server_version": "1.20.0.01",
     "download_urls": {
-      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.0.zip",
-      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.0.zip"
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.0.01.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.0.01.zip"
+    },
+    "scraped_preview": true,
+    "preview_server_version": "1.20.0.25",
+    "preview_download_urls": {
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.20.0.25.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.20.0.25.zip"
     }
   }
 }

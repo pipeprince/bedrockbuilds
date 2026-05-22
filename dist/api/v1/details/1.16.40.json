@@ -1,14 +1,15 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T08:00:58.816Z",
+  "last_updated": "2026-05-22T11:46:35.712Z",
   "data": {
     "version_number": "1.16.40",
     "update_title": "Standard Release",
-    "description": "Minecraft Bedrock Edition version 1.16.40.",
-    "server_version": "N/A",
+    "description": "1.16.40 is a minor update to Bedrock Edition which fixes bugs. 1.16.40 was released for the PlayStation 4 on August 26, 2020, all other platforms except iOS, iPadOS, Nintendo Switch and Fire TV on September 3, 2020, iOS, iPadOS, and Fire TV on September 4, 2020, and finally Nintendo Switch on September 11, 2020. This version is still compatible with all Bedrock platforms running on 1.16.20 and 1.16.21.",
+    "server_version": "1.16.40.02",
     "download_urls": {
-      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.40.zip",
-      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.40.zip"
-    }
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.40.02.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.40.02.zip"
+    },
+    "scraped_preview": true
   }
 }

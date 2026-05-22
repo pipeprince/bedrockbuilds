@@ -1,14 +1,15 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T08:00:58.817Z",
+  "last_updated": "2026-05-22T11:46:35.713Z",
   "data": {
     "version_number": "1.14.20",
     "update_title": "Standard Release",
-    "description": "Minecraft Bedrock Edition version 1.14.20.",
-    "server_version": "N/A",
+    "description": "1.14.20 is a minor update to Bedrock Edition released on January 28, 2020 for most platforms and February 4, 2020 for Nintendo Switch, which fixes bugs.This is the first version released in 2020.",
+    "server_version": "1.14.20.1",
     "download_urls": {
-      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.14.20.zip",
-      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.14.20.zip"
-    }
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.14.20.1.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.14.20.1.zip"
+    },
+    "scraped_preview": true
   }
 }

@@ -1,14 +1,15 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T08:00:58.815Z",
+  "last_updated": "2026-05-22T11:46:35.711Z",
   "data": {
     "version_number": "1.17.10",
     "update_title": "Standard Release",
-    "description": "Minecraft Bedrock Edition version 1.17.10.",
-    "server_version": "N/A",
+    "description": "1.17.10 is a minor update to Bedrock Edition released on July 13, 2021, which added candles, brought additional parity with Java Edition, experimental features for 1.18.0 and fixed bugs.",
+    "server_version": "1.17.10.04",
     "download_urls": {
-      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.17.10.zip",
-      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.17.10.zip"
-    }
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.17.10.04.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.17.10.04.zip"
+    },
+    "scraped_preview": true
   }
 }

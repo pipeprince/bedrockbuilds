@@ -1,14 +1,15 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T08:00:58.816Z",
+  "last_updated": "2026-05-22T11:46:35.712Z",
   "data": {
     "version_number": "1.16.100",
     "update_title": "Standard Release",
-    "description": "Minecraft Bedrock Edition version 1.16.100.",
-    "server_version": "N/A",
+    "description": "1.16.100 is a minor update to Bedrock Edition released for Nintendo Switch on November 16, 2020, and released for other platforms on November 17, 2020, which adds new commands, expanding and improving the add-on and script engine mechanics, changes to certain block mechanics/gameplay, more parity from Java Edition, realms and featured server support for PlayStation 4 and 5, revamps the achievement/trophy UI, and fixes bugs.",
+    "server_version": "1.16.100.04",
     "download_urls": {
-      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.100.zip",
-      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.100.zip"
-    }
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.100.04.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.100.04.zip"
+    },
+    "scraped_preview": true
   }
 }

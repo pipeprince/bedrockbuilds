@@ -1,14 +1,15 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T08:00:58.817Z",
+  "last_updated": "2026-05-22T11:46:35.713Z",
   "data": {
     "version_number": "1.16.0",
     "update_title": "Nether Update",
-    "description": "Minecraft Bedrock Edition version 1.16.0.",
-    "server_version": "N/A",
+    "description": "1.16.0, the first release of the Nether Update, is a major update to Bedrock Edition released on June 23, 2020. This update overhauled the Nether, adding new biomes, blocks, and mobs to it, as well as adding several features that were formerly Java Edition exclusives.\nVersion 1.15.0 was skipped.",
+    "server_version": "1.16.0.2",
     "download_urls": {
-      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.0.zip",
-      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.0.zip"
-    }
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.0.2.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.0.2.zip"
+    },
+    "scraped_preview": true
   }
 }

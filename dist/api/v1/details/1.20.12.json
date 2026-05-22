@@ -1,14 +1,15 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T08:00:58.811Z",
+  "last_updated": "2026-05-22T11:46:35.706Z",
   "data": {
     "version_number": "1.20.12",
     "update_title": "Standard Release",
-    "description": "Minecraft Bedrock Edition version 1.20.12.",
-    "server_version": "N/A",
+    "description": "1.20.12 is a hotfix to Bedrock Edition released on July 18, 2023, which fixes bugs.",
+    "server_version": "1.20.12.01",
     "download_urls": {
-      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.12.zip",
-      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.12.zip"
-    }
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.20.12.01.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.20.12.01.zip"
+    },
+    "scraped_preview": true
   }
 }

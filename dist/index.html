@@ -623,21 +623,55 @@ on:
       const ws = document.getElementById('details-workspace');
       if (!b) return;
       const isStable = b.server_version && b.server_version !== 'N/A';
+      
+      let winUrl = b.download_urls.windows;
+      let linUrl = b.download_urls.linux;
+      let winFilename = `bedrock-server-${b.server_version || b.version_number}.zip`;
+      let linFilename = winFilename;
+      let canDownload = isStable;
+      let badgeClass = isStable ? 'bg-brutal-green' : 'bg-brutal-red text-white';
+      let badgeText = isStable ? 'Available CDN' : 'Unreleased Mirror';
+      let btnClass = isStable ? 'bg-brutal-green hover:bg-emerald-400' : 'bg-brutal-gray text-brutal-black/50 cursor-not-allowed';
+      let opacityClass = isStable ? '' : 'opacity-80';
+
       let warningBannerHtml = '';
       if (!isStable) {
-        warningBannerHtml = `
-          <!-- Neubrutalism Red Warning Banner for Unreleased Server Binaries -->
-          <div class="bg-brutal-red text-white border-3 border-brutal-black p-4 shadow-[3px_3px_0px_0px_#111111] flex items-start gap-3 my-4">
-            <span class="text-2xl select-none">⚠️</span>
-            <div>
-              <h4 class="font-black text-sm uppercase tracking-wide">The server has not yet been officially released</h4>
-              <p class="text-xs text-white/90 font-bold mt-1 leading-snug">
-                Mojang / Microsoft has not yet released an official server binary for this version of Minecraft (which is classified as a Preview/Beta version). 
-                The official download link below is marked as speculative and may return a 404 error from Microsoft’s CDN until the server release is made publicly available.
-              </p>
+        if (b.preview_download_urls) {
+          winUrl = b.preview_download_urls.windows;
+          linUrl = b.preview_download_urls.linux;
+          winFilename = `bedrock-server-${b.preview_server_version}.zip`;
+          linFilename = winFilename;
+          canDownload = true;
+          badgeClass = 'bg-brutal-yellow text-black';
+          badgeText = 'Available Preview CDN';
+          btnClass = 'bg-brutal-yellow hover:bg-yellow-400';
+          opacityClass = '';
+          warningBannerHtml = `
+            <div class="bg-brutal-yellow border-3 border-brutal-black p-4 shadow-[3px_3px_0px_0px_#111111] flex items-start gap-3 my-4">
+              <span class="text-2xl select-none">🧪</span>
+              <div>
+                <h4 class="font-black text-brutal-black text-sm uppercase tracking-wide">Development Preview Server</h4>
+                <p class="text-xs text-brutal-black/90 font-bold mt-1 leading-snug">
+                  This build provides a dedicated server for a development/preview version. It is available to download but may be unstable.
+                </p>
+              </div>
             </div>
-          </div>
-        `;
+          `;
+        } else {
+          warningBannerHtml = `
+            <!-- Neubrutalism Red Warning Banner for Unreleased Server Binaries -->
+            <div class="bg-brutal-red text-white border-3 border-brutal-black p-4 shadow-[3px_3px_0px_0px_#111111] flex items-start gap-3 my-4">
+              <span class="text-2xl select-none">⚠️</span>
+              <div>
+                <h4 class="font-black text-sm uppercase tracking-wide">The server has not yet been officially released</h4>
+                <p class="text-xs text-white/90 font-bold mt-1 leading-snug">
+                  Mojang / Microsoft has not yet released an official server binary for this version of Minecraft (which is classified as a Preview/Beta version). 
+                  The official download link below is marked as speculative and may return a 404 error from Microsoft’s CDN until the server release is made publicly available.
+                </p>
+              </div>
+            </div>
+          `;
+        }
       }
       ws.innerHTML = `
         <div class="flex flex-col justify-between h-full gap-6">
@@ -666,37 +700,37 @@ on:
             <!-- Mirrors & Binaries -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
               <!-- Windows Server -->
-              <div class="bg-brutal-white border-3 border-brutal-black p-4 shadow-[3px_3px_0px_0px_#111111] flex flex-col justify-between ${!isStable ? 'opacity-80' : ''}">
+              <div class="bg-brutal-white border-3 border-brutal-black p-4 shadow-[3px_3px_0px_0px_#111111] flex flex-col justify-between ${opacityClass}">
                 <div>
                   <span class="text-xs font-mono font-bold text-gray-500 uppercase block mb-1">Windows Server ZIP</span>
-                  <code class="text-xs font-mono text-brutal-black font-bold block mb-1">bedrock-server-${b.server_version || b.version_number}.zip</code>
-                  <span class="text-[9px] font-bold text-brutal-black ${isStable ? 'bg-brutal-green' : 'bg-brutal-red text-white'} border border-black px-2 py-0.5 inline-block mt-2">
-                    ${isStable ? 'Available CDN' : 'Unreleased Mirror'}
+                  <code class="text-xs font-mono text-brutal-black font-bold block mb-1">${winFilename}</code>
+                  <span class="text-[9px] font-bold border border-black px-2 py-0.5 inline-block mt-2 ${badgeClass}">
+                    ${badgeText}
                   </span>
                 </div>
                 <div class="mt-4 flex gap-2">
-                  <a href="${b.download_urls.windows}" class="flex-1 text-center text-xs font-black ${isStable ? 'bg-brutal-green hover:bg-emerald-400' : 'bg-brutal-gray text-brutal-black/50 cursor-not-allowed'} text-brutal-black border-2 border-brutal-black py-2 shadow-[2px_2px_0px_0px_#111111] neue-interactive">
+                  <a href="${winUrl}" class="flex-1 text-center text-xs font-black ${btnClass} text-brutal-black border-2 border-brutal-black py-2 shadow-[2px_2px_0px_0px_#111111] neue-interactive">
                     DOWNLOAD ZIP 💾
                   </a>
-                  <button onclick="copyToClipboard('${b.download_urls.windows}')" class="bg-white hover:bg-gray-100 text-brutal-black p-2 border-2 border-brutal-black shadow-[2px_2px_0px_0px_#111111] neue-interactive" title="Copy Direct URL">
+                  <button onclick="copyToClipboard('${winUrl}')" class="bg-white hover:bg-gray-100 text-brutal-black p-2 border-2 border-brutal-black shadow-[2px_2px_0px_0px_#111111] neue-interactive" title="Copy Direct URL">
                     📋
                   </button>
                 </div>
               </div>
               <!-- Linux Server -->
-              <div class="bg-brutal-white border-3 border-brutal-black p-4 shadow-[3px_3px_0px_0px_#111111] flex flex-col justify-between ${!isStable ? 'opacity-80' : ''}">
+              <div class="bg-brutal-white border-3 border-brutal-black p-4 shadow-[3px_3px_0px_0px_#111111] flex flex-col justify-between ${opacityClass}">
                 <div>
                   <span class="text-xs font-mono font-bold text-gray-500 uppercase block mb-1">Linux Dedicated Server</span>
-                  <code class="text-xs font-mono text-brutal-black font-bold block mb-1">bedrock-server-${b.server_version || b.version_number}.zip</code>
-                  <span class="text-[9px] font-bold text-brutal-black ${isStable ? 'bg-brutal-green' : 'bg-brutal-red text-white'} border border-black px-2 py-0.5 inline-block mt-2">
-                    ${isStable ? 'Available CDN' : 'Unreleased Mirror'}
+                  <code class="text-xs font-mono text-brutal-black font-bold block mb-1">${linFilename}</code>
+                  <span class="text-[9px] font-bold border border-black px-2 py-0.5 inline-block mt-2 ${badgeClass}">
+                    ${badgeText}
                   </span>
                 </div>
                 <div class="mt-4 flex gap-2">
-                  <a href="${b.download_urls.linux}" class="flex-1 text-center text-xs font-black ${isStable ? 'bg-brutal-green hover:bg-emerald-400' : 'bg-brutal-gray text-brutal-black/50 cursor-not-allowed'} text-brutal-black border-2 border-brutal-black py-2 shadow-[2px_2px_0px_0px_#111111] neue-interactive">
+                  <a href="${linUrl}" class="flex-1 text-center text-xs font-black ${btnClass} text-brutal-black border-2 border-brutal-black py-2 shadow-[2px_2px_0px_0px_#111111] neue-interactive">
                     DOWNLOAD ZIP 💾
                   </a>
-                  <button onclick="copyToClipboard('${b.download_urls.linux}')" class="bg-white hover:bg-gray-100 text-brutal-black p-2 border-2 border-brutal-black shadow-[2px_2px_0px_0px_#111111] neue-interactive" title="Copy Direct URL">
+                  <button onclick="copyToClipboard('${linUrl}')" class="bg-white hover:bg-gray-100 text-brutal-black p-2 border-2 border-brutal-black shadow-[2px_2px_0px_0px_#111111] neue-interactive" title="Copy Direct URL">
                     📋
                   </button>
                 </div>
@@ -704,12 +738,12 @@ on:
             </div>
           </div>
           <!-- Copy Wget helper -->
-          <div class="bg-brutal-gray border-3 border-brutal-black p-4 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs shadow-[3px_3px_0px_0px_#111111] ${!isStable ? 'opacity-70' : ''}">
+          <div class="bg-brutal-gray border-3 border-brutal-black p-4 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs shadow-[3px_3px_0px_0px_#111111] ${opacityClass}">
             <div class="flex items-center gap-2 overflow-hidden w-full">
               <span class="font-mono bg-brutal-black text-white px-2 py-0.5 border border-black font-bold">WGET</span>
-              <code class="font-mono text-brutal-black font-bold truncate select-all block">${b.download_urls.linux}</code>
+              <code class="font-mono text-brutal-black font-bold truncate select-all block">${linUrl}</code>
             </div>
-            <button onclick="copyToClipboard('wget ${b.download_urls.linux}')" class="w-full sm:w-auto font-bold text-brutal-black bg-brutal-yellow hover:bg-yellow-400 border-2 border-brutal-black px-3 py-1.5 shadow-[2px_2px_0px_0px_#111111] neue-interactive shrink-0 uppercase">
+            <button onclick="copyToClipboard('wget ${linUrl}')" class="w-full sm:w-auto font-bold text-brutal-black bg-brutal-yellow hover:bg-yellow-400 border-2 border-brutal-black px-3 py-1.5 shadow-[2px_2px_0px_0px_#111111] neue-interactive shrink-0 uppercase">
               COPY WGET
             </button>
           </div>

@@ -1,14 +1,15 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T08:00:58.815Z",
+  "last_updated": "2026-05-22T11:46:35.710Z",
   "data": {
     "version_number": "1.17.34",
     "update_title": "Standard Release",
-    "description": "Minecraft Bedrock Edition version 1.17.34.",
-    "server_version": "N/A",
+    "description": "1.17.34 is a hotfix to Bedrock Edition released on October 5–7, 2021, which fixes a bug with redeeming codes. This version is still compatible with all Bedrock platforms running on 1.17.30 until 1.17.33.",
+    "server_version": "1.17.34.02",
     "download_urls": {
-      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.17.34.zip",
-      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.17.34.zip"
-    }
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.17.34.02.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.17.34.02.zip"
+    },
+    "scraped_preview": true
   }
 }

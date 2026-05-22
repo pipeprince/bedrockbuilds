@@ -1,14 +1,15 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T08:00:58.822Z",
+  "last_updated": "2026-05-22T11:46:35.719Z",
   "data": {
     "version_number": "1.2.0",
     "update_title": "Better Together Update",
-    "description": "Minecraft Bedrock Edition version 1.2.0.",
+    "description": "1.2.0, the first release of the Better Together Update, is a first release of Bedrock Edition or simply Minecraft. Bedrock Edition is a continuation of Pocket Edition and its derived editions. It added support for the Xbox One, introduced cross-platform gameplay, and brought the vanilla game much closer to feature parity with Legacy Console Edition by adding features such as new world options, armor stands, banners, jukeboxes, book and quills, fireworks, and parrots. It was released on September 20, 2017, although the full rollout took a few days due to a large number of distribution channels and target devices involved. It should also be noted that there is no changelog documenting differences between this update and the last version of Xbox One Edition.",
     "server_version": "N/A",
     "download_urls": {
       "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.2.0.zip",
       "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.2.0.zip"
-    }
+    },
+    "scraped_preview": true
   }
 }

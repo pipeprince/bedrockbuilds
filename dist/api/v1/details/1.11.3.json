@@ -1,14 +1,15 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T08:00:58.818Z",
+  "last_updated": "2026-05-22T11:46:35.715Z",
   "data": {
     "version_number": "1.11.3",
     "update_title": "Standard Release",
-    "description": "Minecraft Bedrock Edition version 1.11.3.",
+    "description": "1.11.3 is a hotfix for Bedrock Edition released on May 17, 2019, for all Bedrock devices except Nintendo Switch, which fixed some bugs. It is not compatible with 1.11.0 through 1.11.2 servers.",
     "server_version": "N/A",
     "download_urls": {
       "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.11.3.zip",
       "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.11.3.zip"
-    }
+    },
+    "scraped_preview": true
   }
 }

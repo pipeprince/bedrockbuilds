@@ -1,14 +1,15 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T08:00:58.819Z",
+  "last_updated": "2026-05-22T11:46:35.715Z",
   "data": {
     "version_number": "1.8.0",
     "update_title": "Standard Release",
-    "description": "Minecraft Bedrock Edition version 1.8.0.",
-    "server_version": "N/A",
+    "description": "1.8.0, the first release of the Holiday Update, is a major update to Bedrock Edition and the first experimental release for Village & Pillage, released on December 11, 2018. It adds Village & Pillage features including pandas, bamboo, scaffolding, crossbows, and cats as a separate mob from ocelots, and more. This is the final version released in 2018, except for the Nintendo Switch.",
+    "server_version": "1.8.0.24",
     "download_urls": {
-      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.8.0.zip",
-      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.8.0.zip"
-    }
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.8.0.24.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.8.0.24.zip"
+    },
+    "scraped_preview": true
   }
 }

@@ -1,14 +1,15 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T08:00:58.815Z",
+  "last_updated": "2026-05-22T11:46:35.710Z",
   "data": {
     "version_number": "1.17.30",
     "update_title": "Standard Release",
-    "description": "Minecraft Bedrock Edition version 1.17.30.",
-    "server_version": "N/A",
+    "description": "1.17.30 is a minor update to Bedrock Edition released on September 21, 2021, which brought additional parity with Java Edition, new features behind the experimental toggle, fixed bugs, and an updated logo on the menu screen. It also effectively removed the Far Lands from Bedrock Edition.",
+    "server_version": "1.17.31.01",
     "download_urls": {
-      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.17.30.zip",
-      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.17.30.zip"
-    }
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.17.31.01.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.17.31.01.zip"
+    },
+    "scraped_preview": true
   }
 }

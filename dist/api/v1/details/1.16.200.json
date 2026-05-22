@@ -1,14 +1,15 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T08:00:58.816Z",
+  "last_updated": "2026-05-22T11:46:35.711Z",
   "data": {
     "version_number": "1.16.200",
     "update_title": "Standard Release",
-    "description": "Minecraft Bedrock Edition version 1.16.200.",
-    "server_version": "N/A",
+    "description": "1.16.200 is a minor update to Bedrock Edition, released on December 8, 2020, which implements RenderDragon to Windows 10 and adds new audio settings, ray tracing features, changes to death messages and fixes bugs. This version also drops support for third party shader resource packs for Windows 10 or console versions.",
+    "server_version": "1.16.200.02",
     "download_urls": {
-      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.200.zip",
-      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.200.zip"
-    }
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.200.02.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.200.02.zip"
+    },
+    "scraped_preview": true
   }
 }
