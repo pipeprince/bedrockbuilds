@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "last_updated": "2026-05-22T08:00:58.806Z",
+  "data": {
+    "version_number": "1.21.101",
+    "update_title": "Standard Release",
+    "description": "1.21.101 is a hotfix for Bedrock Edition released on August 13, 2025 on most devices and on August 15, 2025 on Xbox, which fixes some bugs.",
+    "server_version": "1.21.102.1",
+    "download_urls": {
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.102.1.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.102.1.zip"
+    }
+  }
+}

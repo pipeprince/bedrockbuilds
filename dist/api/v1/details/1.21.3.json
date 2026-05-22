@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "last_updated": "2026-05-22T08:00:58.809Z",
+  "data": {
+    "version_number": "1.21.3",
+    "update_title": "Standard Release",
+    "description": "1.21.3 is a hotfix to Bedrock Edition released only for PlayStation 4 on July 15, 2024, which fixes a bug.",
+    "server_version": "1.21.3.01",
+    "download_urls": {
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.3.01.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.3.01.zip"
+    }
+  }
+}

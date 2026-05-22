@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "last_updated": "2026-05-22T08:00:58.806Z",
+  "data": {
+    "version_number": "1.21.112",
+    "update_title": "Standard Release",
+    "description": "1.21.112 is a hotfix to Bedrock Edition released only for PlayStation 5 on October 3, 2025, which fixes a critical bug.",
+    "server_version": "1.21.112.1",
+    "download_urls": {
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.112.1.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.112.1.zip"
+    }
+  }
+}

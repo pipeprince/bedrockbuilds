@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "last_updated": "2026-05-22T08:00:58.809Z",
+  "data": {
+    "version_number": "1.21.20",
+    "update_title": "Standard Release",
+    "description": "1.21.20 is a minor update to Bedrock Edition released on August 13, 2024, which fixes bugs and contains mainly technical changes.",
+    "server_version": "1.21.20.03",
+    "download_urls": {
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.20.03.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.20.03.zip"
+    }
+  }
+}

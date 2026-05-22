@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "last_updated": "2026-05-22T08:00:58.804Z",
+  "data": {
+    "version_number": "26.1",
+    "update_title": "Standard Release",
+    "description": "26.1 is a hotfix to Bedrock Edition released on February 19, 2026 on most devices and on February 23, 2026 on iOS and iPadOS, which fixes two bugs.",
+    "server_version": "1.26.1.1",
+    "download_urls": {
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.1.1.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.1.1.zip"
+    }
+  }
+}

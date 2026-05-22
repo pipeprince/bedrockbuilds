@@ -1,0 +1,52 @@
+name: BedrockBuilds Daily Sync & Vercel Trigger
+
+on:
+  schedule:
+    # Run once a day at midnight UTC (Auto update sehari sekali)
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allows manual trigger from the Actions tab
+
+permissions:
+  contents: write # Needed to commit db.json cache to main branch
+
+jobs:
+  sync-database:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci || npm install
+
+      - name: Run Scraper & Build Cache
+        run: npm run build
+
+      - name: Commit Scraper Cache (db.json) to Trigger Vercel
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Only commit if db.json has actual updates
+          if [ -f data/db.json ] && ! git diff --quiet data/db.json; then
+            echo "[CI/CD] New Bedrock versions detected! Updating cache db.json..."
+            git add data/db.json
+            
+            # Note: We specifically DO NOT use [skip ci] here.
+            # By making a normal commit, Vercel will intercept this push and automatically deploy the new version!
+            git commit -m "chore(cache): daily sync of bedrock version database"
+            git push origin main
+          else
+            echo "[CI/CD] Cache database up to date. No commits needed."
+          fi

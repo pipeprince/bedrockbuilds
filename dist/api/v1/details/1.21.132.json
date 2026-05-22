@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "last_updated": "2026-05-22T08:00:58.804Z",
+  "data": {
+    "version_number": "1.21.132",
+    "update_title": "Standard Release",
+    "description": "1.21.132 is a hotfix to Bedrock Edition released for most devices on January 8, 2026, and for PlayStation 5 on January 9, 2026, which addresses issues discovered in the latest update. This is the first version released in 2026. This is also the final version to use the old version formatting.",
+    "server_version": "1.21.132.3",
+    "download_urls": {
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.132.3.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.132.3.zip"
+    }
+  }
+}

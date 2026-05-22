@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "last_updated": "2026-05-22T08:00:58.808Z",
+  "data": {
+    "version_number": "1.21.50",
+    "update_title": "The Garden Awakens",
+    "description": "1.21.50, the release of The Garden Awakens, is a game drop for Bedrock Edition, released on December 3, 2024.\nIt marks the first release of the Bedrock Editor in a retail version.",
+    "server_version": "1.21.50.10",
+    "download_urls": {
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.50.10.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.50.10.zip"
+    }
+  }
+}

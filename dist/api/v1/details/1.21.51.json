@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "last_updated": "2026-05-22T08:00:58.808Z",
+  "data": {
+    "version_number": "1.21.51",
+    "update_title": "Standard Release",
+    "description": "1.21.51 is a hotfix to Bedrock Edition released on December 9, 2024 for ChromeOS and Android, December 10 for iOS, iPadOS, and Fire, December 11 for all other platforms, and December 16 for Nintendo Switch. It fixes bugs and introduces a new Play screen. It is compatible with 1.21.50 servers. This is the final version released in 2024.",
+    "server_version": "1.21.51.02",
+    "download_urls": {
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.51.02.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.51.02.zip"
+    }
+  }
+}

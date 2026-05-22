@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "last_updated": "2026-05-22T08:00:58.813Z",
+  "data": {
+    "version_number": "1.19.2",
+    "update_title": "Standard Release",
+    "description": "Minecraft Bedrock Edition version 1.19.2.",
+    "server_version": "N/A",
+    "download_urls": {
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.2.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.2.zip"
+    }
+  }
+}

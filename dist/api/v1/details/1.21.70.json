@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "last_updated": "2026-05-22T08:00:58.807Z",
+  "data": {
+    "version_number": "1.21.70",
+    "update_title": "Spring to Life",
+    "description": "1.21.70, the release of Spring to Life, is a game drop for Bedrock Edition, released on March 25, 2025, which adds chicken, cow, and pig variants, adds several new plants, changes all spawn egg textures to be easier to tell apart, and fixes bugs.",
+    "server_version": "1.21.70.04",
+    "download_urls": {
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.70.04.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.70.04.zip"
+    }
+  }
+}

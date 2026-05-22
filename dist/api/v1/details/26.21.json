@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "last_updated": "2026-05-22T08:00:58.803Z",
+  "data": {
+    "version_number": "26.21",
+    "update_title": "Standard Release",
+    "description": "26.21 is a hotfix to Bedrock Edition released on May 14, 2026 on most devices and on May 18, 2026 on Nintendo Switch, which fixes bugs.",
+    "server_version": "1.26.21.1",
+    "download_urls": {
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.21.1.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.21.1.zip"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "last_updated": "2026-05-22T08:00:58.803Z",
+  "data": {
+    "version_number": "26.13",
+    "update_title": "Standard Release",
+    "description": "26.13 is a hotfix to Bedrock Edition released on April 6, 2026 for Windows, Xbox, PlayStation, and iOS, on April 7, 2026 for Android, ChromeOS, and Nintendo Switch, and on April 9, 2026 for Fire, which fixes bugs.",
+    "server_version": "1.26.14.1",
+    "download_urls": {
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.14.1.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.14.1.zip"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "bedrockbuilds",
+  "version": "1.0.0",
+  "description": "Minecraft Bedrock Dedicate Server Archive & API Generator",
+  "main": "scripts/scraper.js",
+  "type": "module",
+  "scripts": {
+    "scrape": "node scripts/scraper.js",
+    "build": "npm run scrape && node scripts/build.js",
+    "dev": "node scripts/server.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12"
+  }
+}

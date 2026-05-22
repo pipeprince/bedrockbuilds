@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "last_updated": "2026-05-22T08:00:58.805Z",
+  "data": {
+    "version_number": "1.21.131",
+    "update_title": "Standard Release",
+    "description": "1.21.131 is a hotfix to Bedrock Edition released on December 16, 2025, which fixes some bugs. This is the final version released in 2025.",
+    "server_version": "1.21.131.1",
+    "download_urls": {
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.131.1.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.131.1.zip"
+    }
+  }
+}

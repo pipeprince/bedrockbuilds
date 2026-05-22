@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "last_updated": "2026-05-22T08:00:58.806Z",
+  "data": {
+    "version_number": "1.21.90",
+    "update_title": "Chase the Skies",
+    "description": "1.21.90, the release of Chase the Skies, is a game drop for Bedrock Edition that was released on June 17, 2025, which adds happy ghasts, Vibrant Visuals, improves lead mechanics, and fixes bugs.",
+    "server_version": "1.21.90.4",
+    "download_urls": {
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.90.4.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.90.4.zip"
+    }
+  }
+}

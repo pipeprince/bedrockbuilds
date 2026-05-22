@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "last_updated": "2026-05-22T08:00:58.806Z",
+  "data": {
+    "version_number": "1.21.111",
+    "update_title": "The Copper Age",
+    "description": "1.21.111, the release of The Copper Age, is a game drop for Bedrock Edition released on September 30, 2025. It adds copper armor and tools, copper nuggets, various copper decorations, copper golems, and shelves.",
+    "server_version": "1.21.111.1",
+    "download_urls": {
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.111.1.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.21.111.1.zip"
+    }
+  }
+}

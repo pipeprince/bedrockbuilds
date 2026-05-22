@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "last_updated": "2026-05-22T08:00:58.804Z",
+  "data": {
+    "version_number": "26.10",
+    "update_title": "Tiny Takeover",
+    "description": "26.10, also known as 1.26.10, the release of Tiny Takeover, is a game drop for Bedrock Edition released on March 24, 2026, which adds new textures and models for baby animals, adds the golden dandelion, makes name tags craftable, and fixes some bugs.",
+    "server_version": "1.26.10.4",
+    "download_urls": {
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.10.4.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.10.4.zip"
+    }
+  }
+}

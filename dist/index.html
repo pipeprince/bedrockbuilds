@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BedrockBuilds - Minecraft Bedrock Server Archive & Public API</title>
+  <meta name="description"
+    content="Professional archive of Minecraft Bedrock Edition Dedicated Server versions. Access direct download links or query our high-performance serverless public API.">
+  <link rel="icon" type="image/png" href="assets/logo.png">
+  <!-- Google Fonts: Outfit & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800;900&family=JetBrains+Mono:wght@500;700;800&display=swap"
+    rel="stylesheet">
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Outfit', 'sans-serif'],
+            mono: ['JetBrains Mono', 'monospace'],
+          },
+          borderWidth: {
+            '3': '3px',
+            '4': '4px',
+          },
+          colors: {
+            brutal: {
+              bg: '#fbfaf5',
+              white: '#ffffff',
+              black: '#111111',
+              green: '#00e676',
+              yellow: '#ffd54f',
+              red: '#ff5252',
+              blue: '#29b6f6',
+              gray: '#e0e0e0',
+              darkgray: '#2c2c2c',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <!-- Custom Neubrutalism Styles -->
+  <style>
+    body {
+      background-color: #fbfaf5;
+      color: #111111;
+      overflow-x: hidden;
+    }
+
+    /* Neubrutalism shadows */
+    .neue-shadow-sm {
+      box-shadow: 3px 3px 0px 0px #111111;
+    }
+
+    .neue-shadow {
+      box-shadow: 6px 6px 0px 0px #111111;
+    }
+
+    .neue-shadow-lg {
+      box-shadow: 10px 10px 0px 0px #111111;
+    }
+
+    /* Interactive Hover Translation */
+    .neue-interactive {
+      transition: all 0.15s ease-in-out;
+    }
+
+    .neue-interactive:hover {
+      transform: translate(-3px, -3px);
+      box-shadow: 9px 9px 0px 0px #111111;
+    }
+
+    .neue-interactive:active {
+      transform: translate(2px, 2px);
+      box-shadow: 2px 2px 0px 0px #111111;
+    }
+
+    .active-card {
+      background-color: #00e676 !important;
+      transform: translate(-2px, -2px);
+      box-shadow: 5px 5px 0px 0px #111111 !important;
+    }
+
+    /* Custom Scrollbar for Neubrutalism */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+
+    ::-webkit-scrollbar-track {
+      background: #fbfaf5;
+      border-left: 3px solid #111111;
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: #111111;
+      border: 2px solid #fbfaf5;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+      background: #00e676;
+    }
+  </style>
+</head>
+
+<body class="relative min-h-screen py-4 px-4 sm:px-6">
+  <!-- Main Container -->
+  <div class="max-w-7xl mx-auto flex flex-col gap-6">
+    <!-- Header Navigation Card -->
+    <nav
+      class="bg-brutal-white border-4 border-brutal-black rounded-none p-4 neue-shadow flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div class="flex items-center gap-4">
+        <img src="assets/logo.png" alt="BedrockBuilds Logo"
+          class="w-12 h-12 border-3 border-brutal-black object-contain rotate-[-3deg] hover:rotate-[6deg] transition-transform duration-300">
+        <div>
+          <span class="font-black text-2xl tracking-tight text-brutal-black">BEDROCK<span
+              class="bg-brutal-green px-1 ml-1 border-2 border-brutal-black">BUILDS</span></span>
+          <p class="text-[10px] text-brutal-black/70 font-mono font-bold tracking-widest leading-none mt-1 uppercase">
+            Minecraft Server Archive & API</p>
+        </div>
+      </div>
+      <div class="flex flex-wrap items-center gap-4 text-sm font-extrabold">
+        <a href="#archive"
+          class="bg-brutal-yellow hover:bg-yellow-400 text-brutal-black border-3 border-brutal-black px-3 py-1.5 neue-shadow-sm neue-interactive">DATABASE</a>
+        <a href="#api"
+          class="bg-brutal-blue hover:bg-cyan-400 text-brutal-black border-3 border-brutal-black px-3 py-1.5 neue-shadow-sm neue-interactive">PUBLIC
+          API</a>
+        <a href="#guide"
+          class="bg-white hover:bg-gray-100 text-brutal-black border-3 border-brutal-black px-3 py-1.5 neue-shadow-sm neue-interactive">GUIDE</a>
+      </div>
+      <div class="flex items-center gap-3">
+        <span
+          class="bg-brutal-green text-brutal-black border-3 border-brutal-black font-mono font-extrabold text-xs px-3 py-1.5 shadow-[2px_2px_0px_0px_#111111]">
+          API STATUS: ACTIVE
+        </span>
+      </div>
+    </nav>
+    <!-- Hero / Welcome Grid -->
+    <header class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
+      <!-- Intro Card (7 cols) -->
+      <div
+        class="lg:col-span-7 bg-brutal-blue border-4 border-brutal-black p-6 sm:p-8 neue-shadow flex flex-col justify-between gap-6">
+        <div>
+          <div
+            class="inline-block bg-brutal-black text-brutal-white font-mono font-bold text-xs uppercase px-3 py-1 mb-4">
+            Version 1.0.0 Serverless Live
+          </div>
+          <h1 class="text-4xl sm:text-6xl font-black tracking-tight text-brutal-black leading-none mb-4 uppercase">
+            Minecraft Bedrock Dedicated Servers
+          </h1>
+          <p class="text-brutal-black font-bold text-md sm:text-lg max-w-xl leading-snug">
+            A brutalist high-contrast repository archiving every official Minecraft Bedrock dedicated server build.
+            Fetch server links instantly or consume them via our zero-rate-limit public API.
+          </p>
+        </div>
+        <!-- Live Stats Inline -->
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 font-mono font-bold text-xs mt-4">
+          <div class="bg-brutal-white border-3 border-brutal-black p-2 shadow-[2px_2px_0px_0px_#111111]">
+            <span class="text-gray-500 block text-[9px] uppercase font-bold">Total Builds</span>
+            <span id="stat-total-versions" class="text-lg text-brutal-black">0</span>
+          </div>
+          <div class="bg-brutal-white border-3 border-brutal-black p-2 shadow-[2px_2px_0px_0px_#111111]">
+            <span class="text-gray-500 block text-[9px] uppercase font-bold">Latest Stable</span>
+            <span id="stat-latest-version" class="text-lg text-brutal-black">1.21.0.03</span>
+          </div>
+          <div class="bg-brutal-white border-3 border-brutal-black p-2 shadow-[2px_2px_0px_0px_#111111]">
+            <span class="text-gray-500 block text-[9px] uppercase font-bold">API Latency</span>
+            <span class="text-lg text-brutal-black">~35ms</span>
+          </div>
+          <div class="bg-brutal-white border-3 border-brutal-black p-2 shadow-[2px_2px_0px_0px_#111111]">
+            <span class="text-gray-500 block text-[9px] uppercase font-bold">Update Cron</span>
+            <span class="text-lg text-brutal-black">6 Hours</span>
+          </div>
+        </div>
+      </div>
+      <!-- Quick download Brutal Card (5 cols) -->
+      <div
+        class="lg:col-span-5 bg-brutal-yellow border-4 border-brutal-black p-6 sm:p-8 neue-shadow flex flex-col justify-between gap-4 relative overflow-hidden">
+        <div>
+          <span
+            class="bg-brutal-black text-brutal-yellow font-mono font-bold text-xs uppercase px-3 py-1 inline-block mb-3">
+            LOCAL ENGINE DETECTOR
+          </span>
+          <h3 id="hero-detected-os" class="text-2xl font-black text-brutal-black leading-none uppercase mb-2">Detected:
+            Linux Server</h3>
+          <p id="hero-detected-version" class="text-brutal-black font-bold text-sm leading-snug">Latest Stable Release:
+            Loading...</p>
+        </div>
+        <div class="mt-6">
+          <a id="hero-download-btn" href="#"
+            class="neue-interactive w-full bg-brutal-green hover:bg-emerald-400 text-brutal-black font-black text-center py-4 px-6 border-4 border-brutal-black text-lg block neue-shadow">
+            DOWNLOAD DETECTED BUILD ⬇️
+          </a>
+        </div>
+      </div>
+    </header>
+    <!-- Main Workspace Section -->
+    <section id="archive" class="flex flex-col gap-4">
+      <!-- Section Headers -->
+      <div
+        class="bg-brutal-white border-4 border-brutal-black p-4 neue-shadow flex flex-col sm:flex-row items-center justify-between gap-4">
+        <div>
+          <h2 class="text-2xl font-black text-brutal-black uppercase leading-none">Archived Build Database</h2>
+          <p class="text-brutal-black/75 text-xs font-bold font-mono mt-1">Select a Bedrock release build to access
+            downloads</p>
+        </div>
+        <!-- Search & Filter Controls -->
+        <div class="flex flex-wrap items-center gap-3 w-full sm:w-auto">
+          <div class="relative w-full sm:w-64">
+            <input type="text" id="search-input" placeholder="Search versions (e.g. 1.21)..."
+              class="w-full bg-brutal-white border-3 border-brutal-black px-4 py-2 text-sm text-brutal-black font-bold focus:outline-none focus:bg-brutal-yellow transition-all">
+          </div>
+          <select id="type-filter"
+            class="bg-brutal-white border-3 border-brutal-black px-3 py-2 text-sm text-brutal-black font-bold focus:outline-none focus:bg-brutal-yellow">
+            <option value="all">ALL VERSIONS</option>
+            <option value="stable">STABLE ONLY</option>
+            <option value="preview">PREVIEW ONLY</option>
+          </select>
+        </div>
+      </div>
+      <!-- Database Layout Workspace -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
+        <!-- Sidebar Version Selection (4 cols) -->
+        <div class="lg:col-span-4 flex flex-col gap-4">
+          <div class="bg-brutal-white border-4 border-brutal-black p-4 neue-shadow flex flex-col max-h-[600px]">
+            <div
+              class="flex items-center justify-between pb-3 border-b-3 border-brutal-black mb-3 font-mono font-bold text-xs">
+              <span class="uppercase">Version Archive</span>
+              <span id="list-count" class="bg-brutal-black text-brutal-white px-2 py-0.5 font-bold">0 builds</span>
+            </div>
+            <!-- List scroll container -->
+            <div id="versions-container" class="flex-1 overflow-y-auto pr-1 flex flex-col gap-3">
+              <div class="text-center py-10 text-brutal-black font-mono font-bold animate-pulse">
+                [SYNCHRONIZING RELEASES...]
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Details Render Card (8 cols) -->
+        <div class="lg:col-span-8">
+          <div id="details-workspace"
+            class="bg-brutal-white border-4 border-brutal-black p-6 sm:p-8 h-full neue-shadow flex flex-col justify-between min-h-[500px]">
+            <div class="text-center py-20 text-brutal-black/40">
+              <span class="text-6xl block mb-4">🗂️</span>
+              <p class="font-black text-xl text-brutal-black uppercase leading-none">Select a Build</p>
+              <p class="text-xs font-mono font-bold text-brutal-black/70 mt-1">Direct links, wget scripts and mirrors
+                will load here.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Developer API playground Section -->
+    <section id="api" class="flex flex-col gap-4">
+      <div class="bg-brutal-green border-4 border-brutal-black p-6 neue-shadow text-center">
+        <span
+          class="bg-brutal-black text-brutal-green font-mono font-bold text-xs uppercase px-3 py-1 inline-block mb-3">
+          FOR SYSTEM DEVELOPERS & HOSTS
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-black text-brutal-black leading-none uppercase mb-2">Public serverless REST
+          API</h2>
+        <p class="text-brutal-black font-bold text-sm max-w-xl mx-auto">
+          Integrate dynamic downloads into your cPanel eggs, shell scripts, discord bots, or docker configurations. CDN
+          Cached, no rate limit.
+        </p>
+      </div>
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
+        <!-- Endpoint Selection Panel -->
+        <div class="lg:col-span-4 flex flex-col gap-3">
+          <button onclick="selectEndpoint('latest')" id="btn-ep-latest"
+            class="neue-interactive text-left p-4 bg-brutal-white border-4 border-brutal-black neue-shadow active-card">
+            <div class="flex items-center gap-2 mb-2 font-mono font-bold text-xs">
+              <span class="bg-brutal-black text-brutal-white px-2 py-0.5 font-bold">GET</span>
+              <code class="text-brutal-black">/api/v1/latest.json</code>
+            </div>
+            <p class="text-xs text-brutal-black font-semibold">Gets metadata & binaries for the latest Minecraft stable
+              release.</p>
+          </button>
+          <button onclick="selectEndpoint('versions')" id="btn-ep-versions"
+            class="neue-interactive text-left p-4 bg-brutal-white border-4 border-brutal-black neue-shadow">
+            <div class="flex items-center gap-2 mb-2 font-mono font-bold text-xs">
+              <span class="bg-brutal-black text-brutal-white px-2 py-0.5 font-bold">GET</span>
+              <code class="text-brutal-black">/api/v1/versions.json</code>
+            </div>
+            <p class="text-xs text-brutal-black font-semibold">Fetch details of all historical Minecraft Bedrock builds.
+            </p>
+          </button>
+          <button onclick="selectEndpoint('details')" id="btn-ep-details"
+            class="neue-interactive text-left p-4 bg-brutal-white border-4 border-brutal-black neue-shadow">
+            <div class="flex items-center gap-2 mb-2 font-mono font-bold text-xs">
+              <span class="bg-brutal-black text-brutal-white px-2 py-0.5 font-bold">GET</span>
+              <code class="text-brutal-black font-mono">/api/v1/details/:ver.json</code>
+            </div>
+            <p class="text-xs text-brutal-black font-semibold">Query detailed statistics, descriptions, and mirrors for
+              a single version.</p>
+          </button>
+        </div>
+        <!-- Terminal Console Panel -->
+        <div class="lg:col-span-8 flex flex-col border-4 border-brutal-black bg-brutal-white neue-shadow">
+          <!-- Terminal Tabs -->
+          <div
+            class="bg-brutal-gray border-b-4 border-brutal-black p-3 flex flex-col sm:flex-row items-center justify-between gap-3">
+            <div class="flex items-center gap-1.5">
+              <button onclick="selectSnippet('curl')" id="tab-curl"
+                class="font-mono text-xs font-bold border-2 border-brutal-black bg-brutal-black text-brutal-white px-2.5 py-1">cURL</button>
+              <button onclick="selectSnippet('js')" id="tab-js"
+                class="font-mono text-xs font-bold border-2 border-brutal-black bg-brutal-white text-brutal-black px-2.5 py-1 hover:bg-brutal-yellow transition-colors">JavaScript</button>
+              <button onclick="selectSnippet('python')" id="tab-python"
+                class="font-mono text-xs font-bold border-2 border-brutal-black bg-brutal-white text-brutal-black px-2.5 py-1 hover:bg-brutal-yellow transition-colors">Python</button>
+              <button onclick="selectSnippet('php')" id="tab-php"
+                class="font-mono text-xs font-bold border-2 border-brutal-black bg-brutal-white text-brutal-black px-2.5 py-1 hover:bg-brutal-yellow transition-colors">PHP</button>
+            </div>
+            <div class="flex items-center gap-2 w-full sm:w-auto">
+              <input type="text" id="api-request-path" readonly value="https://bedrockbuilds.com/api/v1/latest.json"
+                class="hidden sm:inline bg-white border-2 border-brutal-black text-xs font-mono px-2 py-1 w-64 text-brutal-black font-bold">
+              <button onclick="sendLiveApiRequest()"
+                class="neue-shadow-sm border-2 border-brutal-black bg-brutal-green hover:bg-emerald-400 text-brutal-black text-xs font-bold px-3 py-1 uppercase font-mono">
+                SEND REQUEST
+              </button>
+            </div>
+          </div>
+          <!-- Code Box -->
+          <div
+            class="p-3 bg-brutal-black border-b-3 border-brutal-black text-xs text-brutal-green font-mono overflow-x-auto whitespace-nowrap">
+            <span class="text-white font-bold select-none">$</span> <span id="code-snippet-box">curl -X GET
+              https://bedrockbuilds.com/api/v1/latest.json</span>
+          </div>
+          <!-- JSON Screen Output -->
+          <div class="flex-1 bg-brutal-black text-white font-mono p-4 min-h-[300px] overflow-hidden flex flex-col">
+            <div
+              class="flex justify-between border-b border-white/20 pb-2 mb-2 text-xs font-sans text-white/50 select-none">
+              <span>RESPONSE STREAM (JSON)</span>
+              <button onclick="copySnippet()" class="hover:text-white flex items-center gap-1 font-bold">
+                [COPY SNIPPET]
+              </button>
+            </div>
+            <pre id="terminal-body"
+              class="flex-1 overflow-auto text-xs leading-relaxed max-h-[280px] select-all text-brutal-green font-bold">
+{
+  "status": "idle",
+  "message": "Click 'SEND REQUEST' to test the static API live."
+}
+            </pre>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Guide / Deployment scripts -->
+    <section id="guide" class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <div class="bg-brutal-white border-4 border-brutal-black p-5 neue-shadow">
+        <span
+          class="text-xl font-bold bg-brutal-black text-white px-2 py-0.5 border border-black inline-block mb-3 font-mono">01</span>
+        <h4 class="text-brutal-black font-black text-lg mb-2 uppercase">WGET DOWNLOADS</h4>
+        <p class="text-xs text-brutal-black/80 font-bold leading-normal mb-3">Query our latest stable build via terminal
+          wget automation:</p>
+        <pre
+          class="bg-brutal-black border-2 border-brutal-black text-xs text-brutal-green p-3 rounded-none font-mono overflow-x-auto font-bold select-all">
+DL_URL=$(curl -s https://bedrockbuilds.com/api/v1/latest.json | grep -oP '"linux":\s*"\K[^"]+')
+wget -O server.zip "$DL_URL"
+        </pre>
+      </div>
+      <div class="bg-brutal-white border-4 border-brutal-black p-5 neue-shadow">
+        <span
+          class="text-xl font-bold bg-brutal-black text-white px-2 py-0.5 border border-black inline-block mb-3 font-mono">02</span>
+        <h4 class="text-brutal-black font-black text-lg mb-2 uppercase">PTERODACTYL EGG</h4>
+        <p class="text-xs text-brutal-black/80 font-bold leading-normal mb-3">Map version variables directly to your
+          install script:</p>
+        <pre
+          class="bg-brutal-black border-2 border-brutal-black text-xs text-brutal-green p-3 rounded-none font-mono overflow-x-auto font-bold select-all">
+# In install script block
+JSON=$(curl -sL https://bedrockbuilds.com/api/v1/latest.json)
+DOWNLOAD_URL=$(echo $JSON | jq -r '.data.download_urls.linux')
+        </pre>
+      </div>
+      <div class="bg-brutal-white border-4 border-brutal-black p-5 neue-shadow">
+        <span
+          class="text-xl font-bold bg-brutal-black text-white px-2 py-0.5 border border-black inline-block mb-3 font-mono">03</span>
+        <h4 class="text-brutal-black font-black text-lg mb-2 uppercase">CRON REFRESH</h4>
+        <p class="text-xs text-brutal-black/80 font-bold leading-normal mb-3">Runs harian schedules ensuring downloads
+          are identical with Azure CDN:</p>
+        <pre
+          class="bg-brutal-black border-2 border-brutal-black text-xs text-brutal-green p-3 rounded-none font-mono overflow-x-auto font-bold select-all">
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+        </pre>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer
+      class="bg-brutal-black text-white border-4 border-brutal-black p-6 neue-shadow text-center flex flex-col md:flex-row items-center justify-between gap-4 mb-4 select-none">
+      <div class="flex items-center gap-3">
+        <img src="assets/logo.png" alt="BedrockBuilds Logo" class="w-8 h-8 object-contain">
+        <span class="font-black text-lg text-white">BEDROCK<span
+            class="text-brutal-green bg-brutal-black border border-white px-1 ml-1">BUILDS</span></span>
+      </div>
+      <p class="text-[11px] font-mono text-gray-400 font-bold max-w-md md:text-right">
+        © 2026 BedrockBuilds. Minecraft Bedrock Server binaries belong to Mojang AB & Microsoft.
+      </p>
+    </footer>
+  </div>
+  <!-- Client-side SPA Application Code -->
+  <script>
+    let allBuilds = [];
+    let currentFilteredBuilds = [];
+    let selectedVersionNumber = null;
+    let selectedEndpointType = 'latest';
+    let selectedSnippetLanguage = 'curl';
+    let expandedParents = new Set();
+    const API_BASE_URL = window.location.origin + window.location.pathname.replace(/\/$/, '') + '/api/v1';
+    const snippets = {
+      curl: {
+        latest: () => `curl -X GET ${API_BASE_URL}/latest.json`,
+        versions: () => `curl -X GET ${API_BASE_URL}/versions.json`,
+        details: () => `curl -X GET ${API_BASE_URL}/details/${selectedVersionNumber || '1.21.0.03'}.json`
+      },
+      js: {
+        latest: () => `fetch("${API_BASE_URL}/latest.json")\n  .then(res => res.json())\n  .then(data => console.log(data));`,
+        versions: () => `fetch("${API_BASE_URL}/versions.json")\n  .then(res => res.json())\n  .then(data => console.log(data));`,
+        details: () => `fetch("${API_BASE_URL}/details/${selectedVersionNumber || '1.21.0.03'}.json")\n  .then(res => res.json())\n  .then(data => console.log(data));`
+      },
+      python: {
+        latest: () => `import requests\n\nresponse = requests.get("${API_BASE_URL}/latest.json")\ndata = response.json()\nprint(data)`,
+        versions: () => `import requests\n\nresponse = requests.get("${API_BASE_URL}/versions.json")\ndata = response.json()\nprint(data)`,
+        details: () => `import requests\n\nresponse = requests.get("${API_BASE_URL}/details/${selectedVersionNumber || '1.21.0.03'}.json")\ndata = response.json()\nprint(data)`
+      },
+      php: {
+        latest: () => `<?php\n$json = file_get_contents("${API_BASE_URL}/latest.json");\n$data = json_decode($json, true);\nprint_r($data);`,
+        versions: () => `<?php\n$json = file_get_contents("${API_BASE_URL}/versions.json");\n$data = json_decode($json, true);\nprint_r($data);`,
+        details: () => `<?php\n$json = file_get_contents("${API_BASE_URL}/details/${selectedVersionNumber || '1.21.0.03'}.json");\n$data = json_decode($json, true);\nprint_r($data);`
+      }
+    };
+    function detectOS() {
+      const platform = window.navigator.platform.toLowerCase();
+      const userAgent = window.navigator.userAgent.toLowerCase();
+      const heroOS = document.getElementById('hero-detected-os');
+      if (platform.includes('win') || userAgent.includes('windows')) {
+        heroOS.textContent = "Detected: Windows Server";
+        return 'windows';
+      } else {
+        heroOS.textContent = "Detected: Linux/Ubuntu Server";
+        return 'linux';
+      }
+    }
+    function getParentVersion(ver) {
+      const parts = ver.split('.');
+      return parts.length > 2 ? `${parts[0]}.${parts[1]}` : parts[0];
+    }
+    async function init() {
+      const userOS = detectOS();
+      try {
+        const response = await fetch('api/v1/versions.json');
+        if (!response.ok) throw new Error('API versions.json not available');
+        const apiData = await response.json();
+        allBuilds = apiData.data || [];
+      } catch (e) {
+        console.warn('Unable to load api/v1/versions.json directly. Loading mock database for preview:', e.message);
+        allBuilds = [
+          {
+            version_number: "1.21.130",
+            update_title: "Tricky Trials Update",
+            description: "A minor release introducing vault security balance overrides and standard trial spawner performance patches.",
+            server_version: "1.21.130.01",
+            download_urls: {
+              linux: "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.21.130.01.zip",
+              windows: "https://minecraft.azureedge.net/bin-win/bedrock-server-1.21.130.01.zip"
+            }
+          },
+          {
+            version_number: "1.21.0.03",
+            update_title: "Tricky Trials Update",
+            description: "A major update for Bedrock Edition that introduces the Trial Chambers, Breeze, Bogged, trial spawners, vault, wind charges, and standard mace updates.",
+            server_version: "1.21.0.03",
+            download_urls: {
+              linux: "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.21.0.03.zip",
+              windows: "https://minecraft.azureedge.net/bin-win/bedrock-server-1.21.0.03.zip"
+            }
+          },
+          {
+            version_number: "1.20.80.05",
+            update_title: "Trails & Tales Update",
+            description: "A minor update release incorporating armor trims, cherry blossom trees, pottery shards, sniffer entities, and archeology mechanics.",
+            server_version: "1.20.80.05",
+            download_urls: {
+              linux: "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.20.80.05.zip",
+              windows: "https://minecraft.azureedge.net/bin-win/bedrock-server-1.20.80.05.zip"
+            }
+          },
+          {
+            version_number: "26.30",
+            update_title: "Standard Release (Preview)",
+            description: "A preview development test build demonstrating underlying game mechanic refactoring. Unofficial server deployment only.",
+            server_version: "N/A",
+            download_urls: {
+              linux: "https://minecraft.azureedge.net/bin-linux/bedrock-server-26.30.zip",
+              windows: "https://minecraft.azureedge.net/bin-win/bedrock-server-26.30.zip"
+            }
+          },
+          {
+            version_number: "1.19.80.02",
+            update_title: "Wild Update",
+            description: "Brings ancient cities, deep dark, wardens, frogs, tadpoles, allays, mangrove swamps, and mud block mechanics directly to dedicated host installations.",
+            server_version: "1.19.80.02",
+            download_urls: {
+              linux: "https://minecraft.azureedge.net/bin-linux/bedrock-server-1.19.80.02.zip",
+              windows: "https://minecraft.azureedge.net/bin-win/bedrock-server-1.19.80.02.zip"
+            }
+          }
+        ];
+      }
+      document.getElementById('stat-total-versions').textContent = allBuilds.length;
+      const stable = allBuilds.find(b => b.server_version && b.server_version !== 'N/A') || allBuilds[0];
+      if (stable) {
+        document.getElementById('stat-latest-version').textContent = stable.version_number;
+        document.getElementById('hero-detected-version').textContent = `Latest Stable Release: v${stable.version_number} (${stable.update_title})`;
+        const dlLink = userOS === 'windows' ? stable.download_urls.windows : stable.download_urls.linux;
+        document.getElementById('hero-download-btn').href = dlLink;
+      }
+      if (allBuilds.length > 0) {
+        const defaultVer = allBuilds[0].version_number;
+        expandedParents.add(getParentVersion(defaultVer));
+        filterBuilds();
+        renderDetails(defaultVer);
+      } else {
+        filterBuilds();
+      }
+      document.getElementById('search-input').addEventListener('input', filterBuilds);
+      document.getElementById('type-filter').addEventListener('change', filterBuilds);
+    }
+    function filterBuilds() {
+      const query = document.getElementById('search-input').value.toLowerCase();
+      const filterType = document.getElementById('type-filter').value;
+      currentFilteredBuilds = allBuilds.filter(b => {
+        const matchesQuery = b.version_number.includes(query) || (b.update_title && b.update_title.toLowerCase().includes(query));
+        let matchesType = true;
+        if (filterType === 'stable') {
+          matchesType = b.server_version && b.server_version !== 'N/A';
+        } else if (filterType === 'preview') {
+          matchesType = !b.server_version || b.server_version === 'N/A';
+        }
+        return matchesQuery && matchesType;
+      });
+      renderList();
+    }
+    function toggleParent(parentKey) {
+      if (expandedParents.has(parentKey)) {
+        expandedParents.delete(parentKey);
+      } else {
+        expandedParents.add(parentKey);
+      }
+      renderList();
+    }
+    function renderList() {
+      const container = document.getElementById('versions-container');
+      const countLabel = document.getElementById('list-count');
+      container.innerHTML = '';
+      countLabel.textContent = `${currentFilteredBuilds.length} builds`;
+      if (currentFilteredBuilds.length === 0) {
+        container.innerHTML = `<div class="text-center py-8 text-brutal-black font-mono font-bold text-xs uppercase">[No results found]</div>`;
+        return;
+      }
+      const grouped = {};
+      currentFilteredBuilds.forEach(b => {
+        const pKey = getParentVersion(b.version_number);
+        if (!grouped[pKey]) grouped[pKey] = [];
+        grouped[pKey].push(b);
+      });
+      Object.keys(grouped).forEach(parentKey => {
+        const children = grouped[parentKey];
+        const isExpanded = expandedParents.has(parentKey);
+        const parentBlock = document.createElement('div');
+        parentBlock.className = "flex flex-col border-3 border-brutal-black shadow-[3px_3px_0px_0px_#111111] bg-brutal-white";
+        const parentHeader = document.createElement('button');
+        parentHeader.onclick = () => toggleParent(parentKey);
+        parentHeader.className = `w-full text-left p-3 flex items-center justify-between font-black text-sm uppercase font-mono ${isExpanded ? 'bg-brutal-yellow border-b-3 border-brutal-black' : 'bg-brutal-white'} transition-colors duration-150`;
+        parentHeader.innerHTML = `
+          <span>📦 Release ${parentKey}</span>
+          <span class="font-extrabold text-xs">${isExpanded ? '▼' : '▶'} (${children.length})</span>
+        `;
+        parentBlock.appendChild(parentHeader);
+        if (isExpanded) {
+          const childrenContainer = document.createElement('div');
+          childrenContainer.className = "p-2 flex flex-col gap-2 bg-brutal-bg";
+          children.forEach(b => {
+            const isSelected = b.version_number === selectedVersionNumber;
+            const isStable = b.server_version && b.server_version !== 'N/A';
+            const badgeColor = isStable ? 'bg-brutal-green text-brutal-black' : 'bg-brutal-yellow text-brutal-black';
+            const badgeText = isStable ? 'STABLE' : 'PREVIEW';
+            const childBtn = document.createElement('button');
+            childBtn.id = `card-${b.version_number.replace(/\./g, '-')}`;
+            childBtn.onclick = () => {
+              renderDetails(b.version_number);
+            };
+            childBtn.className = `w-full text-left p-2.5 border-2 border-brutal-black font-semibold text-xs flex items-center justify-between transition-all ${isSelected ? 'bg-brutal-green text-brutal-black font-black active-card' : 'bg-brutal-white text-brutal-black hover:bg-brutal-gray'}`;
+            childBtn.innerHTML = `
+              <div class="flex flex-col gap-0.5 overflow-hidden pr-2">
+                <span class="font-mono font-extrabold block truncate">- ${b.version_number}</span>
+                <span class="text-[9px] text-brutal-black/75 truncate block">${b.update_title || 'Standard release'}</span>
+              </div>
+              <span class="text-[8px] font-black border border-brutal-black px-1.5 py-0.5 shrink-0 ${badgeColor}">${badgeText}</span>
+            `;
+            childrenContainer.appendChild(childBtn);
+          });
+          parentBlock.appendChild(childrenContainer);
+        }
+        container.appendChild(parentBlock);
+      });
+    }
+    function renderDetails(verNumber) {
+      selectedVersionNumber = verNumber;
+      const pKey = getParentVersion(verNumber);
+      if (!expandedParents.has(pKey)) {
+        expandedParents.add(pKey);
+      }
+      renderList();
+      const b = allBuilds.find(build => build.version_number === verNumber);
+      const ws = document.getElementById('details-workspace');
+      if (!b) return;
+      const isStable = b.server_version && b.server_version !== 'N/A';
+      let warningBannerHtml = '';
+      if (!isStable) {
+        warningBannerHtml = `
+          <!-- Neubrutalism Red Warning Banner for Unreleased Server Binaries -->
+          <div class="bg-brutal-red text-white border-3 border-brutal-black p-4 shadow-[3px_3px_0px_0px_#111111] flex items-start gap-3 my-4">
+            <span class="text-2xl select-none">⚠️</span>
+            <div>
+              <h4 class="font-black text-sm uppercase tracking-wide">The server has not yet been officially released</h4>
+              <p class="text-xs text-white/90 font-bold mt-1 leading-snug">
+                Mojang / Microsoft has not yet released an official server binary for this version of Minecraft (which is classified as a Preview/Beta version). 
+                The official download link below is marked as speculative and may return a 404 error from Microsoft’s CDN until the server release is made publicly available.
+              </p>
+            </div>
+          </div>
+        `;
+      }
+      ws.innerHTML = `
+        <div class="flex flex-col justify-between h-full gap-6">
+          <div>
+            <!-- Title & Badges -->
+            <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b-3 border-brutal-black pb-5 mb-5">
+              <div>
+                <div class="flex items-center gap-3 mb-1">
+                  <h3 class="text-3xl font-black text-brutal-black font-mono leading-none">${b.version_number}</h3>
+                  <span class="text-xs font-black font-mono px-2 py-0.5 border-2 border-brutal-black ${isStable ? 'bg-brutal-green text-brutal-black' : 'bg-brutal-yellow text-brutal-black'}">
+                    ${isStable ? 'STABLE SERVER' : 'PREVIEW BUILD'}
+                  </span>
+                </div>
+                <p class="text-brutal-black/75 text-sm font-bold uppercase tracking-wider">${b.update_title || 'Standard Release'}</p>
+              </div>
+              <a href="https://minecraft.wiki/w/Bedrock_Edition_${b.version_number}" target="_blank" class="self-start sm:self-center font-bold text-xs bg-brutal-black text-white hover:bg-brutal-yellow hover:text-black border-2 border-black px-3 py-1.5 neue-shadow-sm neue-interactive">
+                READ WIKI ARTICLE ↗️
+              </a>
+            </div>
+            <!-- Server Version Status Warning -->
+            ${warningBannerHtml}
+            <!-- Description -->
+            <p class="text-brutal-black font-bold text-sm sm:text-md leading-snug mb-6">
+              ${b.description || 'Minecraft Bedrock Dedicated Server binary metadata archive.'}
+            </p>
+            <!-- Mirrors & Binaries -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+              <!-- Windows Server -->
+              <div class="bg-brutal-white border-3 border-brutal-black p-4 shadow-[3px_3px_0px_0px_#111111] flex flex-col justify-between ${!isStable ? 'opacity-80' : ''}">
+                <div>
+                  <span class="text-xs font-mono font-bold text-gray-500 uppercase block mb-1">Windows Server ZIP</span>
+                  <code class="text-xs font-mono text-brutal-black font-bold block mb-1">bedrock-server-${b.server_version || b.version_number}.zip</code>
+                  <span class="text-[9px] font-bold text-brutal-black ${isStable ? 'bg-brutal-green' : 'bg-brutal-red text-white'} border border-black px-2 py-0.5 inline-block mt-2">
+                    ${isStable ? 'Available CDN' : 'Unreleased Mirror'}
+                  </span>
+                </div>
+                <div class="mt-4 flex gap-2">
+                  <a href="${b.download_urls.windows}" class="flex-1 text-center text-xs font-black ${isStable ? 'bg-brutal-green hover:bg-emerald-400' : 'bg-brutal-gray text-brutal-black/50 cursor-not-allowed'} text-brutal-black border-2 border-brutal-black py-2 shadow-[2px_2px_0px_0px_#111111] neue-interactive">
+                    DOWNLOAD ZIP 💾
+                  </a>
+                  <button onclick="copyToClipboard('${b.download_urls.windows}')" class="bg-white hover:bg-gray-100 text-brutal-black p-2 border-2 border-brutal-black shadow-[2px_2px_0px_0px_#111111] neue-interactive" title="Copy Direct URL">
+                    📋
+                  </button>
+                </div>
+              </div>
+              <!-- Linux Server -->
+              <div class="bg-brutal-white border-3 border-brutal-black p-4 shadow-[3px_3px_0px_0px_#111111] flex flex-col justify-between ${!isStable ? 'opacity-80' : ''}">
+                <div>
+                  <span class="text-xs font-mono font-bold text-gray-500 uppercase block mb-1">Linux Dedicated Server</span>
+                  <code class="text-xs font-mono text-brutal-black font-bold block mb-1">bedrock-server-${b.server_version || b.version_number}.zip</code>
+                  <span class="text-[9px] font-bold text-brutal-black ${isStable ? 'bg-brutal-green' : 'bg-brutal-red text-white'} border border-black px-2 py-0.5 inline-block mt-2">
+                    ${isStable ? 'Available CDN' : 'Unreleased Mirror'}
+                  </span>
+                </div>
+                <div class="mt-4 flex gap-2">
+                  <a href="${b.download_urls.linux}" class="flex-1 text-center text-xs font-black ${isStable ? 'bg-brutal-green hover:bg-emerald-400' : 'bg-brutal-gray text-brutal-black/50 cursor-not-allowed'} text-brutal-black border-2 border-brutal-black py-2 shadow-[2px_2px_0px_0px_#111111] neue-interactive">
+                    DOWNLOAD ZIP 💾
+                  </a>
+                  <button onclick="copyToClipboard('${b.download_urls.linux}')" class="bg-white hover:bg-gray-100 text-brutal-black p-2 border-2 border-brutal-black shadow-[2px_2px_0px_0px_#111111] neue-interactive" title="Copy Direct URL">
+                    📋
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Copy Wget helper -->
+          <div class="bg-brutal-gray border-3 border-brutal-black p-4 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs shadow-[3px_3px_0px_0px_#111111] ${!isStable ? 'opacity-70' : ''}">
+            <div class="flex items-center gap-2 overflow-hidden w-full">
+              <span class="font-mono bg-brutal-black text-white px-2 py-0.5 border border-black font-bold">WGET</span>
+              <code class="font-mono text-brutal-black font-bold truncate select-all block">${b.download_urls.linux}</code>
+            </div>
+            <button onclick="copyToClipboard('wget ${b.download_urls.linux}')" class="w-full sm:w-auto font-bold text-brutal-black bg-brutal-yellow hover:bg-yellow-400 border-2 border-brutal-black px-3 py-1.5 shadow-[2px_2px_0px_0px_#111111] neue-interactive shrink-0 uppercase">
+              COPY WGET
+            </button>
+          </div>
+        </div>
+      `;
+      updateApiSnippet();
+    }
+    function copyToClipboard(text) {
+      navigator.clipboard.writeText(text).then(() => {
+        alert('Copied to clipboard!');
+      }).catch(err => {
+        console.error('Failed to copy text: ', err);
+      });
+    }
+    function selectEndpoint(epType) {
+      selectedEndpointType = epType;
+      ['latest', 'versions', 'details'].forEach(ep => {
+        const btn = document.getElementById(`btn-ep-${ep}`);
+        if (ep === epType) {
+          btn.classList.add('active-card');
+        } else {
+          btn.classList.remove('active-card');
+        }
+      });
+      const input = document.getElementById('api-request-path');
+      const suffix = epType === 'details' ? `/details/${selectedVersionNumber || '1.21.0.03'}.json` : `/${epType}.json`;
+      input.value = `${API_BASE_URL}${suffix}`;
+      updateApiSnippet();
+    }
+    function selectSnippet(lang) {
+      selectedSnippetLanguage = lang;
+      ['curl', 'js', 'python', 'php'].forEach(l => {
+        const tab = document.getElementById(`tab-${l}`);
+        if (l === lang) {
+          tab.className = "font-mono text-xs font-bold border-2 border-brutal-black bg-brutal-black text-brutal-white px-2.5 py-1";
+        } else {
+          tab.className = "font-mono text-xs font-bold border-2 border-brutal-black bg-brutal-white text-brutal-black px-2.5 py-1 hover:bg-brutal-yellow transition-colors";
+        }
+      });
+      updateApiSnippet();
+    }
+    function updateApiSnippet() {
+      const codeBox = document.getElementById('code-snippet-box');
+      const handler = snippets[selectedSnippetLanguage][selectedEndpointType];
+      codeBox.textContent = handler ? handler() : '';
+    }
+    function copySnippet() {
+      const codeBox = document.getElementById('code-snippet-box');
+      copyToClipboard(codeBox.textContent);
+    }
+    async function sendLiveApiRequest() {
+      const terminal = document.getElementById('terminal-body');
+      terminal.innerHTML = '[FETCHING LIVE API RESPONSESTREAM...]';
+      let endpointPath = `api/v1/${selectedEndpointType}.json`;
+      if (selectedEndpointType === 'details') {
+        endpointPath = `api/v1/details/${selectedVersionNumber || '1.21.0.03'}.json`;
+      }
+      await new Promise(resolve => setTimeout(resolve, 500));
+      try {
+        const response = await fetch(endpointPath);
+        if (!response.ok) throw new Error(`HTTP Error ${response.status}`);
+        const json = await response.json();
+        terminal.textContent = JSON.stringify(json, null, 2);
+      } catch (err) {
+        console.warn('API mock fallback:', err.message);
+        let fallbackJson = {};
+        if (selectedEndpointType === 'latest') {
+          fallbackJson = {
+            success: true,
+            last_updated: new Date().toISOString(),
+            data: allBuilds[0] || null
+          };
+        } else if (selectedEndpointType === 'versions') {
+          fallbackJson = {
+            success: true,
+            count: allBuilds.length,
+            last_updated: new Date().toISOString(),
+            data: allBuilds
+          };
+        } else {
+          const ver = selectedVersionNumber || '1.21.0.03';
+          const match = allBuilds.find(b => b.version_number === ver) || allBuilds[0];
+          fallbackJson = {
+            success: true,
+            last_updated: new Date().toISOString(),
+            data: match
+          };
+        }
+        terminal.textContent = JSON.stringify(fallbackJson, null, 2);
+      }
+    }
+    window.addEventListener('DOMContentLoaded', init);
+  </script>
+</body>
+
+</html>

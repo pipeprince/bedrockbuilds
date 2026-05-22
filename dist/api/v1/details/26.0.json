@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "last_updated": "2026-05-22T08:00:58.804Z",
+  "data": {
+    "version_number": "26.0",
+    "update_title": "Standard Release",
+    "description": "26.0, also known as 1.26.0, is a minor update for Bedrock Edition released on February 10, 2026, which adds command macros, experimental features for Tiny Takeover, and fixes bugs.",
+    "server_version": "1.26.0.2",
+    "download_urls": {
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.0.2.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.0.2.zip"
+    }
+  }
+}

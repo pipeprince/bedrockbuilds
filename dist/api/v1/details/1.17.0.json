@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "last_updated": "2026-05-22T08:00:58.815Z",
+  "data": {
+    "version_number": "1.17.0",
+    "update_title": "Caves & Cliffs: Part I",
+    "description": "Minecraft Bedrock Edition version 1.17.0.",
+    "server_version": "N/A",
+    "download_urls": {
+      "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.17.0.zip",
+      "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.17.0.zip"
+    }
+  }
+}
