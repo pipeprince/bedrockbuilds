@@ -31,15 +31,15 @@
           },
           colors: {
             brutal: {
-              bg: 'var(--brutal-bg)',
-              white: 'var(--brutal-white)',
-              black: 'var(--brutal-black)',
+              bg: 'rgb(var(--brutal-bg-rgb) / <alpha-value>)',
+              white: 'rgb(var(--brutal-white-rgb) / <alpha-value>)',
+              black: 'rgb(var(--brutal-black-rgb) / <alpha-value>)',
               green: '#00e676',
               yellow: '#ffd54f',
               red: '#ff5252',
               blue: '#29b6f6',
-              gray: 'var(--brutal-gray)',
-              darkgray: 'var(--brutal-darkgray)',
+              gray: 'rgb(var(--brutal-gray-rgb) / <alpha-value>)',
+              darkgray: 'rgb(var(--brutal-darkgray-rgb) / <alpha-value>)',
             }
           }
         }
@@ -57,15 +57,21 @@
   <!-- Custom Neubrutalism Styles -->
   <style>
     :root {
-      --brutal-black-theme: #111111;
+      --brutal-black-theme-rgb: 17, 17, 17;
       --brutal-border-theme: #111111;
       --brutal-shadow-theme: #111111;
 
-      --brutal-bg: #fbfaf5;
-      --brutal-white: #ffffff;
-      --brutal-black: #111111;
-      --brutal-gray: #e0e0e0;
-      --brutal-darkgray: #2c2c2c;
+      --brutal-bg-rgb: 251, 250, 245;
+      --brutal-white-rgb: 255, 255, 255;
+      --brutal-black-rgb: 17, 17, 17;
+      --brutal-gray-rgb: 224, 224, 224;
+      --brutal-darkgray-rgb: 44, 44, 44;
+
+      --brutal-bg: rgb(var(--brutal-bg-rgb));
+      --brutal-white: rgb(var(--brutal-white-rgb));
+      --brutal-black: rgb(var(--brutal-black-rgb));
+      --brutal-gray: rgb(var(--brutal-gray-rgb));
+      --brutal-darkgray: rgb(var(--brutal-darkgray-rgb));
       --brutal-shadow: #111111;
       --brutal-border: #111111;
       --scrollbar-track: #fbfaf5;
@@ -73,15 +79,21 @@
     }
 
     html.dark {
-      --brutal-black-theme: #f4f4f7;
+      --brutal-black-theme-rgb: 244, 244, 247;
       --brutal-border-theme: #ffffff;
       --brutal-shadow-theme: #ffffff;
 
-      --brutal-bg: #0c0c0e;
-      --brutal-white: #18181b;
-      --brutal-black: #f4f4f7;
-      --brutal-gray: #27272a;
-      --brutal-darkgray: #a1a1aa;
+      --brutal-bg-rgb: 12, 12, 14;
+      --brutal-white-rgb: 24, 24, 27;
+      --brutal-black-rgb: 244, 244, 247;
+      --brutal-gray-rgb: 39, 39, 42;
+      --brutal-darkgray-rgb: 161, 161, 170;
+
+      --brutal-bg: rgb(var(--brutal-bg-rgb));
+      --brutal-white: rgb(var(--brutal-white-rgb));
+      --brutal-black: rgb(var(--brutal-black-rgb));
+      --brutal-gray: rgb(var(--brutal-gray-rgb));
+      --brutal-darkgray: rgb(var(--brutal-darkgray-rgb));
       --brutal-shadow: #ffffff;
       --brutal-border: #ffffff;
       --scrollbar-track: #0c0c0e;
@@ -98,7 +110,7 @@
     /* Overwrite specific Tailwind classes to map to CSS variables */
     .bg-brutal-white {
       background-color: var(--brutal-white) !important;
-      --brutal-black: var(--brutal-black-theme) !important;
+      --brutal-black-rgb: var(--brutal-black-theme-rgb) !important;
       --brutal-border: var(--brutal-border-theme) !important;
       --brutal-shadow: var(--brutal-shadow-theme) !important;
       color: var(--brutal-black);
@@ -111,14 +123,14 @@
     }
     .bg-brutal-gray {
       background-color: var(--brutal-gray) !important;
-      --brutal-black: var(--brutal-black-theme) !important;
+      --brutal-black-rgb: var(--brutal-black-theme-rgb) !important;
       --brutal-border: var(--brutal-border-theme) !important;
       --brutal-shadow: var(--brutal-shadow-theme) !important;
       color: var(--brutal-black);
     }
     .bg-white {
       background-color: var(--brutal-white) !important;
-      --brutal-black: var(--brutal-black-theme) !important;
+      --brutal-black-rgb: var(--brutal-black-theme-rgb) !important;
       --brutal-border: var(--brutal-border-theme) !important;
       --brutal-shadow: var(--brutal-shadow-theme) !important;
       color: var(--brutal-black);
@@ -128,7 +140,7 @@
     .bg-brutal-green,
     .bg-brutal-yellow,
     .bg-brutal-blue {
-      --brutal-black: #111111 !important;
+      --brutal-black-rgb: 17, 17, 17 !important;
       --brutal-border: #111111 !important;
       --brutal-shadow: #111111 !important;
       color: #111111;
@@ -169,7 +181,7 @@
 
     .active-card {
       background-color: #00e676 !important;
-      --brutal-black: #111111 !important;
+      --brutal-black-rgb: 17, 17, 17 !important;
       --brutal-border: #111111 !important;
       --brutal-shadow: #111111 !important;
       color: #111111;
