@@ -45,8 +45,8 @@
     }
   </script>
   <script>
-    // Prevent dark mode flash
-    if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    // Default to Light Mode unless explicitly set to Dark Mode in localStorage
+    if (localStorage.getItem('theme') === 'dark') {
       document.documentElement.classList.add('dark');
     } else {
       document.documentElement.classList.remove('dark');
@@ -133,13 +133,13 @@
       color: var(--brutal-black);
     }
 
-    /* Force accent elements (green, yellow, blue) to maintain dark-mode readability and signature black borders/shadows */
+    /* Force accent elements (green, yellow, blue) to maintain dark-mode readability and follow theme border/shadow variables */
     .bg-brutal-green,
     .bg-brutal-yellow,
     .bg-brutal-blue {
       --brutal-black-rgb: 17 17 17 !important;
-      --brutal-border: #111111 !important;
-      --brutal-shadow: #111111 !important;
+      --brutal-border: var(--brutal-border-theme) !important;
+      --brutal-shadow: var(--brutal-shadow-theme) !important;
       color: #111111;
     }
 
@@ -241,6 +241,8 @@
           API</a>
         <a href="#guide"
           class="bg-white hover:bg-gray-100 text-brutal-black border-3 border-brutal-black px-3 py-1.5 neue-shadow-sm neue-interactive">GUIDE</a>
+        <a href="https://github.com/pipeprince/bedrockbuilds" target="_blank"
+          class="bg-brutal-green hover:bg-emerald-400 text-brutal-black border-3 border-brutal-black px-3 py-1.5 neue-shadow-sm neue-interactive flex items-center gap-1">GITHUB 🐙</a>
       </div>
       <div class="flex items-center gap-3">
         <button onclick="toggleDarkMode()" id="theme-toggle"
