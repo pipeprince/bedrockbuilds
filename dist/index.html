@@ -57,6 +57,10 @@
   <!-- Custom Neubrutalism Styles -->
   <style>
     :root {
+      --brutal-black-theme: #111111;
+      --brutal-border-theme: #111111;
+      --brutal-shadow-theme: #111111;
+
       --brutal-bg: #fbfaf5;
       --brutal-white: #ffffff;
       --brutal-black: #111111;
@@ -69,6 +73,10 @@
     }
 
     html.dark {
+      --brutal-black-theme: #f4f4f7;
+      --brutal-border-theme: #ffffff;
+      --brutal-shadow-theme: #ffffff;
+
       --brutal-bg: #0c0c0e;
       --brutal-white: #18181b;
       --brutal-black: #f4f4f7;
@@ -90,7 +98,10 @@
     /* Overwrite specific Tailwind classes to map to CSS variables */
     .bg-brutal-white {
       background-color: var(--brutal-white) !important;
-      color: var(--brutal-black);
+      --brutal-black: var(--brutal-black-theme) !important;
+      --brutal-border: var(--brutal-border-theme) !important;
+      --brutal-shadow: var(--brutal-shadow-theme) !important;
+      color: var(--brutal-black) !important;
     }
     .border-brutal-black {
       border-color: var(--brutal-border) !important;
@@ -100,10 +111,17 @@
     }
     .bg-brutal-gray {
       background-color: var(--brutal-gray) !important;
+      --brutal-black: var(--brutal-black-theme) !important;
+      --brutal-border: var(--brutal-border-theme) !important;
+      --brutal-shadow: var(--brutal-shadow-theme) !important;
+      color: var(--brutal-black) !important;
     }
     .bg-white {
       background-color: var(--brutal-white) !important;
-      color: var(--brutal-black);
+      --brutal-black: var(--brutal-black-theme) !important;
+      --brutal-border: var(--brutal-border-theme) !important;
+      --brutal-shadow: var(--brutal-shadow-theme) !important;
+      color: var(--brutal-black) !important;
     }
 
     /* Force accent elements (green, yellow, blue) to maintain dark-mode readability and signature black borders/shadows */
@@ -151,6 +169,9 @@
 
     .active-card {
       background-color: #00e676 !important;
+      --brutal-black: #111111 !important;
+      --brutal-border: #111111 !important;
+      --brutal-shadow: #111111 !important;
       color: #111111 !important;
       transform: translate(-2px, -2px);
       box-shadow: 5px 5px 0px 0px var(--brutal-shadow) !important;
@@ -863,7 +884,7 @@ on:
         if (l === lang) {
           tab.className = "font-mono text-xs font-bold border-2 border-brutal-black bg-brutal-black text-brutal-white px-2.5 py-1";
         } else {
-          tab.className = "font-mono text-xs font-bold border-2 border-brutal-black bg-brutal-white text-brutal-black px-2.5 py-1 hover:bg-brutal-yellow transition-colors";
+          tab.className = "font-mono text-xs font-bold border-2 border-brutal-black bg-brutal-white text-brutal-black px-2.5 py-1 hover:bg-brutal-yellow hover:text-black transition-colors";
         }
       });
       updateApiSnippet();
