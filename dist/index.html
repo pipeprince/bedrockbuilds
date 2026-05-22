@@ -106,6 +106,16 @@
       color: var(--brutal-black);
     }
 
+    /* Force accent elements (green, yellow, blue) to maintain dark-mode readability and signature black borders/shadows */
+    .bg-brutal-green,
+    .bg-brutal-yellow,
+    .bg-brutal-blue {
+      --brutal-black: #111111 !important;
+      --brutal-border: #111111 !important;
+      --brutal-shadow: #111111 !important;
+      color: #111111 !important;
+    }
+
     /* Neubrutalism shadows using CSS variables */
     .neue-shadow-sm {
       box-shadow: 3px 3px 0px 0px var(--brutal-shadow);
@@ -179,7 +189,7 @@
           class="w-12 h-12 border-3 border-brutal-black object-contain rotate-[-3deg] hover:rotate-[6deg] transition-transform duration-300">
         <div>
           <span class="font-black text-2xl tracking-tight text-brutal-black">BEDROCK<span
-              class="bg-brutal-green px-1 ml-1 border-2 border-brutal-black">BUILDS</span></span>
+              class="bg-brutal-green px-1 ml-1 border-2 border-brutal-black text-brutal-black">BUILDS</span></span>
           <p class="text-[10px] text-brutal-black/70 font-mono font-bold tracking-widest leading-none mt-1 uppercase">
             Minecraft Server Archive & API</p>
         </div>
