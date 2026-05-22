@@ -18,6 +18,7 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
+      darkMode: 'class',
       theme: {
         extend: {
           fontFamily: {
@@ -30,40 +31,95 @@
           },
           colors: {
             brutal: {
-              bg: '#fbfaf5',
-              white: '#ffffff',
-              black: '#111111',
+              bg: 'var(--brutal-bg)',
+              white: 'var(--brutal-white)',
+              black: 'var(--brutal-black)',
               green: '#00e676',
               yellow: '#ffd54f',
               red: '#ff5252',
               blue: '#29b6f6',
-              gray: '#e0e0e0',
-              darkgray: '#2c2c2c',
+              gray: 'var(--brutal-gray)',
+              darkgray: 'var(--brutal-darkgray)',
             }
           }
         }
       }
     }
   </script>
+  <script>
+    // Prevent dark mode flash
+    if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+      document.documentElement.classList.add('dark');
+    } else {
+      document.documentElement.classList.remove('dark');
+    }
+  </script>
   <!-- Custom Neubrutalism Styles -->
   <style>
-    body {
-      background-color: #fbfaf5;
-      color: #111111;
-      overflow-x: hidden;
+    :root {
+      --brutal-bg: #fbfaf5;
+      --brutal-white: #ffffff;
+      --brutal-black: #111111;
+      --brutal-gray: #e0e0e0;
+      --brutal-darkgray: #2c2c2c;
+      --brutal-shadow: #111111;
+      --brutal-border: #111111;
+      --scrollbar-track: #fbfaf5;
+      --scrollbar-thumb: #111111;
     }
 
-    /* Neubrutalism shadows */
+    html.dark {
+      --brutal-bg: #0c0c0e;
+      --brutal-white: #18181b;
+      --brutal-black: #f4f4f7;
+      --brutal-gray: #27272a;
+      --brutal-darkgray: #a1a1aa;
+      --brutal-shadow: #ffffff;
+      --brutal-border: #ffffff;
+      --scrollbar-track: #0c0c0e;
+      --scrollbar-thumb: #ffffff;
+    }
+
+    body {
+      background-color: var(--brutal-bg);
+      color: var(--brutal-black);
+      overflow-x: hidden;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    /* Overwrite specific Tailwind classes to map to CSS variables */
+    .bg-brutal-white {
+      background-color: var(--brutal-white) !important;
+      color: var(--brutal-black);
+    }
+    .border-brutal-black {
+      border-color: var(--brutal-border) !important;
+    }
+    .text-brutal-black {
+      color: var(--brutal-black) !important;
+    }
+    .bg-brutal-gray {
+      background-color: var(--brutal-gray) !important;
+    }
+    .bg-white {
+      background-color: var(--brutal-white) !important;
+      color: var(--brutal-black);
+    }
+
+    /* Neubrutalism shadows using CSS variables */
     .neue-shadow-sm {
-      box-shadow: 3px 3px 0px 0px #111111;
+      box-shadow: 3px 3px 0px 0px var(--brutal-shadow);
+      border-color: var(--brutal-border) !important;
     }
 
     .neue-shadow {
-      box-shadow: 6px 6px 0px 0px #111111;
+      box-shadow: 6px 6px 0px 0px var(--brutal-shadow);
+      border-color: var(--brutal-border) !important;
     }
 
     .neue-shadow-lg {
-      box-shadow: 10px 10px 0px 0px #111111;
+      box-shadow: 10px 10px 0px 0px var(--brutal-shadow);
+      border-color: var(--brutal-border) !important;
     }
 
     /* Interactive Hover Translation */
@@ -73,18 +129,22 @@
 
     .neue-interactive:hover {
       transform: translate(-3px, -3px);
-      box-shadow: 9px 9px 0px 0px #111111;
+      box-shadow: 9px 9px 0px 0px var(--brutal-shadow);
+      border-color: var(--brutal-border) !important;
     }
 
     .neue-interactive:active {
       transform: translate(2px, 2px);
-      box-shadow: 2px 2px 0px 0px #111111;
+      box-shadow: 2px 2px 0px 0px var(--brutal-shadow);
+      border-color: var(--brutal-border) !important;
     }
 
     .active-card {
       background-color: #00e676 !important;
+      color: #111111 !important;
       transform: translate(-2px, -2px);
-      box-shadow: 5px 5px 0px 0px #111111 !important;
+      box-shadow: 5px 5px 0px 0px var(--brutal-shadow) !important;
+      border-color: var(--brutal-border) !important;
     }
 
     /* Custom Scrollbar for Neubrutalism */
@@ -93,13 +153,13 @@
     }
 
     ::-webkit-scrollbar-track {
-      background: #fbfaf5;
-      border-left: 3px solid #111111;
+      background: var(--scrollbar-track);
+      border-left: 3px solid var(--brutal-border);
     }
 
     ::-webkit-scrollbar-thumb {
-      background: #111111;
-      border: 2px solid #fbfaf5;
+      background: var(--scrollbar-thumb);
+      border: 2px solid var(--scrollbar-track);
     }
 
     ::-webkit-scrollbar-thumb:hover {
@@ -134,6 +194,9 @@
           class="bg-white hover:bg-gray-100 text-brutal-black border-3 border-brutal-black px-3 py-1.5 neue-shadow-sm neue-interactive">GUIDE</a>
       </div>
       <div class="flex items-center gap-3">
+        <button onclick="toggleDarkMode()" id="theme-toggle" class="bg-white hover:bg-gray-100 dark:bg-zinc-800 dark:hover:bg-zinc-700 text-brutal-black border-3 border-brutal-black p-1.5 neue-shadow-sm neue-interactive rounded-none text-md leading-none flex items-center justify-center select-none cursor-pointer" title="Toggle Light/Dark Theme">
+          🌓
+        </button>
         <span
           class="bg-brutal-green text-brutal-black border-3 border-brutal-black font-mono font-extrabold text-xs px-3 py-1.5 shadow-[2px_2px_0px_0px_#111111]">
           API STATUS: ACTIVE
@@ -174,7 +237,7 @@
           </div>
           <div class="bg-brutal-white border-3 border-brutal-black p-2 shadow-[2px_2px_0px_0px_#111111]">
             <span class="text-gray-500 block text-[9px] uppercase font-bold">Update Cron</span>
-            <span class="text-lg text-brutal-black">6 Hours</span>
+            <span class="text-lg text-brutal-black">1 Days</span>
           </div>
         </div>
       </div>
@@ -317,7 +380,7 @@
             </div>
             <div class="flex items-center gap-2 w-full sm:w-auto">
               <input type="text" id="api-request-path" readonly
-                value="https://bedrockbuildspipeprince.cc/api/v1/latest.json"
+                value="https://bedrockbuilds.pipeprince.cc/api/v1/latest.json"
                 class="hidden sm:inline bg-white border-2 border-brutal-black text-xs font-mono px-2 py-1 w-64 text-brutal-black font-bold">
               <button onclick="sendLiveApiRequest()"
                 class="neue-shadow-sm border-2 border-brutal-black bg-brutal-green hover:bg-emerald-400 text-brutal-black text-xs font-bold px-3 py-1 uppercase font-mono">
@@ -329,7 +392,7 @@
           <div
             class="p-3 bg-brutal-black border-b-3 border-brutal-black text-xs text-brutal-green font-mono overflow-x-auto whitespace-nowrap">
             <span class="text-white font-bold select-none">$</span> <span id="code-snippet-box">curl -X GET
-              https://bedrockbuildspipeprince.cc/api/v1/latest.json</span>
+              https://bedrockbuilds.pipeprince.cc/api/v1/latest.json</span>
           </div>
           <!-- JSON Screen Output -->
           <div class="flex-1 bg-brutal-black text-white font-mono p-4 min-h-[300px] overflow-hidden flex flex-col">
@@ -361,7 +424,7 @@
           wget automation:</p>
         <pre
           class="bg-brutal-black border-2 border-brutal-black text-xs text-brutal-green p-3 rounded-none font-mono overflow-x-auto font-bold select-all">
-DL_URL=$(curl -s https://bedrockbuildspipeprince.cc/api/v1/latest.json | grep -oP '"linux":\s*"\K[^"]+')
+DL_URL=$(curl -s https://bedrockbuilds.pipeprince.cc/api/v1/latest.json | grep -oP '"linux":\s*"\K[^"]+')
 wget -O server.zip "$DL_URL"
         </pre>
       </div>
@@ -374,7 +437,7 @@ wget -O server.zip "$DL_URL"
         <pre
           class="bg-brutal-black border-2 border-brutal-black text-xs text-brutal-green p-3 rounded-none font-mono overflow-x-auto font-bold select-all">
 # In install script block
-JSON=$(curl -sL https://bedrockbuildspipeprince.cc/api/v1/latest.json)
+JSON=$(curl -sL https://bedrockbuilds.pipeprince.cc/api/v1/latest.json)
 DOWNLOAD_URL=$(echo $JSON | jq -r '.data.download_urls.linux')
         </pre>
       </div>
@@ -437,6 +500,15 @@ on:
         details: () => `<?php\n$json = file_get_contents("${API_BASE_URL}/details/${selectedVersionNumber || '1.21.0.03'}.json");\n$data = json_decode($json, true);\nprint_r($data);`
       }
     };
+    function toggleDarkMode() {
+      if (document.documentElement.classList.contains('dark')) {
+        document.documentElement.classList.remove('dark');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.classList.add('dark');
+        localStorage.setItem('theme', 'dark');
+      }
+    }
     function detectOS() {
       const platform = window.navigator.platform.toLowerCase();
       const userAgent = window.navigator.userAgent.toLowerCase();

@@ -1,10 +1,10 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T11:51:09.137Z",
+  "last_updated": "2026-05-22T12:06:19.979Z",
   "data": {
     "version_number": "1.19.41",
     "update_title": "Standard Release",
-    "description": "Failed to load details for version 1.19.41.",
+    "description": "1.19.41 is a hotfix to Bedrock Edition released on most platforms on November 3, 2022, except Fire and Nintendo Switch, which were released on November 4th and 7th, 2022, respectively, which fixes bugs.",
     "server_version": "N/A",
     "download_urls": {
       "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.41.zip",

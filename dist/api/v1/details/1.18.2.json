@@ -1,11 +1,11 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T11:51:09.140Z",
+  "last_updated": "2026-05-22T12:06:19.983Z",
   "data": {
     "version_number": "1.18.2",
     "update_title": "Standard Release",
-    "description": "Failed to load details for version 1.18.2.",
-    "server_version": "N/A",
+    "description": "1.18.2 is a hotfix to Bedrock Edition released on December 9, 2021, which fixes bugs. This version is compatible with all Bedrock platforms running on 1.18.0 and 1.18.1. This is the final version released in 2021.",
+    "server_version": "1.18.2.03",
     "download_urls": {
       "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.18.2.03.zip",
       "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.18.2.03.zip"

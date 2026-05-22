@@ -1,10 +1,10 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T11:51:09.155Z",
+  "last_updated": "2026-05-22T12:06:19.993Z",
   "data": {
     "version_number": "1.2.8",
     "update_title": "Standard Release",
-    "description": "Failed to load details for version 1.2.8.",
+    "description": "1.2.8 is a hotfix to Bedrock Edition released for Android, iOS, and Gear VR on December 18, 2017 and all other platforms on December 19, 2017. This is the final version released in 2017.",
     "server_version": "N/A",
     "download_urls": {
       "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.2.8.zip",

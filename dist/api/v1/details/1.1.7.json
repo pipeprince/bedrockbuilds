@@ -1,14 +1,15 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T11:51:09.160Z",
+  "last_updated": "2026-05-22T12:06:19.995Z",
   "data": {
     "version_number": "1.1.7",
     "update_title": "Standard Release",
-    "description": "Failed to load details for version 1.1.7.",
+    "description": "1.1.7 is an update for Pocket Edition, released only for iOS on September 15, 2017, which added support for IPv6 IP addresses. It is the final update for Pocket Edition on iOS, as the next version would merge it with its derived editions into Bedrock Edition.",
     "server_version": "N/A",
     "download_urls": {
       "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.1.7.zip",
       "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.1.7.zip"
-    }
+    },
+    "scraped_preview": true
   }
 }

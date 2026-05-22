@@ -1,11 +1,11 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T11:51:09.148Z",
+  "last_updated": "2026-05-22T12:06:19.989Z",
   "data": {
     "version_number": "1.14.1",
     "update_title": "Standard Release",
-    "description": "Failed to load details for version 1.14.1.",
-    "server_version": "N/A",
+    "description": "1.14.1 is a hotfix to Bedrock Edition released on December 18, 2019 for most platforms and December 19, 2019 for PlayStaton 4 and Nintendo Switch, which fixes bugs. This is the final version released in 2019.",
+    "server_version": "1.14.1.4",
     "download_urls": {
       "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.14.1.4.zip",
       "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.14.1.4.zip"

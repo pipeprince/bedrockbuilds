@@ -1,11 +1,11 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T11:51:09.146Z",
+  "last_updated": "2026-05-22T12:06:19.988Z",
   "data": {
     "version_number": "1.16.1",
     "update_title": "Standard Release",
-    "description": "Failed to load details for version 1.16.1.",
-    "server_version": "N/A",
+    "description": "1.16.1 is a hotfix to Bedrock Edition released on June 29, 2020 for Android, Gear VR, Windows 10 and Windows 10 Mobile, June 30, 2020 for Fire OS, Xbox One, and PS4, July 1, 2020 for Fire TV, July 3, 2020 for Nintendo Switch, and July 6, 2020 for iOS and iPadOS, which fixes bugs.",
+    "server_version": "1.16.1.02",
     "download_urls": {
       "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.1.02.zip",
       "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.16.1.02.zip"

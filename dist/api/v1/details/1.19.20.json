@@ -1,11 +1,11 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T11:51:09.138Z",
+  "last_updated": "2026-05-22T12:06:19.980Z",
   "data": {
     "version_number": "1.19.20",
     "update_title": "Standard Release",
-    "description": "Failed to load details for version 1.19.20.",
-    "server_version": "N/A",
+    "description": "1.19.20 is a minor update to Bedrock Edition released on August 9, 2022, which brought more parity with Java Edition, and fixes bugs.",
+    "server_version": "1.19.20.02",
     "download_urls": {
       "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.19.20.02.zip",
       "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.19.20.02.zip"

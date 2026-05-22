@@ -1,10 +1,10 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T11:51:09.161Z",
+  "last_updated": "2026-05-22T12:06:19.995Z",
   "data": {
     "version_number": "1.1.5",
     "update_title": "Standard Release",
-    "description": "Failed to load details for version 1.1.5.",
+    "description": "1.1.5 was an update for Pocket Edition and its derived editions that added new and updated existing Marketplace content as well as fixing several bugs. This update is the last version for Pocket Edition (except for iOS, its last version would be 1.1.7) and all editions derived from it, which, aside from Apple TV Edition, would all eventually be merged into Bedrock Edition. It made it possible for additional content to be added to the Marketplace without the need for a full update.",
     "server_version": "N/A",
     "download_urls": {
       "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.1.5.zip",
