@@ -8,13 +8,11 @@
   <meta name="description"
     content="Professional archive of Minecraft Bedrock Edition Dedicated Server versions. Access direct download links or query our high-performance serverless public API.">
   <link rel="icon" type="image/png" href="assets/logo.png">
-  <!-- Google Fonts: Outfit & JetBrains Mono -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
     href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;800;900&family=JetBrains+Mono:wght@500;700;800&display=swap"
     rel="stylesheet">
-  <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -54,19 +52,16 @@
       document.documentElement.classList.remove('dark');
     }
   </script>
-  <!-- Custom Neubrutalism Styles -->
   <style>
     :root {
-      --brutal-black-theme-rgb: 17, 17, 17;
+      --brutal-black-theme-rgb: 17 17 17;
       --brutal-border-theme: #111111;
       --brutal-shadow-theme: #111111;
-
-      --brutal-bg-rgb: 251, 250, 245;
-      --brutal-white-rgb: 255, 255, 255;
-      --brutal-black-rgb: 17, 17, 17;
-      --brutal-gray-rgb: 224, 224, 224;
-      --brutal-darkgray-rgb: 44, 44, 44;
-
+      --brutal-bg-rgb: 251 250 245;
+      --brutal-white-rgb: 255 255 255;
+      --brutal-black-rgb: 17 17 17;
+      --brutal-gray-rgb: 224 224 224;
+      --brutal-darkgray-rgb: 44 44 44;
       --brutal-bg: rgb(var(--brutal-bg-rgb));
       --brutal-white: rgb(var(--brutal-white-rgb));
       --brutal-black: rgb(var(--brutal-black-rgb));
@@ -79,16 +74,14 @@
     }
 
     html.dark {
-      --brutal-black-theme-rgb: 244, 244, 247;
+      --brutal-black-theme-rgb: 244 244 247;
       --brutal-border-theme: #ffffff;
       --brutal-shadow-theme: #ffffff;
-
-      --brutal-bg-rgb: 12, 12, 14;
-      --brutal-white-rgb: 24, 24, 27;
-      --brutal-black-rgb: 244, 244, 247;
-      --brutal-gray-rgb: 39, 39, 42;
-      --brutal-darkgray-rgb: 161, 161, 170;
-
+      --brutal-bg-rgb: 12 12 14;
+      --brutal-white-rgb: 24 24 27;
+      --brutal-black-rgb: 244 244 247;
+      --brutal-gray-rgb: 39 39 42;
+      --brutal-darkgray-rgb: 161 161 170;
       --brutal-bg: rgb(var(--brutal-bg-rgb));
       --brutal-white: rgb(var(--brutal-white-rgb));
       --brutal-black: rgb(var(--brutal-black-rgb));
@@ -144,7 +137,7 @@
     .bg-brutal-green,
     .bg-brutal-yellow,
     .bg-brutal-blue {
-      --brutal-black-rgb: 17, 17, 17 !important;
+      --brutal-black-rgb: 17 17 17 !important;
       --brutal-border: #111111 !important;
       --brutal-shadow: #111111 !important;
       color: #111111;
@@ -227,9 +220,7 @@
 </head>
 
 <body class="relative min-h-screen py-4 px-4 sm:px-6">
-  <!-- Main Container -->
   <div class="max-w-7xl mx-auto flex flex-col gap-6">
-    <!-- Header Navigation Card -->
     <nav
       class="bg-brutal-white border-4 border-brutal-black rounded-none p-4 neue-shadow flex flex-col sm:flex-row items-center justify-between gap-4">
       <div class="flex items-center gap-4">
@@ -263,9 +254,7 @@
         </span>
       </div>
     </nav>
-    <!-- Hero / Welcome Grid -->
     <header class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
-      <!-- Intro Card (7 cols) -->
       <div
         class="lg:col-span-7 bg-brutal-blue border-4 border-brutal-black p-6 sm:p-8 neue-shadow flex flex-col justify-between gap-6">
         <div>
@@ -280,7 +269,6 @@
             Fetch server links instantly or consume them via our zero-rate-limit public API.
           </p>
         </div>
-        <!-- Live Stats Inline -->
         <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 font-mono font-bold text-xs mt-4">
           <div class="bg-brutal-white border-3 border-brutal-black p-2 shadow-[2px_2px_0px_0px_#111111]">
             <span class="text-gray-500 block text-[9px] uppercase font-bold">Total Builds</span>
@@ -300,7 +288,6 @@
           </div>
         </div>
       </div>
-      <!-- Quick download Brutal Card (5 cols) -->
       <div
         class="lg:col-span-5 bg-brutal-yellow border-4 border-brutal-black p-6 sm:p-8 neue-shadow flex flex-col justify-between gap-4 relative overflow-hidden">
         <div>
@@ -320,9 +307,7 @@
         </div>
       </div>
     </header>
-    <!-- Main Workspace Section -->
     <section id="archive" class="flex flex-col gap-4">
-      <!-- Section Headers -->
       <div
         class="bg-brutal-white border-4 border-brutal-black p-4 neue-shadow flex flex-col sm:flex-row items-center justify-between gap-4">
         <div>
@@ -330,7 +315,6 @@
           <p class="text-brutal-black/75 text-xs font-bold font-mono mt-1">Select a Bedrock release build to access
             downloads</p>
         </div>
-        <!-- Search & Filter Controls -->
         <div class="flex flex-wrap items-center gap-3 w-full sm:w-auto">
           <div class="relative w-full sm:w-64">
             <input type="text" id="search-input" placeholder="Search versions (e.g. 1.21)..."
@@ -344,9 +328,7 @@
           </select>
         </div>
       </div>
-      <!-- Database Layout Workspace -->
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
-        <!-- Sidebar Version Selection (4 cols) -->
         <div class="lg:col-span-4 flex flex-col gap-4">
           <div class="bg-brutal-white border-4 border-brutal-black p-4 neue-shadow flex flex-col max-h-[600px]">
             <div
@@ -354,7 +336,6 @@
               <span class="uppercase">Version Archive</span>
               <span id="list-count" class="bg-black text-white px-2 py-0.5 font-bold">0 builds</span>
             </div>
-            <!-- List scroll container -->
             <div id="versions-container" class="flex-1 overflow-y-auto pr-1 flex flex-col gap-3">
               <div class="text-center py-10 text-brutal-black font-mono font-bold animate-pulse">
                 [SYNCHRONIZING RELEASES...]
@@ -362,7 +343,6 @@
             </div>
           </div>
         </div>
-        <!-- Details Render Card (8 cols) -->
         <div class="lg:col-span-8">
           <div id="details-workspace"
             class="bg-brutal-white border-4 border-brutal-black p-6 sm:p-8 h-full neue-shadow flex flex-col justify-between min-h-[500px]">
@@ -376,7 +356,6 @@
         </div>
       </div>
     </section>
-    <!-- Developer API playground Section -->
     <section id="api" class="flex flex-col gap-4">
       <div class="bg-brutal-green border-4 border-brutal-black p-6 neue-shadow text-center">
         <span
@@ -391,7 +370,6 @@
         </p>
       </div>
       <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 items-stretch">
-        <!-- Endpoint Selection Panel -->
         <div class="lg:col-span-4 flex flex-col gap-3">
           <button onclick="selectEndpoint('latest')" id="btn-ep-latest"
             class="neue-interactive text-left p-4 bg-brutal-white border-4 border-brutal-black neue-shadow active-card">
@@ -421,9 +399,7 @@
               a single version.</p>
           </button>
         </div>
-        <!-- Terminal Console Panel -->
         <div class="lg:col-span-8 flex flex-col border-4 border-brutal-black bg-brutal-white neue-shadow">
-          <!-- Terminal Tabs -->
           <div
             class="bg-brutal-gray border-b-4 border-brutal-black p-3 flex flex-col sm:flex-row items-center justify-between gap-3">
             <div class="flex items-center gap-1.5">
@@ -446,13 +422,11 @@
               </button>
             </div>
           </div>
-          <!-- Code Box -->
           <div
             class="p-3 bg-black border-b-3 border-black text-xs text-brutal-green font-mono overflow-x-auto whitespace-nowrap">
             <span class="text-white font-bold select-none">$</span> <span id="code-snippet-box">curl -X GET
               https://bedrockbuilds.pipeprince.cc/api/v1/latest.json</span>
           </div>
-          <!-- JSON Screen Output -->
           <div class="flex-1 bg-black text-white font-mono p-4 min-h-[300px] overflow-hidden flex flex-col">
             <div
               class="flex justify-between border-b border-white/20 pb-2 mb-2 text-xs font-sans text-white/50 select-none">
@@ -472,7 +446,6 @@
         </div>
       </div>
     </section>
-    <!-- Guide / Deployment scripts -->
     <section id="guide" class="grid grid-cols-1 md:grid-cols-3 gap-6">
       <div class="bg-brutal-white border-4 border-brutal-black p-5 neue-shadow">
         <span
@@ -514,7 +487,6 @@ on:
         </pre>
       </div>
     </section>
-    <!-- Footer -->
     <footer
       class="bg-black text-white border-4 border-black p-6 neue-shadow text-center flex flex-col md:flex-row items-center justify-between gap-4 mb-4 select-none">
       <div class="flex items-center gap-3">
@@ -527,7 +499,6 @@ on:
       </p>
     </footer>
   </div>
-  <!-- Client-side SPA Application Code -->
   <script>
     let allBuilds = [];
     let currentFilteredBuilds = [];
@@ -754,7 +725,6 @@ on:
       const ws = document.getElementById('details-workspace');
       if (!b) return;
       const isStable = b.server_version && b.server_version !== 'N/A';
-
       let winUrl = b.download_urls.windows;
       let linUrl = b.download_urls.linux;
       let winFilename = `bedrock-server-${b.server_version || b.version_number}.zip`;
@@ -764,7 +734,6 @@ on:
       let badgeText = isStable ? 'Available CDN' : 'Unreleased Mirror';
       let btnClass = isStable ? 'bg-brutal-green hover:bg-emerald-400' : 'bg-brutal-gray text-brutal-black/50 cursor-not-allowed';
       let opacityClass = isStable ? '' : 'opacity-80';
-
       let warningBannerHtml = '';
       if (!isStable) {
         if (b.preview_download_urls) {
@@ -790,7 +759,6 @@ on:
           `;
         } else {
           warningBannerHtml = `
-            <!-- Neubrutalism Red Warning Banner for Unreleased Server Binaries -->
             <div class="bg-brutal-red text-white border-3 border-brutal-black p-4 shadow-[3px_3px_0px_0px_#111111] flex items-start gap-3 my-4">
               <span class="text-2xl select-none">⚠️</span>
               <div>
@@ -807,7 +775,6 @@ on:
       ws.innerHTML = `
         <div class="flex flex-col justify-between h-full gap-6">
           <div>
-            <!-- Title & Badges -->
             <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-3 border-b-3 border-brutal-black pb-5 mb-5">
               <div>
                 <div class="flex items-center gap-3 mb-1">
@@ -822,15 +789,11 @@ on:
                 READ WIKI ARTICLE ↗️
               </a>
             </div>
-            <!-- Server Version Status Warning -->
             ${warningBannerHtml}
-            <!-- Description -->
             <p class="text-brutal-black font-bold text-sm sm:text-md leading-snug mb-6">
               ${b.description || 'Minecraft Bedrock Dedicated Server binary metadata archive.'}
             </p>
-            <!-- Mirrors & Binaries -->
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
-              <!-- Windows Server -->
               <div class="bg-brutal-white border-3 border-brutal-black p-4 shadow-[3px_3px_0px_0px_#111111] flex flex-col justify-between ${opacityClass}">
                 <div>
                   <span class="text-xs font-mono font-bold text-gray-500 uppercase block mb-1">Windows Server ZIP</span>
@@ -848,7 +811,6 @@ on:
                   </button>
                 </div>
               </div>
-              <!-- Linux Server -->
               <div class="bg-brutal-white border-3 border-brutal-black p-4 shadow-[3px_3px_0px_0px_#111111] flex flex-col justify-between ${opacityClass}">
                 <div>
                   <span class="text-xs font-mono font-bold text-gray-500 uppercase block mb-1">Linux Dedicated Server</span>
@@ -868,7 +830,6 @@ on:
               </div>
             </div>
           </div>
-          <!-- Copy Wget helper -->
           <div class="bg-brutal-gray border-3 border-brutal-black p-4 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs shadow-[3px_3px_0px_0px_#111111] ${opacityClass}">
             <div class="flex items-center gap-2 overflow-hidden w-full">
               <span class="font-mono bg-brutal-black text-white px-2 py-0.5 border border-black font-bold">WGET</span>
