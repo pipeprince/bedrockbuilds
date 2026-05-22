@@ -144,11 +144,22 @@
     /* Force accent elements (green, yellow, blue) to maintain dark-mode readability and follow theme border/shadow variables */
     .bg-brutal-green,
     .bg-brutal-yellow,
-    .bg-brutal-blue {
+    .bg-brutal-blue,
+    .active-card,
+    [class*="bg-brutal-green"],
+    [class*="bg-brutal-yellow"],
+    [class*="bg-brutal-blue"],
+    .bg-brutal-green .text-brutal-black,
+    .bg-brutal-yellow .text-brutal-black,
+    .bg-brutal-blue .text-brutal-black,
+    .bg-brutal-green.text-brutal-black,
+    .bg-brutal-yellow.text-brutal-black,
+    .bg-brutal-blue.text-brutal-black,
+    .active-card .text-brutal-black {
       --brutal-black-rgb: 17 17 17 !important;
       --brutal-border: var(--brutal-border-theme) !important;
       --brutal-shadow: var(--brutal-shadow-theme) !important;
-      color: #111111;
+      color: #111111 !important;
     }
 
     /* Neubrutalism shadows using CSS variables */
@@ -369,7 +380,7 @@
     <section id="api" class="flex flex-col gap-4">
       <div class="bg-brutal-green border-4 border-brutal-black p-6 neue-shadow text-center">
         <span
-          class="bg-brutal-black text-brutal-green font-mono font-bold text-xs uppercase px-3 py-1 inline-block mb-3">
+          class="bg-black text-brutal-green font-mono font-bold text-xs uppercase px-3 py-1 inline-block mb-3">
           FOR SYSTEM DEVELOPERS & HOSTS
         </span>
         <h2 class="text-3xl sm:text-4xl font-black text-brutal-black leading-none uppercase mb-2">Public serverless REST
@@ -795,13 +806,13 @@ on:
                 </div>
                 <p class="text-brutal-black/75 text-sm font-bold uppercase tracking-wider">${b.update_title || 'Standard Release'}</p>
               </div>
-              <a href="https://minecraft.wiki/w/Bedrock_Edition_${b.version_number}" target="_blank" class="self-start sm:self-center font-bold text-xs bg-brutal-black text-white hover:bg-brutal-yellow hover:text-black border-2 border-black px-3 py-1.5 neue-shadow-sm neue-interactive">
+              <a href="https://minecraft.wiki/w/Bedrock_Edition_${b.version_number}" target="_blank" class="self-start sm:self-center font-bold text-xs bg-black text-white hover:bg-brutal-yellow hover:text-black border-2 border-black px-3 py-1.5 neue-shadow-sm neue-interactive">
                 READ WIKI ARTICLE ↗️
               </a>
             </div>
             ${warningBannerHtml}
             <p class="text-brutal-black font-bold text-sm sm:text-md leading-snug mb-6">
-              ${b.description || 'Minecraft Bedrock Dedicated Server binary metadata archive.'}
+               ${b.description || 'Minecraft Bedrock Dedicated Server binary metadata archive.'}
             </p>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
               <div class="bg-brutal-white border-3 border-brutal-black p-4 shadow-[3px_3px_0px_0px_#111111] flex flex-col justify-between ${opacityClass}">
@@ -842,7 +853,7 @@ on:
           </div>
           <div class="bg-brutal-gray border-3 border-brutal-black p-4 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs shadow-[3px_3px_0px_0px_#111111] ${opacityClass}">
             <div class="flex items-center gap-2 overflow-hidden w-full">
-              <span class="font-mono bg-brutal-black text-white px-2 py-0.5 border border-black font-bold">WGET</span>
+              <span class="font-mono bg-black text-white px-2 py-0.5 border border-black font-bold">WGET</span>
               <code class="font-mono text-brutal-black font-bold truncate select-all block">${linUrl}</code>
             </div>
             <button onclick="copyToClipboard('wget ${linUrl}')" class="w-full sm:w-auto font-bold text-brutal-black bg-brutal-yellow hover:bg-yellow-400 border-2 border-brutal-black px-3 py-1.5 shadow-[2px_2px_0px_0px_#111111] neue-interactive shrink-0 uppercase">
