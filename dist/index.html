@@ -109,8 +109,16 @@
       color: var(--brutal-black);
     }
 
+    /* Map all black/brutal borders to the active theme border color */
+    [class*="border-black"],
+    [class*="border-brutal-black"],
     .border-brutal-black {
       border-color: var(--brutal-border) !important;
+    }
+
+    /* Map all Tailwind box shadows to follow the theme shadow color */
+    [class*="shadow-"] {
+      --tw-shadow-color: var(--brutal-shadow) !important;
     }
 
     .text-brutal-black {
