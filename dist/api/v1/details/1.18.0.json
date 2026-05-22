@@ -1,11 +1,11 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T11:46:35.710Z",
+  "last_updated": "2026-05-22T11:51:09.140Z",
   "data": {
     "version_number": "1.18.0",
     "update_title": "Caves & Cliffs: Part II",
-    "description": "1.18.0, the first release of Caves & Cliffs: Part II, is a major update to Bedrock Edition released on November 30, 2021. It was first announced alongside the release of the Java Edition 1.17 snapshot 21w15a when Mojang Studios stated the Caves & Cliffs update would be split in two. Features from 1.18.0 were being developed alongside 1.17.0 through Experimental Gameplay. This is the third major update for Bedrock Edition that is split into several updates since Village & Pillage in 2019.",
-    "server_version": "1.18.0.02",
+    "description": "Failed to load details for version 1.18.0.",
+    "server_version": "N/A",
     "download_urls": {
       "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.18.0.02.zip",
       "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.18.0.02.zip"

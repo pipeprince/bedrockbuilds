@@ -1,10 +1,10 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T11:46:35.717Z",
+  "last_updated": "2026-05-22T11:51:09.153Z",
   "data": {
     "version_number": "1.4.0",
     "update_title": "Update Aquatic",
-    "description": "1.4.0, also known as Phase One of the Update Aquatic, is a major update to Bedrock Edition released on May 16, 2018. It adds many new features focused primarily around ocean-related content, such as dolphins, shipwrecks, fish, tridents, buried treasure, and many other changes and fixes. Improvements to the technical aspect of the game were also added in this update, as well as an option to toggle various features from Education Edition into worlds.",
+    "description": "Failed to load details for version 1.4.0.",
     "server_version": "N/A",
     "download_urls": {
       "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.4.0.zip",

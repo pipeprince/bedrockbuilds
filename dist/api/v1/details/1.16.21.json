@@ -1,10 +1,10 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T11:46:35.712Z",
+  "last_updated": "2026-05-22T11:51:09.145Z",
   "data": {
     "version_number": "1.16.21",
     "update_title": "Standard Release",
-    "description": "1.16.21 is a hotfix to Bedrock Edition released only for the Nintendo Switch on August 20, 2020, which fixed a stability issue relating to the home screen while signed in.",
+    "description": "Failed to load details for version 1.16.21.",
     "server_version": "N/A",
     "download_urls": {
       "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.21.zip",

@@ -1,10 +1,10 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T11:46:35.712Z",
+  "last_updated": "2026-05-22T11:51:09.145Z",
   "data": {
     "version_number": "1.16.42",
     "update_title": "Standard Release",
-    "description": "1.16.42 is a hotfix to Bedrock Edition released only for the PlayStation 4 on September 22, 2020, which added support for the PlayStation VR. This version was re-released immediately after to fix further bugs.",
+    "description": "Failed to load details for version 1.16.42.",
     "server_version": "N/A",
     "download_urls": {
       "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.16.42.zip",

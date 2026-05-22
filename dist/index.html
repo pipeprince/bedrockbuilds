@@ -316,7 +316,8 @@
                 class="font-mono text-xs font-bold border-2 border-brutal-black bg-brutal-white text-brutal-black px-2.5 py-1 hover:bg-brutal-yellow transition-colors">PHP</button>
             </div>
             <div class="flex items-center gap-2 w-full sm:w-auto">
-              <input type="text" id="api-request-path" readonly value="https://bedrockbuilds.com/api/v1/latest.json"
+              <input type="text" id="api-request-path" readonly
+                value="https://bedrockbuildspipeprince.cc/api/v1/latest.json"
                 class="hidden sm:inline bg-white border-2 border-brutal-black text-xs font-mono px-2 py-1 w-64 text-brutal-black font-bold">
               <button onclick="sendLiveApiRequest()"
                 class="neue-shadow-sm border-2 border-brutal-black bg-brutal-green hover:bg-emerald-400 text-brutal-black text-xs font-bold px-3 py-1 uppercase font-mono">
@@ -328,7 +329,7 @@
           <div
             class="p-3 bg-brutal-black border-b-3 border-brutal-black text-xs text-brutal-green font-mono overflow-x-auto whitespace-nowrap">
             <span class="text-white font-bold select-none">$</span> <span id="code-snippet-box">curl -X GET
-              https://bedrockbuilds.com/api/v1/latest.json</span>
+              https://bedrockbuildspipeprince.cc/api/v1/latest.json</span>
           </div>
           <!-- JSON Screen Output -->
           <div class="flex-1 bg-brutal-black text-white font-mono p-4 min-h-[300px] overflow-hidden flex flex-col">
@@ -360,7 +361,7 @@
           wget automation:</p>
         <pre
           class="bg-brutal-black border-2 border-brutal-black text-xs text-brutal-green p-3 rounded-none font-mono overflow-x-auto font-bold select-all">
-DL_URL=$(curl -s https://bedrockbuilds.com/api/v1/latest.json | grep -oP '"linux":\s*"\K[^"]+')
+DL_URL=$(curl -s https://bedrockbuildspipeprince.cc/api/v1/latest.json | grep -oP '"linux":\s*"\K[^"]+')
 wget -O server.zip "$DL_URL"
         </pre>
       </div>
@@ -373,7 +374,7 @@ wget -O server.zip "$DL_URL"
         <pre
           class="bg-brutal-black border-2 border-brutal-black text-xs text-brutal-green p-3 rounded-none font-mono overflow-x-auto font-bold select-all">
 # In install script block
-JSON=$(curl -sL https://bedrockbuilds.com/api/v1/latest.json)
+JSON=$(curl -sL https://bedrockbuildspipeprince.cc/api/v1/latest.json)
 DOWNLOAD_URL=$(echo $JSON | jq -r '.data.download_urls.linux')
         </pre>
       </div>
@@ -623,7 +624,7 @@ on:
       const ws = document.getElementById('details-workspace');
       if (!b) return;
       const isStable = b.server_version && b.server_version !== 'N/A';
-      
+
       let winUrl = b.download_urls.windows;
       let linUrl = b.download_urls.linux;
       let winFilename = `bedrock-server-${b.server_version || b.version_number}.zip`;

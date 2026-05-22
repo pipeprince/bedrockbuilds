@@ -1,10 +1,10 @@
 {
   "success": true,
-  "last_updated": "2026-05-22T11:46:35.717Z",
+  "last_updated": "2026-05-22T11:51:09.153Z",
   "data": {
     "version_number": "1.4.2",
     "update_title": "Standard Release",
-    "description": "1.4.2 is a hotfix to Bedrock Edition released on May 23, 2018, which fixes bugs.",
+    "description": "Failed to load details for version 1.4.2.",
     "server_version": "N/A",
     "download_urls": {
       "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.4.2.zip",
