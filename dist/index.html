@@ -115,12 +115,15 @@
       --brutal-shadow: var(--brutal-shadow-theme) !important;
       color: var(--brutal-black);
     }
+
     .border-brutal-black {
       border-color: var(--brutal-border) !important;
     }
+
     .text-brutal-black {
       color: var(--brutal-black) !important;
     }
+
     .bg-brutal-gray {
       background-color: var(--brutal-gray) !important;
       --brutal-black-rgb: var(--brutal-black-theme-rgb) !important;
@@ -128,6 +131,7 @@
       --brutal-shadow: var(--brutal-shadow-theme) !important;
       color: var(--brutal-black);
     }
+
     .bg-white {
       background-color: var(--brutal-white) !important;
       --brutal-black-rgb: var(--brutal-black-theme-rgb) !important;
@@ -208,6 +212,17 @@
     ::-webkit-scrollbar-thumb:hover {
       background: #00e676;
     }
+
+    /* Explicit dropdown option styles for dark/light mode consistency across browsers */
+    select option {
+      background-color: var(--brutal-white) !important;
+      color: var(--brutal-black) !important;
+    }
+
+    input::placeholder {
+      color: var(--brutal-black-theme) !important;
+      opacity: 0.5 !important;
+    }
   </style>
 </head>
 
@@ -237,7 +252,9 @@
           class="bg-white hover:bg-gray-100 text-brutal-black border-3 border-brutal-black px-3 py-1.5 neue-shadow-sm neue-interactive">GUIDE</a>
       </div>
       <div class="flex items-center gap-3">
-        <button onclick="toggleDarkMode()" id="theme-toggle" class="bg-white hover:bg-gray-100 dark:bg-zinc-800 dark:hover:bg-zinc-700 text-brutal-black border-3 border-brutal-black p-1.5 neue-shadow-sm neue-interactive rounded-none text-md leading-none flex items-center justify-center select-none cursor-pointer" title="Toggle Light/Dark Theme">
+        <button onclick="toggleDarkMode()" id="theme-toggle"
+          class="bg-white hover:bg-gray-100 dark:bg-zinc-800 dark:hover:bg-zinc-700 text-brutal-black border-3 border-brutal-black p-1.5 neue-shadow-sm neue-interactive rounded-none text-md leading-none flex items-center justify-center select-none cursor-pointer"
+          title="Toggle Light/Dark Theme">
           🌓
         </button>
         <span
@@ -252,8 +269,7 @@
       <div
         class="lg:col-span-7 bg-brutal-blue border-4 border-brutal-black p-6 sm:p-8 neue-shadow flex flex-col justify-between gap-6">
         <div>
-          <div
-            class="inline-block bg-brutal-black text-brutal-white font-mono font-bold text-xs uppercase px-3 py-1 mb-4">
+          <div class="inline-block bg-black text-white font-mono font-bold text-xs uppercase px-3 py-1 mb-4">
             Version 1.0.0 Serverless Live
           </div>
           <h1 class="text-4xl sm:text-6xl font-black tracking-tight text-brutal-black leading-none mb-4 uppercase">
@@ -288,8 +304,7 @@
       <div
         class="lg:col-span-5 bg-brutal-yellow border-4 border-brutal-black p-6 sm:p-8 neue-shadow flex flex-col justify-between gap-4 relative overflow-hidden">
         <div>
-          <span
-            class="bg-brutal-black text-brutal-yellow font-mono font-bold text-xs uppercase px-3 py-1 inline-block mb-3">
+          <span class="bg-black text-brutal-yellow font-mono font-bold text-xs uppercase px-3 py-1 inline-block mb-3">
             LOCAL ENGINE DETECTOR
           </span>
           <h3 id="hero-detected-os" class="text-2xl font-black text-brutal-black leading-none uppercase mb-2">Detected:
@@ -337,7 +352,7 @@
             <div
               class="flex items-center justify-between pb-3 border-b-3 border-brutal-black mb-3 font-mono font-bold text-xs">
               <span class="uppercase">Version Archive</span>
-              <span id="list-count" class="bg-brutal-black text-brutal-white px-2 py-0.5 font-bold">0 builds</span>
+              <span id="list-count" class="bg-black text-white px-2 py-0.5 font-bold">0 builds</span>
             </div>
             <!-- List scroll container -->
             <div id="versions-container" class="flex-1 overflow-y-auto pr-1 flex flex-col gap-3">
@@ -381,7 +396,7 @@
           <button onclick="selectEndpoint('latest')" id="btn-ep-latest"
             class="neue-interactive text-left p-4 bg-brutal-white border-4 border-brutal-black neue-shadow active-card">
             <div class="flex items-center gap-2 mb-2 font-mono font-bold text-xs">
-              <span class="bg-brutal-black text-brutal-white px-2 py-0.5 font-bold">GET</span>
+              <span class="bg-black text-white px-2 py-0.5 font-bold">GET</span>
               <code class="text-brutal-black">/api/v1/latest.json</code>
             </div>
             <p class="text-xs text-brutal-black font-semibold">Gets metadata & binaries for the latest Minecraft stable
@@ -390,7 +405,7 @@
           <button onclick="selectEndpoint('versions')" id="btn-ep-versions"
             class="neue-interactive text-left p-4 bg-brutal-white border-4 border-brutal-black neue-shadow">
             <div class="flex items-center gap-2 mb-2 font-mono font-bold text-xs">
-              <span class="bg-brutal-black text-brutal-white px-2 py-0.5 font-bold">GET</span>
+              <span class="bg-black text-white px-2 py-0.5 font-bold">GET</span>
               <code class="text-brutal-black">/api/v1/versions.json</code>
             </div>
             <p class="text-xs text-brutal-black font-semibold">Fetch details of all historical Minecraft Bedrock builds.
@@ -399,7 +414,7 @@
           <button onclick="selectEndpoint('details')" id="btn-ep-details"
             class="neue-interactive text-left p-4 bg-brutal-white border-4 border-brutal-black neue-shadow">
             <div class="flex items-center gap-2 mb-2 font-mono font-bold text-xs">
-              <span class="bg-brutal-black text-brutal-white px-2 py-0.5 font-bold">GET</span>
+              <span class="bg-black text-white px-2 py-0.5 font-bold">GET</span>
               <code class="text-brutal-black font-mono">/api/v1/details/:ver.json</code>
             </div>
             <p class="text-xs text-brutal-black font-semibold">Query detailed statistics, descriptions, and mirrors for
@@ -413,7 +428,7 @@
             class="bg-brutal-gray border-b-4 border-brutal-black p-3 flex flex-col sm:flex-row items-center justify-between gap-3">
             <div class="flex items-center gap-1.5">
               <button onclick="selectSnippet('curl')" id="tab-curl"
-                class="font-mono text-xs font-bold border-2 border-brutal-black bg-brutal-black text-brutal-white px-2.5 py-1">cURL</button>
+                class="font-mono text-xs font-bold border-2 border-brutal-black bg-black text-white px-2.5 py-1">cURL</button>
               <button onclick="selectSnippet('js')" id="tab-js"
                 class="font-mono text-xs font-bold border-2 border-brutal-black bg-brutal-white text-brutal-black px-2.5 py-1 hover:bg-brutal-yellow transition-colors">JavaScript</button>
               <button onclick="selectSnippet('python')" id="tab-python"
@@ -433,12 +448,12 @@
           </div>
           <!-- Code Box -->
           <div
-            class="p-3 bg-brutal-black border-b-3 border-brutal-black text-xs text-brutal-green font-mono overflow-x-auto whitespace-nowrap">
+            class="p-3 bg-black border-b-3 border-black text-xs text-brutal-green font-mono overflow-x-auto whitespace-nowrap">
             <span class="text-white font-bold select-none">$</span> <span id="code-snippet-box">curl -X GET
               https://bedrockbuilds.pipeprince.cc/api/v1/latest.json</span>
           </div>
           <!-- JSON Screen Output -->
-          <div class="flex-1 bg-brutal-black text-white font-mono p-4 min-h-[300px] overflow-hidden flex flex-col">
+          <div class="flex-1 bg-black text-white font-mono p-4 min-h-[300px] overflow-hidden flex flex-col">
             <div
               class="flex justify-between border-b border-white/20 pb-2 mb-2 text-xs font-sans text-white/50 select-none">
               <span>RESPONSE STREAM (JSON)</span>
@@ -461,24 +476,24 @@
     <section id="guide" class="grid grid-cols-1 md:grid-cols-3 gap-6">
       <div class="bg-brutal-white border-4 border-brutal-black p-5 neue-shadow">
         <span
-          class="text-xl font-bold bg-brutal-black text-white px-2 py-0.5 border border-black inline-block mb-3 font-mono">01</span>
+          class="text-xl font-bold bg-black text-white px-2 py-0.5 border border-black inline-block mb-3 font-mono">01</span>
         <h4 class="text-brutal-black font-black text-lg mb-2 uppercase">WGET DOWNLOADS</h4>
         <p class="text-xs text-brutal-black/80 font-bold leading-normal mb-3">Query our latest stable build via terminal
           wget automation:</p>
         <pre
-          class="bg-brutal-black border-2 border-brutal-black text-xs text-brutal-green p-3 rounded-none font-mono overflow-x-auto font-bold select-all">
+          class="bg-black border-2 border-black text-xs text-brutal-green p-3 rounded-none font-mono overflow-x-auto font-bold select-all">
 DL_URL=$(curl -s https://bedrockbuilds.pipeprince.cc/api/v1/latest.json | grep -oP '"linux":\s*"\K[^"]+')
 wget -O server.zip "$DL_URL"
         </pre>
       </div>
       <div class="bg-brutal-white border-4 border-brutal-black p-5 neue-shadow">
         <span
-          class="text-xl font-bold bg-brutal-black text-white px-2 py-0.5 border border-black inline-block mb-3 font-mono">02</span>
+          class="text-xl font-bold bg-black text-white px-2 py-0.5 border border-black inline-block mb-3 font-mono">02</span>
         <h4 class="text-brutal-black font-black text-lg mb-2 uppercase">PTERODACTYL EGG</h4>
         <p class="text-xs text-brutal-black/80 font-bold leading-normal mb-3">Map version variables directly to your
           install script:</p>
         <pre
-          class="bg-brutal-black border-2 border-brutal-black text-xs text-brutal-green p-3 rounded-none font-mono overflow-x-auto font-bold select-all">
+          class="bg-black border-2 border-black text-xs text-brutal-green p-3 rounded-none font-mono overflow-x-auto font-bold select-all">
 # In install script block
 JSON=$(curl -sL https://bedrockbuilds.pipeprince.cc/api/v1/latest.json)
 DOWNLOAD_URL=$(echo $JSON | jq -r '.data.download_urls.linux')
@@ -486,26 +501,26 @@ DOWNLOAD_URL=$(echo $JSON | jq -r '.data.download_urls.linux')
       </div>
       <div class="bg-brutal-white border-4 border-brutal-black p-5 neue-shadow">
         <span
-          class="text-xl font-bold bg-brutal-black text-white px-2 py-0.5 border border-black inline-block mb-3 font-mono">03</span>
+          class="text-xl font-bold bg-black text-white px-2 py-0.5 border border-black inline-block mb-3 font-mono">03</span>
         <h4 class="text-brutal-black font-black text-lg mb-2 uppercase">CRON REFRESH</h4>
-        <p class="text-xs text-brutal-black/80 font-bold leading-normal mb-3">Runs harian schedules ensuring downloads
+        <p class="text-xs text-brutal-black/80 font-bold leading-normal mb-3">Runs daily schedules ensuring downloads
           are identical with Azure CDN:</p>
         <pre
-          class="bg-brutal-black border-2 border-brutal-black text-xs text-brutal-green p-3 rounded-none font-mono overflow-x-auto font-bold select-all">
+          class="bg-black border-2 border-black text-xs text-brutal-green p-3 rounded-none font-mono overflow-x-auto font-bold select-all">
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 0 * * *'
   workflow_dispatch:
         </pre>
       </div>
     </section>
     <!-- Footer -->
     <footer
-      class="bg-brutal-black text-white border-4 border-brutal-black p-6 neue-shadow text-center flex flex-col md:flex-row items-center justify-between gap-4 mb-4 select-none">
+      class="bg-black text-white border-4 border-black p-6 neue-shadow text-center flex flex-col md:flex-row items-center justify-between gap-4 mb-4 select-none">
       <div class="flex items-center gap-3">
         <img src="assets/logo.png" alt="BedrockBuilds Logo" class="w-8 h-8 object-contain">
         <span class="font-black text-lg text-white">BEDROCK<span
-            class="text-brutal-green bg-brutal-black border border-white px-1 ml-1">BUILDS</span></span>
+            class="text-brutal-green bg-black border border-white px-1 ml-1">BUILDS</span></span>
       </div>
       <p class="text-[11px] font-mono text-gray-400 font-bold max-w-md md:text-right">
         © 2026 BedrockBuilds. Minecraft Bedrock Server binaries belong to Mojang AB & Microsoft.
@@ -894,7 +909,7 @@ on:
       ['curl', 'js', 'python', 'php'].forEach(l => {
         const tab = document.getElementById(`tab-${l}`);
         if (l === lang) {
-          tab.className = "font-mono text-xs font-bold border-2 border-brutal-black bg-brutal-black text-brutal-white px-2.5 py-1";
+          tab.className = "font-mono text-xs font-bold border-2 border-brutal-black bg-black text-white px-2.5 py-1";
         } else {
           tab.className = "font-mono text-xs font-bold border-2 border-brutal-black bg-brutal-white text-brutal-black px-2.5 py-1 hover:bg-brutal-yellow hover:text-black transition-colors";
         }
