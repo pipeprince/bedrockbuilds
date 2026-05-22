@@ -29,7 +29,9 @@ jobs:
         run: npm ci || npm install
 
       - name: Run Scraper & Build Cache
-        run: npm run build
+        run: |
+          git pull origin main
+          npm run build
 
       - name: Commit Scraper Cache (db.json) to Trigger Vercel
         run: |
@@ -44,7 +46,7 @@ jobs:
             # Note: We specifically DO NOT use [skip ci] here.
             # By making a normal commit, Vercel will intercept this push and automatically deploy the new version!
             git commit -m "chore(cache): daily sync of bedrock version database"
-            git pull --rebase origin main
+            git pull --rebase origin main -X theirs
             git push origin main
           else
             echo "[CI/CD] Cache database up to date. No commits needed."
