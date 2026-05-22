@@ -148,18 +148,11 @@
     .active-card,
     [class*="bg-brutal-green"],
     [class*="bg-brutal-yellow"],
-    [class*="bg-brutal-blue"],
-    .bg-brutal-green .text-brutal-black,
-    .bg-brutal-yellow .text-brutal-black,
-    .bg-brutal-blue .text-brutal-black,
-    .bg-brutal-green.text-brutal-black,
-    .bg-brutal-yellow.text-brutal-black,
-    .bg-brutal-blue.text-brutal-black,
-    .active-card .text-brutal-black {
+    [class*="bg-brutal-blue"] {
       --brutal-black-rgb: 17 17 17 !important;
       --brutal-border: var(--brutal-border-theme) !important;
       --brutal-shadow: var(--brutal-shadow-theme) !important;
-      color: #111111 !important;
+      color: #111111;
     }
 
     /* Neubrutalism shadows using CSS variables */
@@ -232,7 +225,7 @@
     }
 
     input::placeholder {
-      color: var(--brutal-black-theme) !important;
+      color: var(--brutal-black) !important;
       opacity: 0.5 !important;
     }
   </style>
