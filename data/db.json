@@ -245,7 +245,7 @@
     "26.30": {
       "version_number": "26.30",
       "update_title": "Chaos Cubed",
-      "description": "26.30, the release of Chaos Cubed, is an upcoming game drop for Bedrock Edition set to release on June 16, 2026. It focuses on the sulfur caves, a cave biome that is home to sulfur cubes, as well as the new sulfur and cinnabar blocks and their respective variants.",
+      "description": "26.30 (also known as 1.26.30), the release of Chaos Cubed, is an upcoming game drop for Bedrock Edition set to release on June 16, 2026. It focuses on the sulfur caves, a cave biome that is home to sulfur cubes, as well as the new sulfur and cinnabar blocks and their respective variants.",
       "server_version": "N/A",
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-26.30.zip",
@@ -2441,7 +2441,7 @@
     "26.40": {
       "version_number": "26.40",
       "update_title": "Standard Release",
-      "description": "26.40 is an upcoming minor update for Bedrock Edition with no set release date, which fixes bugs.",
+      "description": "26.40 (also known as 1.26.40) is an upcoming minor update for Bedrock Edition with no set release date, which fixes bugs.",
       "server_version": "N/A",
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-26.40.zip",
