@@ -2464,6 +2464,17 @@
         "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.2.12.zip"
       },
       "scraped_preview": true
+    },
+    "26.50": {
+      "version_number": "26.50",
+      "update_title": "Third Drop 2026",
+      "description": "This page is about planned versions of all editions of Minecraft. These updates either have major sources to their existence or have received development versions.",
+      "server_version": "N/A",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-26.50.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-26.50.zip"
+      },
+      "scraped_preview": true
     }
   }
 }
