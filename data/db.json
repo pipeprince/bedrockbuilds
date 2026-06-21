@@ -2475,6 +2475,17 @@
         "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-26.50.zip"
       },
       "scraped_preview": true
+    },
+    "26.31": {
+      "version_number": "26.31",
+      "update_title": "Standard Release",
+      "description": "26.31 is a hotfix to Bedrock Edition released on June 19, 2026. This version has no changelog.",
+      "server_version": "1.26.31.1",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.31.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.31.1.zip"
+      },
+      "scraped_preview": true
     }
   }
 }
