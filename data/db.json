@@ -2497,6 +2497,17 @@
         "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.32.2.zip"
       },
       "scraped_preview": true
+    },
+    "26.33": {
+      "version_number": "26.33",
+      "update_title": "Standard Release",
+      "description": "26.33 is a hotfix to Bedrock Edition released on July 9, 2026, for most devices, which fixes a bug.",
+      "server_version": "1.26.33.1",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.33.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.33.1.zip"
+      },
+      "scraped_preview": true
     }
   }
 }
