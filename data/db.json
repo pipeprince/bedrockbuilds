@@ -2468,13 +2468,18 @@
     "26.50": {
       "version_number": "26.50",
       "update_title": "Third Drop 2026",
-      "description": "This page is about planned versions of all editions of Minecraft. These updates either have major sources to their existence or have received development versions.",
+      "description": "26.50 (also known as 1.26.50), the release of the third game drop of 2026, is an upcoming game drop for Bedrock Edition set to release in the third quarter of 2026, which adds the dappled forest biome, including red shrubs, shelf mushrooms, wool stairs and slabs, straw beds, cushions, and a new abandoned camp structure.",
       "server_version": "N/A",
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-26.50.zip",
         "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-26.50.zip"
       },
-      "scraped_preview": true
+      "scraped_preview": true,
+      "preview_server_version": "1.26.50.20",
+      "preview_download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.26.50.20.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.26.50.20.zip"
+      }
     },
     "26.31": {
       "version_number": "26.31",
