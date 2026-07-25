@@ -2513,6 +2513,17 @@
         "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.33.1.zip"
       },
       "scraped_preview": true
+    },
+    "26.34": {
+      "version_number": "26.34",
+      "update_title": "Standard Release",
+      "description": "26.34 is a hotfix to Bedrock Edition released on July 23, 2026, for PlayStation and Nintendo Switch only, which fixes texture bleed on custom blocks.",
+      "server_version": "1.26.34.3",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.34.3.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.34.3.zip"
+      },
+      "scraped_preview": true
     }
   }
 }
