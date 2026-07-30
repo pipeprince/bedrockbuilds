@@ -2409,7 +2409,7 @@
     "1.1.0": {
       "version_number": "1.1.0",
       "update_title": "Discovery Update",
-      "description": "1.1.0, the first release of the Discovery Update, was a major update to Pocket Edition and its derived editions that was released on June 1, 2017. It added many new features primarily focused on exploration (similar to Java Edition 1.11), such as woodland mansions, adventure mode and explorer maps, and some features revolving around the color palette of the game (similar to Java Edition 1.12) such as concrete and glazed terracotta. Other new features included new mobs, such as llama and vexes, the Marketplace, and a partially-implemented off-hand slot.",
+      "description": "1.1.0, the first release of the Discovery Update, is a major update to Pocket Edition and its derived editions released on June 1, 2017. It added many features from Java Edition's Exploration Update and World of Color Update, including woodland mansions, llamas, shulker boxes, an updated dye color palette, glazed terracotta, concrete, and dyed beds. It also introduced the Marketplace, and a partially-implemented off-hand slot.",
       "server_version": "N/A",
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.1.0.zip",
@@ -2522,6 +2522,17 @@
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.34.3.zip",
         "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.34.3.zip"
+      },
+      "scraped_preview": true
+    },
+    "26.35": {
+      "version_number": "26.35",
+      "update_title": "Standard Release",
+      "description": "26.35 is a hotfix to Bedrock Edition released on July 28, 2026, for Nintendo Switch only.",
+      "server_version": "1.26.36.1",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.36.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.36.1.zip"
       },
       "scraped_preview": true
     }
