@@ -1829,10 +1829,10 @@
       "version_number": "1.6.0",
       "update_title": "Standard Release",
       "description": "1.6.0 is a major update to Bedrock Edition released on August 28, 2018. It adds many of the Update Aquatic features that were not yet added within the first two phases such as phantoms and the Slow Falling status effect, as well as many changes and bug fixes.",
-      "server_version": "N/A",
+      "server_version": "1.6.0.14",
       "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.6.0.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.6.0.zip"
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.6.0.14.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.6.0.14.zip"
       },
       "scraped_preview": true
     },
