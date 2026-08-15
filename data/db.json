@@ -2557,6 +2557,17 @@
         "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.43.1.zip"
       },
       "scraped_preview": true
+    },
+    "26.44": {
+      "version_number": "26.44",
+      "update_title": "Standard Release",
+      "description": "26.44 is a hotfix to Bedrock Edition released on August 14, 2026, which fixes bugs.",
+      "server_version": "1.26.44.3",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.44.3.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.44.3.zip"
+      },
+      "scraped_preview": true
     }
   }
 }
