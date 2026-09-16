@@ -2468,11 +2468,11 @@
     "26.50": {
       "version_number": "26.50",
       "update_title": "Wilderness Bound",
-      "description": "26.50, also known as 1.26.50, the release of Wilderness Bound, is an upcoming game drop for Bedrock Edition set to release on September 15, 2026, which adds the dappled forest biome, including red shrubs, shelf mushrooms, wool stairs and slabs, concrete stairs and slabs, straw beds, cushions, and a new abandoned camp structure.",
-      "server_version": "N/A",
+      "description": "26.50, also known as 1.26.50, the release of Wilderness Bound, is a game drop for Bedrock Edition released on September 15, 2026, which adds the dappled forest biome, including red shrubs, shelf mushrooms, wool stairs and slabs, concrete stairs and slabs, straw beds, cushions, a new abandoned camp structure and fixes bugs.",
+      "server_version": "1.26.50.5",
       "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-26.50.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-26.50.zip"
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.50.5.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.50.5.zip"
       },
       "scraped_preview": true,
       "preview_server_version": "1.26.50.27",
@@ -2583,7 +2583,7 @@
     "26.60": {
       "version_number": "26.60",
       "update_title": "Standard Release",
-      "description": "26.60 (also known as 1.26.60) is an upcoming minor update for Bedrock Edition set to release on October 27, 2026.",
+      "description": "26.60, also known as 1.26.60, is an upcoming minor update for Bedrock Edition set to release on October 27, 2026.",
       "server_version": "N/A",
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-26.60.zip",
@@ -2595,6 +2595,17 @@
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-26.60.22.zip",
         "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-26.60.22.zip"
       }
+    },
+    "26.51": {
+      "version_number": "26.51",
+      "update_title": "Standard Release",
+      "description": "26.51 is a hotfix to Bedrock Edition released on September 15, 2026. This version currently has no changelog.",
+      "server_version": "1.26.51.1",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.51.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.51.1.zip"
+      },
+      "scraped_preview": true
     }
   }
 }
