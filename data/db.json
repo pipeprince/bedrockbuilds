@@ -2606,6 +2606,17 @@
         "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.51.1.zip"
       },
       "scraped_preview": true
+    },
+    "26.52": {
+      "version_number": "26.52",
+      "update_title": "Standard Release",
+      "description": "26.52, also known as 1.26.52, is a hotfix to Bedrock Edition released on September 25, 2026, which fixes bugs.",
+      "server_version": "1.26.52.3",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.52.3.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.52.3.zip"
+      },
+      "scraped_preview": true
     }
   }
 }
