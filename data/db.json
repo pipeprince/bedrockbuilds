@@ -560,7 +560,7 @@
     "1.21.21": {
       "version_number": "1.21.21",
       "update_title": "Standard Release",
-      "description": "1.21.21 is a hotfix to Bedrock Edition released on August 14, 2024 for all platforms except Windows and Nintendo Switch, August 15, 2024 for Windows, and August 20, 2024 for Nintendo Switch which fixes bugs and improves reliability of connecting to Realms.",
+      "description": "1.21.21 is a hotfix to Bedrock Edition released on August 14, 2024 for most devices, on August 15, 2024 for Windows, and on August 20, 2024 for Nintendo Switch. which fixes bugs and improves reliability of connecting to Realms.",
       "server_version": "N/A",
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.21.zip",
@@ -1960,7 +1960,7 @@
     "1.5.1": {
       "version_number": "1.5.1",
       "update_title": "Standard Release",
-      "description": "1.5.1 is a hotfix to Bedrock Edition released on July 19, 2018 for Nintendo Switch, and on July 20, 2018 for all other platforms, which fixes bugs.",
+      "description": "1.5.1 is a hotfix to Bedrock Edition released on July 19, 2018 for Nintendo Switch, and on July 20, 2018 for all platforms. which fixes bugs.",
       "server_version": "N/A",
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.5.1.zip",
@@ -1971,7 +1971,7 @@
     "1.5.2": {
       "version_number": "1.5.2",
       "update_title": "Standard Release",
-      "description": "1.5.2 is a hotfix to Bedrock Edition released on July 24, 2018, for most platforms. And on July 25, 2018, for fire tablets. which fixes bugs.",
+      "description": "1.5.2 is a hotfix to Bedrock Edition released on July 24, 2018 for most devices, And on July 25, 2018 for fire tablets. which fixes bugs.",
       "server_version": "N/A",
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.5.2.zip",
@@ -2356,7 +2356,7 @@
     "1.2.1": {
       "version_number": "1.2.1",
       "update_title": "Standard Release",
-      "description": "1.2.1 is a minor update to Bedrock Edition released on September 26, 2017, for most devices, and on September 28, 2017, for Windows 10 Mobile. which fixed several bugs and crashes.",
+      "description": "1.2.1 is a minor update to Bedrock Edition released on September 26, 2017 for most devices, and on September 28, 2017 for Windows 10 Mobile. which fixed several bugs and crashes.",
       "server_version": "N/A",
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.2.1.zip",
