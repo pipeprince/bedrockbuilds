@@ -2583,7 +2583,7 @@
     "26.60": {
       "version_number": "26.60",
       "update_title": "Standard Release",
-      "description": "26.60, also known as 1.26.60, is an upcoming minor update for Bedrock Edition set to release on October 27, 2026, which adds experimental features for the fourth drop of 2026.",
+      "description": "26.60, also known as 1.26.60, is an upcoming minor update for Bedrock Edition set to release on October 27, 2026, which adds experimental features for the fourth drop of 2026 and fixes bugs.",
       "server_version": "N/A",
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-26.60.zip",
