@@ -1971,7 +1971,7 @@
     "1.5.2": {
       "version_number": "1.5.2",
       "update_title": "Standard Release",
-      "description": "1.5.2 is a hotfix to Bedrock Edition released on July 24, 2018 for most devices, And on July 25, 2018 for fire tablets. which fixes bugs.",
+      "description": "1.5.2 is a hotfix to Bedrock Edition released on July 24, 2018, for most platforms. And on July 25, 2018, for fire tablets. which fixes bugs.",
       "server_version": "N/A",
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.5.2.zip",
