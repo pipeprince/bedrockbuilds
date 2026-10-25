@@ -560,7 +560,7 @@
     "1.21.21": {
       "version_number": "1.21.21",
       "update_title": "Standard Release",
-      "description": "1.21.21 is a hotfix to Bedrock Edition released on August 14, 2024 for most devices, on August 15, 2024 for Windows, and on August 20, 2024 for Nintendo Switch. which fixes bugs and improves reliability of connecting to Realms.",
+      "description": "1.21.21 is a hotfix for Bedrock Edition released on August 14, 2024 for most devices, on August 15, 2024 for Windows, and on August 20, 2024 for Nintendo Switch. which fixes bugs. This version does not have a release for Bedrock Dedicated Server.",
       "server_version": "N/A",
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.21.21.zip",
@@ -2590,10 +2590,10 @@
         "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-26.60.zip"
       },
       "scraped_preview": true,
-      "preview_server_version": "1.26.60.28",
+      "preview_server_version": "1.26.60.30",
       "preview_download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.26.60.28.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.26.60.28.zip"
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.26.60.30.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.26.60.30.zip"
       }
     },
     "26.51": {
