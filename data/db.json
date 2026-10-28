@@ -1960,7 +1960,7 @@
     "1.5.1": {
       "version_number": "1.5.1",
       "update_title": "Standard Release",
-      "description": "1.5.1 is a hotfix to Bedrock Edition released on July 19, 2018 for Nintendo Switch, and on July 20, 2018 for all platforms. which fixes bugs.",
+      "description": "1.5.1 is a hotfix to Bedrock Edition released on July 19, 2018, for Nintendo Switch, and on July 20, 2018, for all platforms. Which fixes bugs.",
       "server_version": "N/A",
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.5.1.zip",
@@ -1971,7 +1971,7 @@
     "1.5.2": {
       "version_number": "1.5.2",
       "update_title": "Standard Release",
-      "description": "1.5.2 is a hotfix to Bedrock Edition released on July 24, 2018 for most devices, And on July 25, 2018 for fire tablets. which fixes bugs.",
+      "description": "1.5.2 is a hotfix to Bedrock Edition released on July 24, 2018, for all platforms except for Nintendo Switch, and on July 25, 2018, for fire tablets, which fixes bugs.",
       "server_version": "N/A",
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.5.2.zip",
@@ -2583,11 +2583,11 @@
     "26.60": {
       "version_number": "26.60",
       "update_title": "Standard Release",
-      "description": "26.60, also known as 1.26.60, is an upcoming minor update for Bedrock Edition set to release on October 27, 2026, which adds experimental features for the fourth drop of 2026 and fixes bugs.",
-      "server_version": "N/A",
+      "description": "26.60, also known as 1.26.60, is a minor update for Bedrock Edition released on October 27, 2026, which adds experimental features for the fourth drop of 2026 and fixes bugs.",
+      "server_version": "1.26.60.6",
       "download_urls": {
-        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-26.60.zip",
-        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-26.60.zip"
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.60.6.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.60.6.zip"
       },
       "scraped_preview": true,
       "preview_server_version": "1.26.60.30",
