@@ -2633,6 +2633,17 @@
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux-preview/bedrock-server-1.26.70.23.zip",
         "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win-preview/bedrock-server-1.26.70.23.zip"
       }
+    },
+    "26.62": {
+      "version_number": "26.62",
+      "update_title": "Standard Release",
+      "description": "26.62, also known as 1.26.62, is a hotfix for Bedrock Edition released on November 4, 2026, for Windows, iOS, and iPadOS.",
+      "server_version": "1.26.62.1",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.62.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.62.1.zip"
+      },
+      "scraped_preview": true
     }
   }
 }
