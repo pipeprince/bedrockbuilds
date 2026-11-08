@@ -2644,6 +2644,17 @@
         "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.62.1.zip"
       },
       "scraped_preview": true
+    },
+    "26.63": {
+      "version_number": "26.63",
+      "update_title": "Standard Release",
+      "description": "26.63, also known as 1.26.63, is a hotfix for Bedrock Edition released on November 6, 2026, for Windows and PlayStation only. CornerHard mentioned that this version has a fix for Realms.",
+      "server_version": "1.26.63.1",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.63.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.63.1.zip"
+      },
+      "scraped_preview": true
     }
   }
 }
