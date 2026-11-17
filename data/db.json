@@ -2180,7 +2180,7 @@
     "1.4.0": {
       "version_number": "1.4.0",
       "update_title": "Update Aquatic",
-      "description": "1.4.0, also known as Phase One of the Update Aquatic, is a major update to Bedrock Edition released on May 16, 2018. It adds many new features focused primarily around ocean-related content, such as dolphins, shipwrecks, fish, tridents, buried treasure, and many other changes and fixes. Improvements to the technical aspect of the game were also added in this update, as well as an option to toggle various features from Education Edition into worlds.",
+      "description": "1.4.0, also known as Phase One(out of two) of the Update Aquatic, is a major update to Bedrock Edition released on May 16, 2018. It adds many new features focused primarily around ocean-related content, such as dolphins, shipwrecks, fish, tridents, buried treasure, and many other changes and fixes. Improvements to the technical aspect of the game were also added in this update, as well as an option to toggle various features from Education Edition into worlds.",
       "server_version": "N/A",
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.4.0.zip",
@@ -2620,8 +2620,8 @@
     },
     "26.70": {
       "version_number": "26.70",
-      "update_title": "Fourth Drop 2026",
-      "description": "26.70, the release of the fourth drop of 2026, is an upcoming game drop for Bedrock Edition set to release in the fourth quarter of 2026, which introduces the ice caves, a new cave biome featuring icicles, ice crystals, and brittle ice, as well as the frostbites, ice balls, the Freezing effect, a new block set for calcite, brick variants of packed ice and snow blocks, updated jukeboxes, and fixes bugs.",
+      "update_title": "Deep Freeze",
+      "description": "26.70, the release of Deep Freeze, is an upcoming game drop for Bedrock Edition set to release in December 2026, which introduces the ice caves, a new cave biome featuring icicles, ice crystals, and brittle ice, as well as the frostbites, ice balls, the Freezing effect, a new block set for calcite, brick variants of packed ice and snow blocks, updated jukeboxes, and fixes bugs.",
       "server_version": "N/A",
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-26.70.zip",
@@ -2653,6 +2653,17 @@
       "download_urls": {
         "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.63.1.zip",
         "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.63.1.zip"
+      },
+      "scraped_preview": true
+    },
+    "26.65": {
+      "version_number": "26.65",
+      "update_title": "Standard Release",
+      "description": "26.65, also known as 1.26.65, is a hotfix for Bedrock Edition released on November 16, 2026, for Windows, which fixes a security vulnerability issue.",
+      "server_version": "1.26.65.1",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.65.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.65.1.zip"
       },
       "scraped_preview": true
     }
