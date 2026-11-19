@@ -2666,6 +2666,17 @@
         "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.65.1.zip"
       },
       "scraped_preview": true
+    },
+    "26.66": {
+      "version_number": "26.66",
+      "update_title": "Standard Release",
+      "description": "26.66 is a hotfix for Bedrock Edition released on November 18, 2026, for Android and ChromeOS only.",
+      "server_version": "1.26.66.1",
+      "download_urls": {
+        "linux": "https://www.minecraft.net/bedrockdedicatedserver/bin-linux/bedrock-server-1.26.66.1.zip",
+        "windows": "https://www.minecraft.net/bedrockdedicatedserver/bin-win/bedrock-server-1.26.66.1.zip"
+      },
+      "scraped_preview": true
     }
   }
 }
